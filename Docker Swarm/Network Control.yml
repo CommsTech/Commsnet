@@ -1,0 +1,70 @@
+version: "3.6"
+
+services:
+  cloudflared:
+    container_name: cloudflared
+    restart: unless-stopped
+    image: cloudflare/cloudflared
+    command: proxy-dns
+    environment:
+      - "TUNNEL_DNS_UPSTREAM=https://your.https.cloudflare.DoH.address/dns-query"
+      - "TUNNEL_METRICS=0.0.0.0:49312"
+      - "TUNNEL_DNS_ADDRESS=0.0.0.0"
+      - "TUNNEL_DNS_PORT=53"
+      - "TUNNEL_HOSTNAME=DOCKERSWARM"
+    volumes: 
+      - /Your/Volume/SwarmS/Cloudflared/cert.pem:/root/.cloudflared/cert.pem
+
+    sysctls:
+      - net.ipv4.ip_unprivileged_port_start=53
+    networks:
+      swarmpit_net:
+        ipv4_address: 10.0.1.254
+
+  pihole:
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "853:853"
+      - "8182:80/tcp"
+    environment:
+      - "TZ=America/Denver"
+      - "DNS1=10.0.1.254#53"
+      - "DNS2=no"
+      - "DNSMASQ_LISTENING=all"
+
+    volumes:
+      - '/Your/Volume/SwarmS/pihole/etc-pihole/:/etc/pihole/'
+      - '/Your/Volume/SwarmS/pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/'
+      - '/Your/Volume/SwarmS/pihole/var-log/pihole.log:/var/log/pihole.log'
+    networks:
+      swarmpit_net:
+        ipv4_address: 10.0.1.243
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
+    
+  speedtest:
+      container_name: speedtest
+      image: henrywhitaker3/speedtest-tracker
+      ports:
+          - 8765:80
+      volumes:
+          - /Your/Volume/SwarmS/speedtest:/config
+      environment:
+          - TZ= 'America/Denver'
+          - PGID= 1000
+          - PUID= 1000
+          - OOKLA_EULA_GDPR=true
+      logging:
+          driver: "json-file"
+          options:
+              max-file: "10"
+              max-size: "200k"
+      restart: unless-stopped
+networks:
+  swarmpit_net:
+    external:
+      name: swarmpit_net
+

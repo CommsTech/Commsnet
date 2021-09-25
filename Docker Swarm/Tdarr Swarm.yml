@@ -1,0 +1,306 @@
+version: '3.3'
+services:
+  tdarr:
+    image: haveagitgat/tdarr:2.00.10
+    healthcheck:
+      test:
+       - CMD
+       - curl
+       - -f
+       - http://localhost:8265
+      interval: 120s
+      timeout: 5s
+      retries: 3
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      serverIP: 0.0.0.0
+      serverPort: '8266'
+      webUIPort: '8265'
+    ports:
+     - 8265:8265
+     - 8266:8266
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr/Server:/app/server
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/app/server/Tdarr/Backups
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == clustermgr
+  tdarr_node:
+    image: haveagitgat/tdarr_node:2.00.10
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      default-runtime: nvidia
+      device: /dev/dri:/dev/dri
+      gpus: all
+      nodeID: Self
+      nodeIP: your.ip.address.10
+      nodePort: '8267'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8267:8267
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == clustermgr
+  tdarr_node2:
+    image: haveagitgat/tdarr_node:2.00.10
+    environment:
+      NVIDIA_DRIVER_CAPABILITIES: all
+      NVIDIA_VISIBLE_DEVICES: all
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      nodeID: unicorn2
+      nodeIP: your.ip.address.17
+      nodePort: '8270'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8270:8270
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == unicorn2
+  tdarr_node3:
+    image: haveagitgat/tdarr_node:2.00.10
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      default-runtime: nvidia
+      device: /dev/dri:/dev/dri
+      gpus: all
+      nodeID: unicorn1
+      nodeIP: your.ip.address.16
+      nodePort: '8269'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8269:8269
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == unicorn1
+  tdarr_node4:
+    image: haveagitgat/tdarr_node:2.00.10
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      nodeID: Unicorn3
+      nodeIP: your.ip.address.18
+      nodePort: '8271'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8271:8271
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname ==Unicorn3
+      resources:
+        limits:
+          memory: 4096M
+  tdarr_node_pi1:
+    image: haveagitgat/tdarr_node_arm:2.00.10
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      default-runtime: nvidia
+      device: /dev/dri:/dev/dri
+      gpus: all
+      nodeID: pi1
+      nodeIP: your.ip.address.21
+      nodePort: '8221'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8221:8221
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == pi1
+  tdarr_node_pi2:
+    image: haveagitgat/tdarr_node_arm:2.00.10
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      default-runtime: nvidia
+      device: /dev/dri:/dev/dri
+      gpus: all
+      nodeID: pi2
+      nodeIP: your.ip.address.22
+      nodePort: '8222'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8222:8222
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == pi2
+  tdarr_node_pi3:
+    image: haveagitgat/tdarr_node_arm:2.00.10
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      default-runtime: nvidia
+      device: /dev/dri:/dev/dri
+      gpus: all
+      nodeID: pi3
+      nodeIP: your.ip.address.23
+      nodePort: '8223'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8223:8223
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == pi3
+  tdarr_node_pi4:
+    image: haveagitgat/tdarr_node_arm:2.00.10
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: America/Denver
+      default-runtime: nvidia
+      device: /dev/dri:/dev/dri
+      gpus: all
+      nodeID: pi4
+      nodeIP: your.ip.address.24
+      nodePort: '8224'
+      serverIP: your.ip.address.10
+      serverPort: '8266'
+    ports:
+     - 8224:8224
+    volumes:
+     - /Your/Volume/SwarmS/Tdarr:/appdata/tdarrDB
+     - /Your/Volume:/mount
+     - /Your/Volume/SwarmS/Tdarr_Backups:/home/Tdarr/Documents/Tdarr/Backups/
+     - /Your/Volume/SwarmS/Tdarr/Transcode_Cache:/temp
+    networks:
+     - swarmpit_net
+    logging:
+      driver: json-file
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+         - node.hostname == pi4
+networks:
+  swarmpit_net:
+    external: true

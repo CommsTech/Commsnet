@@ -1,0 +1,29 @@
+version: '3.3'
+services:
+  meshcentral:
+    image: typhonragewind/meshcentral:latest
+    environment:
+      ALLOW_NEW_ACCOUNTS: 'false'
+      HOSTNAME: your meshcentral hostname
+      IFRAME: 'false'
+      REVERSE_PROXY: your reverse proxy hostname or ip
+      REVERSE_PROXY_TLS_PORT: '443'
+      WEBRTC: 'true'
+    ports:
+     - 4430:443
+     - 4433:4433
+     - 800:80
+    volumes:
+     - /Your/Volume/SwarmS/MeshCentral/data:/opt/meshcentral/meshcentral-data
+     - /Your/Volume/SwarmS/MeshCentral/user_files:/opt/meshcentral/meshcentral-files
+    networks:
+     - default
+    logging:
+      driver: json-file
+    deploy:
+      placement:
+        constraints:
+         - node.hostname == clustermgr
+networks:
+  default:
+    driver: overlay
