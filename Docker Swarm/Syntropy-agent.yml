@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  syntropy-agent:
+    image: syntropynet/agent:stable
+    container_name: syntropy-agent
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    environment:
+      - SYNTROPY_AGENT_TOKEN=AGENT_TOKEN
+      - SYNTROPY_NETWORK_API=docker
+    restart: always
+    network_mode: "host"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    devices:
+      - "/dev/net/tun:/dev/net/tun"

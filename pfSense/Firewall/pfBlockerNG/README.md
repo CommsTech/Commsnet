@@ -1,9 +1,12 @@
 pfBlockerNG is created, designed, developed, supported and maintained by: BBcan177
- - http://pfblockerng.com/
+  - http://pfblockerng.com/
   - https://www.reddit.com/r/pfBlockerNG/new/
   - https://github.com/BBcan177
   
  It is an amazing package that allows you to block and filter dns requests and ips. Please support him
+ 
+ Here is a video walkthrough of how to get started:
+  - https://www.youtube.com/watch?v=xizAeAqYde4
  
  I have an extensive block list as you will see. you do not need to be as granular as I am.
  
