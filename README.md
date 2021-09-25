@@ -1,8 +1,10 @@
 # Commsnet
-My Journey to the fastest Internet
+My Journey to the fastest Internet. I am constantly learning new tatics and attempting to implement them into my Home Lab network. This project is a colletion of my lessons learned as well as thing that can be done sucessfully to speed up your network. Enjoy
+
+Problem set. Most home internet providers have async upload and download speeds. but for you to unlock the true potential of the internet you need syncronus download and upload speeds. This will allow you to both stream a movie on netflix while uploading that latest video to your fav social media site. The problem is that you cannot accomlish this on the 20 Mbps upload that your ISP offers without buffering. the way TCP works is not a one way lane. It requires both requests and offers from both ends of the connection. I currently have 1Gbps download and 20 Mbps upload. I want to proxy, secure, and deduplicate anything I send out of my network to reduce my utilization of my uplink. 
 
 
-
+Refrences:
 Firewall/Routers
 - https://www.pfsense.org/download/
 
