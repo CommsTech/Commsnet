@@ -1,0 +1,1 @@
+https://www.kasmweb.com/docs/latest/install/single_server_install.html

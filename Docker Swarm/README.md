@@ -15,3 +15,8 @@ Network Control: Pihole, Cloudflared and Speedtest implementation
  
  Syntropy: Up and coming project aims at removing/replacing BGP
 	- https://docs.syntropystack.com/docs/install-with-docker
+	
+VaultWarden with caddy: Self hosted Bitwarden
+	- https://github-wiki-see.page/m/dani-garcia/vaultwarden/wiki/Using-Docker-Compose
+	- https://martient.medium.com/migrate-from-bitwarden-rs-to-vaultwarden-199aeb6927a3
+	
