@@ -3,6 +3,9 @@ My Journey to the fastest Internet. I am constantly learning new tatics and atte
 
 Problem set. Most home internet providers have async upload and download speeds. but for you to unlock the true potential of the internet you need syncronus download and upload speeds. This will allow you to both stream a movie on netflix while uploading that latest video to your fav social media site. The problem is that you cannot accomlish this on the 20 Mbps upload that your ISP offers without buffering. the way TCP works is not a one way lane. It requires both requests and offers from both ends of the connection. I currently have 1Gbps download and 20 Mbps upload. I want to proxy, secure, and deduplicate anything I send out of my network to reduce my utilization of my uplink. 
 
+The Layout:
+![Commsnet](https://user-images.githubusercontent.com/12887622/134783754-95b977ae-c3ea-4e61-8fd9-6a4edc3579c2.jpg)
+
 
 Refrences:
 Firewall/Routers
