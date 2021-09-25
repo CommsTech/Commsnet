@@ -3,8 +3,31 @@ My Journey to the fastest Internet. I am constantly learning new tatics and atte
 
 Problem set. Most home internet providers have async upload and download speeds. but for you to unlock the true potential of the internet you need syncronus download and upload speeds. This will allow you to both stream a movie on netflix while uploading that latest video to your fav social media site. The problem is that you cannot accomlish this on the 20 Mbps upload that your ISP offers without buffering. the way TCP works is not a one way lane. It requires both requests and offers from both ends of the connection. I currently have 1Gbps download and 20 Mbps upload. I want to proxy, secure, and deduplicate anything I send out of my network to reduce my utilization of my uplink. 
 
+Please if you find something incorrect or that could be done better please let me know. Im all about making this setup better.
+
 The Layout:
 ![Commsnet](https://user-images.githubusercontent.com/12887622/134783754-95b977ae-c3ea-4e61-8fd9-6a4edc3579c2.jpg)
+
+My Equipment in order top to bottom:
+25U Startech Rack containing:
+1U TRENDnet 24-Port Blank Keystone Shielded 1U Patch Panel, TC-KP24S
+1U Cisco 3850 48 PoE+
+1U Dell 210ii rebranded as Riverbed EX560's
+1U 4x raspberry pi (3x 3b and 1x 2b)
+1U Dell 210ii rebranded as Riverbed EX560's
+1U Dell 210ii rebranded as Riverbed EX560's
+1U Dell 210ii rebranded as Riverbed EX560's
+1U Dell R420
+1U Blank
+1U Blank
+1U Unifi US-16-XG
+2U Rackmountable systems server
+2U Netapp server
+4U (not rack mountable but modified rails) desktop pc running Plex with 2x P2000
+on the bottom a 1000 APC UPS, 2x fans and a cable modem arris S33
+
+
+![Rack](https://user-images.githubusercontent.com/12887622/134785694-fcdd0c10-428b-4bcd-99a7-ca7d28501cba.jpg)
 
 
 Refrences:
@@ -53,5 +76,6 @@ https://mroach.com/2020/08/pi-hole-and-cloudflared-with-docker/
 
 
 MPTCP
+https://www.openmptcprouter.com/
 https://github.com/suyuan168/openmptcprouter-vps
 https://github.com/Ysurac/openmptcprouter-vps

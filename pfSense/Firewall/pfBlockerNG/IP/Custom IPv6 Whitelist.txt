@@ -1,0 +1,7 @@
+# auto fetch rules
+# Auto | ON | https://www.cloudflare.com/ips-v6| Cloudflare_IPs
+
+# IPv6 Custom_List
+2a06:98c1:54::1:274d # Cloudflare teams
+2620:fe::11 # Quad9 ECS
+2620:fe::fe:11 # Quad9 ECS
