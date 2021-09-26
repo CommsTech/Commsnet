@@ -30,6 +30,41 @@ My Equipment in order top to bottom:
 ![Rack](https://user-images.githubusercontent.com/12887622/134785694-fcdd0c10-428b-4bcd-99a7-ca7d28501cba.jpg)
 
 
+Table Of Contents
+- [Additional VMs](https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs)
+	- [HomeAssistant] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Homeassistant)
+	- [KASM] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/KASM)
+	- [Ubuntu Server] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Ubuntu_Server)
+	- [Unifi Controller] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Unifi_Controller)
+
+- [Cloudflare](https://github.com/CommsTech/Commsnet/tree/main/Cloudflare)
+
+- [Docker Swarm](https://github.com/CommsTech/Commsnet/tree/main/Docker%20Swarm)
+
+- [ESXi](https://github.com/CommsTech/Commsnet/tree/main/ESXi)
+
+- [iPhone and ios](https://github.com/CommsTech/Commsnet/tree/main/iPhone%20and%20ios)
+
+- [Media Management](https://github.com/CommsTech/Commsnet/tree/main/Media%20Management)
+
+- [Networking](https://github.com/CommsTech/Commsnet/tree/main/Networking)
+	- [Cisco](https://github.com/CommsTech/Commsnet/tree/main/Networking/Cisco)
+	- [Unifi](https://github.com/CommsTech/Commsnet/tree/main/Networking/Unifi)
+	- [pfSense](https://github.com/CommsTech/Commsnet/tree/main/Networking/pfSense)
+		- [Firewall](https://github.com/CommsTech/Commsnet/tree/main/Networking/pfSense/Firewall)
+		- [Interfaces](https://github.com/CommsTech/Commsnet/tree/main/Networking/pfSense/Interfaces)
+		- [Services](https://github.com/CommsTech/Commsnet/tree/main/Networking/pfSense/Services/)
+			- [Squid](https://github.com/CommsTech/Commsnet/tree/main/Networking/pfSense/Services/Squid)
+	
+- [Bandwidth and Privacy Conservation](https://github.com/CommsTech/Commsnet/tree/main/Privacy%20and%20Bandwith%20Conservation)
+
+- [Security](https://github.com/CommsTech/Commsnet/tree/main/Security)
+
+- [SIEMs](https://github.com/CommsTech/Commsnet/tree/main/SIEMs)
+
+-  [Troubleshooting](https://github.com/CommsTech/Commsnet/tree/main/Troubleshooting)
+
+
 Refrences:
 Firewall/Routers
 - https://www.pfsense.org/download/
