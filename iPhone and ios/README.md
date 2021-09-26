@@ -1,0 +1,5 @@
+ - Settings to turn off
+	- https://shareably.net/iphone-settings-to-turn-off/
+	- https://www.itpro.com/mobile/battery-life/356946/how-to-turn-off-battery-throttling-on-iphone
+	- https://medium.com/swlh/iphone-settings-you-need-to-turn-off-now-5b66b9556df1
+ - Apps you should have
