@@ -32,10 +32,10 @@ My Equipment in order top to bottom:
 
 Table Of Contents
 - [Additional VMs](https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs)
-	- [HomeAssistant] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Homeassistant)
-	- [KASM] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/KASM)
-	- [Ubuntu Server] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Ubuntu_Server)
-	- [Unifi Controller] (https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Unifi_Controller)
+	- [HomeAssistant](https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Homeassistant)
+	- [KASM](https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/KASM)
+	- [Ubuntu Server](https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Ubuntu_Server)
+	- [Unifi Controller](https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/Unifi_Controller)
 
 - [Cloudflare](https://github.com/CommsTech/Commsnet/tree/main/Cloudflare)
 
