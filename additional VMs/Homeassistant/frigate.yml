@@ -1,0 +1,145 @@
+mqtt:
+  host: YOUR_IP.1
+  port: 1883
+  client_id: frigate
+  user: mqtt
+  password: YOUR_PASSWORD_NOT_MINE
+  stats_interval: 60
+
+cameras:
+  living-room:
+    ffmpeg:
+      inputs:
+        - path: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR_IP.5/live
+          roles:
+            - detect
+            - clips
+    width: 1920
+    height: 1080
+    fps: 5
+    objects:
+      track:
+        - person
+        - cup
+        - knife
+      filters:
+        cup:
+          mask:
+            - 774,362,957,273,932,124,722,194
+        knife:
+          mask:
+            - 774,362,957,273,932,124,722,194
+        person:
+          mask:
+            - 774,362,957,273,932,124,722,194
+    motion:
+      mask:
+        - 927,129,956,257,784,347,745,185
+    clips:
+      enabled: true
+      pre_capture: 5
+      post_capture: 5
+      retain:
+        default: 2
+    snapshots:
+      enabled: True
+      retain:
+        default: 5
+
+  front-door:
+    ffmpeg:
+      inputs:
+        - path: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR_IP.6/live
+          roles:
+            - detect
+            - clips
+    width: 1920
+    height: 1080
+    fps: 5
+    objects:
+      track:
+        - person
+    clips:
+      enabled: true
+      pre_capture: 5
+      post_capture: 5
+      retain:
+        default: 2
+    snapshots:
+      enabled: True
+      retain:
+        default: 5
+
+  garage:
+    ffmpeg:
+      inputs:
+        - path: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR_IP.7/live
+          roles:
+            - detect
+            - clips
+    width: 1920
+    height: 1080
+    fps: 5
+    objects:
+      track:
+        - person
+        - car
+      filters:
+        car:
+          mask:
+            - 1259,1080,0,1055,0,38,570,75,618,209,753,93,1119,0,1817,225
+    clips:
+      enabled: true
+      pre_capture: 5
+      post_capture: 5
+      retain:
+        default: 2
+    snapshots:
+      enabled: True
+      retain:
+        default: 5
+
+  office:
+    ffmpeg:
+      inputs:
+        - path: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR_IP.8/live
+          roles:
+            - detect
+            - clips
+    width: 1920
+    height: 1080
+    fps: 5
+    objects:
+      track:
+        - person
+        - car
+        - bear
+      filters:
+        bear:
+          mask:
+            - 1029,276,1920,273,1920,0,0,0,0,779
+        car:
+          mask:
+            - 1573,0,1920,0,1920,1080,0,1080,0,326,686,173,1380,667,1525,178,650,204,0,324,0,0
+        person:
+          mask:
+            - 1029,276,1920,273,1920,0,0,0,0,779
+    motion:
+      mask:
+        - 1029,276,1920,273,1920,0,0,0,0,779
+    clips:
+      enabled: true
+      pre_capture: 5
+      post_capture: 5
+      retain:
+        default: 2
+    snapshots:
+      enabled: True
+      retain:
+        default: 5
+
+detectors:
+  cpu1:
+    type: cpu
+  cpu2:
+    type: cpu

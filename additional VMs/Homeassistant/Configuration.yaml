@@ -1,0 +1,162 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+system_health:
+cloud:
+frontend:
+  themes: !include themes.yaml
+mobile_app:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+webostv:
+  - name: Living Room TV
+    host: YOUR.IP.25
+  - name: MasterBR TV
+    host: YOUR.IP.26
+
+sabnzbd:
+  api_key: YOUR_API_KEY
+  host: YOUR.IP.4
+  path: /sabnzbd
+  name: sab
+  port: 8081
+  ssl: false
+
+no_ip:
+  domain: YOUR_DOMAIN_NOT_MINE
+  username: YOUR_USERNAME_NOT_MINE
+  password: YOUR_PASSWORD_NOT_MINE
+
+sensor:
+  - platform: radarr
+    api_key: YOUR_API_KEY
+    host: YOUR.IP.4
+    port: 7878
+    monitored_conditions:
+      - upcoming
+    days: 2
+    ssl: false
+
+  - platform: tautulli
+    api_key: YOUR_API_KEY
+    host: YOUR.IP.13
+    port: 8181
+
+  - platform: co2signal
+    token: YOUR_TOKEN
+
+  - platform: haveibeenpwned
+    email:
+      - email@gmail.com
+      - email@outlook.com
+      - email@my.school.edu
+      - email@mail.mil
+      - email@gmail.com
+      - email@icloud.com
+      - email@icloud.com
+      - email@gmail.com
+      - email@yahoo.com
+      - email@gmail.com
+      - email@live.com
+      - email@icloud.com
+      - email@gmail.com
+      - email@aol.com
+    api_key: YOUR_API_KEY
+
+  - platform: bitcoin
+    display_options:
+      - exchangerate
+      - trade_volume_btc
+
+  - platform: blockchain
+    addresses:
+      - "YOUR_BTC_ADDRESS"
+      - "YOUR_BTC_ADDRESS"
+      - "YOUR_BTC_ADDRESS"
+      - "YOUR_BTC_ADDRESS"
+      - "YOUR_BTC_ADDRESS"
+      - "YOUR_BTC_ADDRESS"
+      - "YOUR_BTC_ADDRESS"
+      - "YOUR_BTC_ADDRESS"
+
+  - platform: epsonworkforce
+    host: your_ip.18
+    monitored_conditions:
+      - black
+      - yellow
+      - magenta
+      - cyan
+
+  - platform: whois
+    domain: commsnet.org
+
+device_tracker:
+  - platform: cisco_ios
+    host: your_ip.60
+    username: YOUR_USERNAME_NOT_MINE
+    password: YOUR_PASSWORD_NOT_MINE
+  - platform: cisco_ios
+    host: your_ip.62
+    username: YOUR_USERNAME_NOT_MINE
+    password: YOUR_PASSWORD_NOT_MINE
+
+tplink:
+  discovery: true
+  light:
+  switch:
+    - host: YOUR.IP.10
+    - host: YOUR.IP.11
+    - host: YOUR.IP.12
+    - host: YOUR.IP.51
+
+nextcloud:
+  url: https://YOUR_DOMAIN:443
+  username: YOUR_USERNAME_NOT_MINE
+  password: YOUR_PASSWORD_NOT_MINE
+
+google:
+  client_id: YOUR_CLIENT_ID.apps.googleusercontent.com
+  client_secret: YOUR_CLIENT_SECRET
+
+ombi:
+  host: Your.IP.4
+  username: YOUR_USERNAME_NOT_MINE
+  api_key: YOUR_API_KEY
+  port: 5000
+  ssl: false
+
+camera:
+  - platform: mjpeg
+    name: Miner_Cam
+    mjpeg_url: http://YOUR_IP.78/media/?action=stream
+    username: YOUR_USERNAME_NOT_MINE
+  - platform: generic
+    name: Living Room
+    still_image_url: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.5/live
+    stream_source: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.5/live
+  - platform: generic
+    name: Front Door
+    still_image_url: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.6/live
+    stream_source: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.6/live
+  - platform: generic
+    name: Garage
+    still_image_url: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.7/live
+    stream_source: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.7/live
+  - platform: generic
+    name: Office
+    still_image_url: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.8/live
+    stream_source: rtsp://YOUR_username_NOT_MINE:YOUR_PASSWORD_NOT_MINE@YOUR.IP.8/live
+  - platform: generic
+    name: MotionEye
+    still_image_url: http://127.0.0.1:8123/api/hassio_ingress/YOURS_NOT_Mine_
+    stream_source: http://127.0.0.1:8081
+
+light:
+  - platform: flux_led
+    automatic_add: true

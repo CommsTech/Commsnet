@@ -1,0 +1,28 @@
+# GNU nano 4.8                                                          config.yml                                                                     
+tunnel: YOUR_TUNNEL_ID_NOT_MINE
+credentials-file: /home/USERNAME/.cloudflared/YOUR_TUNNEL_ID_NOT_MINE.json
+protocol: http2
+# Must enable warp-routing if you want to route ip's/networks
+# you will also have to run after you save this file
+# "cloudflared tunnel route ip add IP_ADDRESS/27 YOUR_TUNNEL_ID_NOT_MINE"
+# verify with a "cloudflared tunnel route ip show"
+warp-routing:
+  enabled: true
+ingress:
+#service1. Port 5000 HTTP:
+  - hostname: service1.YOURHOSTNAME.org
+    service: http://IP_GOES_HERE:port
+#service2. port 443 HTTPS:
+  - hostname: service2.YOURHOSTNAME.org
+    service: https://IP_GOES_HERE:port
+#service3. port 80 HTTP
+  - hostname: service3.YOURHOSTNAME.org
+    service: https://IP_GOES_HERE:port
+#service4. ports 800 HTTP 4430 4433 HTTPS:
+  - hostname: service4.YOURHOSTNAME.org
+    service: https://127.0.0.1:4430
+    service: https://127.0.0.1:4433
+    service: http://127.0.0.1:800
+#This “catch-all” rule doesn’t have a hostname/path, so it matches everything
+  -  service: http_status:404
+
