@@ -1,8 +1,13 @@
 Heres a list of a few tools i utilize to troubleshoot my connections and website access.
 
+
+
 - TCPView
 	- https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview
 	- TCPView is a Windows program that will show you detailed listings of all TCP and UDP endpoints on your system, including the local and remote addresses and state of TCP connections. On Windows Server 2008, Vista, and XP, TCPView also reports the name of the process that owns the endpoint. TCPView provides a more informative and conveniently presented subset of the Netstat program that ships with Windows. The TCPView download includes Tcpvcon, a command-line version with the same functionality.
+
+Proxys can lead to wierd speeds that are not realistic on speed tests
+![New_Proxy_WorkS_1](https://user-images.githubusercontent.com/12887622/134817695-e848b4aa-b192-407d-9ce9-ee7314e67a92.png)
 
 - iPerf
 	- https://iperf.fr/

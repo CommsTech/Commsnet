@@ -1,0 +1,4 @@
+Straight from SOARLab - Security Onion + Automation + Response Lab including n8n and Velociraptor
+- https://www.youtube.com/watch?v=slCvK14NGwQ
+- https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDlOWlB1SXMyVDhJcUJqbWpzdHI3VlhNQ0NKQXxBQ3Jtc0tsZlVJRmtKZE9DdXZnVER2dFh2cWlVWUZ3TjFwT2t6MGtxaGY3S2YxMDJlcS1FNUlublBCZHRlRkxTdHNzQ05fbUdjR3dIVFdEWERzX0tVSWhXbjlsb05jSFByR2dIMFFPZ1dnTHFoNnVrdFg3SUtMMA&q=https%3A%2F%2Fwlambertts.medium.com%2Fzero-dollar-detection-and-response-orchestration-with-n8n-security-onion-thehive-and-10b5e685e2a1
+- https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1NoNWh0Ti1YUUhCSzVIQTlrdDdEWFRyYmRNZ3xBQ3Jtc0tucEVFYkJHdGl0blJjNjFWY2p2ZDA2a3JIY2RuaUJ1Q1RCdXhmYlhLbUdPVXp0cmtCdWhwRUI0NFl0OEF0a2U3T1hGek1pQ0xlV3VuYXZpY0ppVjMwb3dReXdBcWdORlZ5aXZ2RFk0N1N4UTR4eGJDUQ&q=https%3A%2F%2Fgithub.com%2Fweslambert%2FSOARLab
