@@ -1,4 +1,4 @@
-# **COMMSNET**
+ **COMMSNET**
 ===============
 My journey to the fastest Internet. I am constantly learning new tactics and attempting to implement them into my Home Lab network. This project is a collection of my lessons learned as well as thing that can be done successfully to speed up your network. Enjoy
 
@@ -68,7 +68,7 @@ Table Of Contents
 - [Troubleshooting](https://github.com/CommsTech/Commsnet/tree/main/Troubleshooting)
 
 
-Refrences:
+References:
 ---------------	
 Firewall/Routers
 - https://www.pfsense.org/download/
