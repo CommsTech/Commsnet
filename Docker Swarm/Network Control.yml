@@ -4,19 +4,21 @@ services:
   cloudflared:
     container_name: cloudflared
     restart: unless-stopped
-    image: cloudflare/cloudflared
-    command: proxy-dns
+    image: cloudflare/cloudflared:2021.9.2
+    deploy:
+      mode: replicated
+      replicas: 1
+      update_config:
+        delay: 30s    
+      placement:
+        constraints: [node.role == manager]
+    ports:
+      - "5053:5053/udp"
+      - "49312:49312/tcp"
     environment:
-      - "TUNNEL_DNS_UPSTREAM=https://your.https.cloudflare.DoH.address/dns-query"
-      - "TUNNEL_METRICS=0.0.0.0:49312"
-      - "TUNNEL_DNS_ADDRESS=0.0.0.0"
-      - "TUNNEL_DNS_PORT=53"
-      - "TUNNEL_HOSTNAME=DOCKERSWARM"
+      - "TUNNEL_DNS_UPSTREAM=https://oiqflrd4jk.cloudflare-gateway.com/dns-query"
     volumes: 
-      - /Your/Volume/SwarmS/Cloudflared/cert.pem:/root/.cloudflared/cert.pem
-
-    sysctls:
-      - net.ipv4.ip_unprivileged_port_start=53
+      - /Your/Volume/SwarmS/Cloudflared:/root/.cloudflared
     networks:
       swarmpit_net:
         ipv4_address: 10.0.1.254
@@ -26,11 +28,10 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-      - "853:853"
       - "8182:80/tcp"
     environment:
       - "TZ=America/Denver"
-      - "DNS1=10.0.1.254#53"
+      - "DNS1=10.0.1.254#5053"
       - "DNS2=no"
       - "DNSMASQ_LISTENING=all"
 
@@ -40,20 +41,20 @@ services:
       - '/Your/Volume/SwarmS/pihole/var-log/pihole.log:/var/log/pihole.log'
     networks:
       swarmpit_net:
-        ipv4_address: 10.0.1.243
+        ipv4_address: 10.0.1.253
     cap_add:
       - NET_ADMIN
     restart: unless-stopped
     
   speedtest:
       container_name: speedtest
-      image: henrywhitaker3/speedtest-tracker
+      image: henrywhitaker3/speedtest-tracker:latest
       ports:
           - 8765:80
       volumes:
           - /Your/Volume/SwarmS/speedtest:/config
       environment:
-          - TZ= 'America/Denver'
+          - TZ= 'America/YOUR_TZ'
           - PGID= 1000
           - PUID= 1000
           - OOKLA_EULA_GDPR=true
@@ -67,4 +68,3 @@ networks:
   swarmpit_net:
     external:
       name: swarmpit_net
-

@@ -85,7 +85,7 @@ Firewall Recipes
   
 
 Cloudflare Backbone Connections
-- add Railgun
+- add Railgun (careful make sure your site supports this before implementation)
 	- https://github.com/VostroNet/docker-cloudflare-railgun
 - Cloudflared In a Docker
 	- https://github.com/judge2020/docker-cloudflared
