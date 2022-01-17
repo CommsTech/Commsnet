@@ -1,0 +1,17 @@
+# Online_Games_Whitelist.txt
+# Online Game Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+.heartbeat.dm.origin.com # Origin_Games
+.nick.com # Kids Games
+.pbskids.org # Kids Games
+.store.steampowered.com # Steam
+cdn.optimizely.com # Game Content Delivery
+cdn2.optimizely.com # Game Content Delivery
+cdn3.optimizely.com # Game Content Delivery
+ea.com # Game Content Delivery
+pkskids.org # pbs kids
+tracking.epicgames.com # Epic Games
+.store.steampowered.com # Steam
+tracking.epicgames.com # Epic Games
+cloudsync-prod.s3.amazonaws.com # origion Saved Games

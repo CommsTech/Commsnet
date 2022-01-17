@@ -1,0 +1,85 @@
+# Additional_Sites_Whitelist.txt
+# Additional Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# DNSSTUFF
+.dnsstuff.com # DNSSTUFF NETWORKSTUFF
+www.dnsstuff.com # DNSSTUFF NETWORKSTUFF
+
+# Riverbed
+.riverbed.com # riverbed
+.api.licensing.riverbed.com # riverbed
+api.licensing.riverbed.com # riverbed
+riverbed.com # riverbed
+
+# Unifi
+.trace.svc.ui.com # Unifi
+ui.com # Unifi
+unms.com # Unifi Network Management System
+
+# GOV Sites
+.usajobs.gov # USAJobs
+.usastaffing.gov # USAJobs
+cdc.gov # CDC
+
+# Security Based Sites
+.virustotal.com # Virustotal
+keystone.mwbsys.com # Malware Server
+www.malc0de.com # MalC0de_Blocklists
+someonewhocares.org # Dan Pollocks Homepage
+
+# Car Sites
+chevrolet.com # Chevrolet
+
+# Chat
+discord.com # Required for discord access
+www.discord.com # Required for discord access
+
+# Nvidia
+gfwsl.geforce.com # Geforce Updates
+
+# Image Hosting Sites
+brightcove.net
+giphy.com # Giphy
+gravatar.com # custom login pictures
+i.imgur.com # Imgur
+placehold.it # Image Placeholder
+unsplash.com # Image Hoster
+
+# GitLab
+gitlab.com # gitlaB
+.gitlab.com # Gitlab Opensource_Content
+www.gitlab.com # gitlaB
+
+# WordPress
+s1.wp.com # wordpress
+wordpress.com # Wordpress
+wp.com # Wordpress
+
+# Video Hosting Sites
+secure.brightcove.com # Brightcove Video Platform
+vimeo.com # Vimeo
+img.vidible.tv # Videos on times.com and nydailynews.com
+vidtech.cbsinteractive.com # CBS
+
+# Survey Monkey
+secure.surveymonkey.com # Survey Monkey
+surveymonkey.com # Survey Monkey
+
+# DIY Sites
+www.lifehacker.com # Guides
+www.stackoverflow.com # Stack Overflow	
+www.userbenchmark.com # Userbenchmark
+stackoverflow.com # StackOverflow
+
+# Others
+cl.exct.net # (salesforce) required for some sites' acct recovery emails
+stats.uptimerobot.com # UptimeRobot
+syandus.com # Syandus
+tracking-protection.cdn.mozilla.net # Mozilla
+urldefense.proofpoint.com # Proofpoint
+use-application-dns.net # DoH Prevention
+wikipedia.org # Wikipedia
+
+
+

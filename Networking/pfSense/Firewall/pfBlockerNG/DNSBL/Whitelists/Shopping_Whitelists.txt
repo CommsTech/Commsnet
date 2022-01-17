@@ -1,0 +1,27 @@
+# Online_Games_Whitelist.txt
+# Online Game Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Target
+www.target.com # target
+weeklyad.target.com # Target Email Ads
+weeklyad.target.com.edgesuite.net # Target Email Ads
+m.weeklyad.target.com # Target Ads
+m.weeklyad.target.com # Target Ads
+
+# Other Sites
+www.v2.zopim.com # Required for brandymelvilleusa.com
+zulily.com # Zulily Store
+www.ds-aksb-a.akamaihd.net # olivegarden
+www.priceline.com # travel shopping
+www.cdn.shopify.com # dottiecouture
+s.shopify.com # Shopify
+login.aliexpress.com # Aliexpress
+hotels.com # Hotels search
+www.v2.zopim.com # Required for brandymelvilleusa.com
+login.aliexpress.com # Aliexpress
+cdn.shopify.com # Required for dottiecouture
+www.priceline.com # travel shopping
+oldnavy.gap.com # oldnavy
+www.assets.adobedtm.com # OliveGarden_online
+secure-oldnavy.gap.com # oldnavy

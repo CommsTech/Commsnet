@@ -1,0 +1,15 @@
+# CDN_Products_Whitelist.txt
+# CDN Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Akamai
+akamaihd.net # Akamai CDN
+akamaitechnologies.com # Akamai CDN
+akamaized.net # Akamai CDN
+
+# Cloudflare
+cdn.cloudflare.net # Cloudflare
+cdnjs.cloudflare.com # Cloudflare
+
+# Opensource
+jsdelivr.net # Opensource CDN

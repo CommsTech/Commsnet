@@ -1,0 +1,15 @@
+# Apple_Products_Whitelist.txt
+# Apple Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+appleid.apple.com # Apple ID
+ax.phobos.apple.com.edgesuite.net
+captive.apple.com # iOS/Apple
+gsp1.apple.com # Apple Connectivity tester
+ocsp.apple.com # Apple Certificate Validation
+s.mzstatic.com # iTunes
+www.apple.com # iOS/Apple
+www.appleiphonecell.com # iOS/Apple
+www.icloud.com # iCloud
+itunes.apple.com # itunes
+icloud.com # icloud
