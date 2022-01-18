@@ -1,0 +1,758 @@
+# Additional_Sites_Whitelist.txt
+# Additional Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# DNSSTUFF
+.dnsstuff.com # DNSSTUFF NETWORKSTUFF
+www.dnsstuff.com # DNSSTUFF NETWORKSTUFF
+
+# Riverbed
+.riverbed.com # riverbed
+.api.licensing.riverbed.com # riverbed
+api.licensing.riverbed.com # riverbed
+riverbed.com # riverbed
+
+# Unifi
+.trace.svc.ui.com # Unifi
+ui.com # Unifi
+unms.com # Unifi Network Management System
+
+# GOV Sites
+.usajobs.gov # USAJobs
+.usastaffing.gov # USAJobs
+cdc.gov # CDC
+
+# Security Based Sites
+.virustotal.com # Virustotal
+keystone.mwbsys.com # Malware Server
+www.malc0de.com # MalC0de_Blocklists
+someonewhocares.org # Dan Pollocks Homepage
+
+# Car Sites
+chevrolet.com # Chevrolet
+
+# Chat
+discord.com # Required for discord access
+www.discord.com # Required for discord access
+
+# Nvidia
+gfwsl.geforce.com # Geforce Updates
+
+# Image Hosting Sites
+brightcove.net
+giphy.com # Giphy
+gravatar.com # custom login pictures
+i.imgur.com # Imgur
+placehold.it # Image Placeholder
+unsplash.com # Image Hoster
+
+# GitLab
+gitlab.com # gitlaB
+.gitlab.com # Gitlab Opensource_Content
+www.gitlab.com # gitlaB
+
+# WordPress
+s1.wp.com # wordpress
+wordpress.com # Wordpress
+wp.com # Wordpress
+
+# Video Hosting Sites
+secure.brightcove.com # Brightcove Video Platform
+vimeo.com # Vimeo
+img.vidible.tv # Videos on times.com and nydailynews.com
+vidtech.cbsinteractive.com # CBS
+
+# Survey Monkey
+secure.surveymonkey.com # Survey Monkey
+surveymonkey.com # Survey Monkey
+
+# DIY Sites
+www.lifehacker.com # Guides
+www.stackoverflow.com # Stack Overflow	
+www.userbenchmark.com # Userbenchmark
+stackoverflow.com # StackOverflow
+
+# Others
+cl.exct.net # (salesforce) required for some sites' acct recovery emails
+stats.uptimerobot.com # UptimeRobot
+syandus.com # Syandus
+tracking-protection.cdn.mozilla.net # Mozilla
+urldefense.proofpoint.com # Proofpoint
+use-application-dns.net # DoH Prevention
+wikipedia.org # Wikipedia
+
+
+
+# Adobe_Products_Whitelist.txt
+# Adobe Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+entitlement.auth.adobe.com # Adobe
+dpm.demdex.net # Adobe
+fpdownload.adobe.com # Adobe
+sp.auth.adobe.com # Adobe
+sstats.adobe.com # adobe stock# Amazon_Products_Whitelist.txt
+# Amazon Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Alexa
+api.amazonalexa.com # Alexa
+avs-alexa-1-na.amazon.com # Required for alexa
+avs-alexa-10-na.amazon.com # Required for alexa
+avs-alexa-11-na.amazon.com # Required for alexa
+avs-alexa-12-na.amazon.com # Required for alexa
+avs-alexa-13-na.amazon.com # Required for alexa
+avs-alexa-14-na.amazon.com # Required for alexa
+avs-alexa-15-na.amazon.com # Required for alexa
+avs-alexa-16-na.amazon.com # Required for alexa
+avs-alexa-17-na.amazon.com # Required for alexa
+avs-alexa-18-na.amazon.com # Required for alexa
+avs-alexa-2-na.amazon.com # Required for alexa
+avs-alexa-3-na.amazon.com # Required for alexa
+avs-alexa-4-na.amazon.com # Required for alexa
+avs-alexa-5-na.amazon.com # Required for alexa
+avs-alexa-6-na.amazon.com # Required for alexa
+avs-alexa-7-na.amazon.com # Required for alexa
+avs-alexa-8-na.amazon.com # Required for alexa
+avs-alexa-9-na.amazon.com # Required for alexa
+avs.eu.amazonalexa.com # Alexa
+cortana-gateway.amazon.com # Alexa
+.fls-na.amazon.com # alexa
+.control.kochava.com # alexa 2
+d3p8zr0ffa9t17.cloudfront.net # Alexa
+amazonadsi-a.akamaihd.net # Alexa App Install
+aax-eu.amazon-adsystem.com  # Alexa App Install
+
+# Amazon
+.amazon-adsystem.com # amazon app ads
+.bs.serving-sys.com # amazon app 5
+.pixel.adsafeprotected.com # amazon app 4
+.px.moatads.com # amazon app 2
+.secure-gl.imrworldwide.com # amazon app 3
+amazon.com # amazon
+amazonaws.com # Amazon
+d1s31zyz7dcc2d.cloudfront.net # Amazon Updates
+d21m0ezw6fosyw.cloudfront.net # Amazon Updates
+d2n99fpfeqbnhk.cloudfront.net # Amazon Updates
+d3a510xmpll7o6.cloudfront.net # Amazon Updates
+d3h5bk8iotgjvw.cloudfront.net # Amazon Updates
+d3uf8d0lloeluq.cloudfront.net # Amazon Updates
+d63r8xi1zu867.cloudfront.net # Amazon Updates
+device-metrics-us-2.amazon.com # Amazon
+dcape-na.amazon.com # Amazon
+dr49lng3n1n2s.cloudfront.net # AmazonAWS_Management
+msh.amazon.co.uk  # Alexa App Install
+s3-1.amazonaws.com # Amazon
+s3.amazonaws.com # Amazon
+softwareupdates.amazon.com # Amazon Updates
+www.amazon.com # amazon
+arcus-uswest.amazon.com # Amazon
+
+# Twitch
+s.amazon-adsystem.com # twitch
+c.amazon-adsystem.com # twitch
+cdn-gl.imrworldwide.com # twitch
+countess.twitch.tv # twitch
+pubsub-edge.twitch.tv # twitch
+
+# AWS
+www.dr49lng3n1n2s.cloudfront.net # AmazonAWS_Management# Apple_Products_Whitelist.txt
+# Apple Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+appleid.apple.com # Apple ID
+ax.phobos.apple.com.edgesuite.net
+captive.apple.com # iOS/Apple
+gsp1.apple.com # Apple Connectivity tester
+ocsp.apple.com # Apple Certificate Validation
+s.mzstatic.com # iTunes
+www.apple.com # iOS/Apple
+www.appleiphonecell.com # iOS/Apple
+www.icloud.com # iCloud
+itunes.apple.com # itunes
+icloud.com # icloud# CDN_Products_Whitelist.txt
+# CDN Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Akamai
+akamaihd.net # Akamai CDN
+akamaitechnologies.com # Akamai CDN
+akamaized.net # Akamai CDN
+
+# Cloudflare
+cdn.cloudflare.net # Cloudflare
+cdnjs.cloudflare.com # Cloudflare
+
+# Opensource
+jsdelivr.net # Opensource CDN
+# Crypto_Products_Whitelist.txt
+# Crypto Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Bitcoin
+.bitcoin.org # Bitcoin
+
+# Coinbase
+.coinbase.com # Coinbase Wallet
+
+# Mining
+.coinmarketcap.com # Crypto Market tracker
+.simplemining.net # Mining_Controller
+simplemining.net # Mining_Controller
+.whattomine.com # Whattomine
+.miningrigrentals.com # MiningRigRentals
+
+# Nicehash
+api.nicehash.com # Nicehash
+api2.nicehash.com # Nicehash
+daggerhashimoto.usa.nicehash.com # DaggerHash Nicehash
+nhmws.nicehash.com # NiceHash
+www.api2.nicehash.com # Nicehash
+www.nhmws.nicehash.com # NiceHash
+www.nicehash.com # Nicehash Main site
+www.static.nicehash.com # NiceHash
+.status.nicehash.com # Nicehash
+.stratum.usa-west.nicehash.com # Nicehash
+.usa.nicehash.com # NiceHash
+static.nicehash.com # NiceHash
+
+# Shapeshift
+www.shapeshift.io # Shapeshift Wallet
+shapeshift.io # Shapeshift Wallet
+www.connect.trezor.io # Shapeshift.com
+connect.trezor.io # Shapeshift.com
+
+# Bitpay
+bitpay.com # Bitcoin Payments
+www.bitpay.com # Bitcoin Payments
+
+# Mysterium
+stun.l.google.com # Required for Mysterium VPN
+stun1.l.google.com # Required for Mysterium VPN
+stun2.l.google.com # Required for Mysterium VPN# Education_Products_Whitelist.txt
+# Education Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Walden University
+.content.laureate.net # Walden University
+.waldenu.edu # Walden University
+class.content.laureate.net # Walden University
+waldenu.edu # Walden University
+
+# WGU
+secure-lti.wguassessment.com # Required for WGU
+
+# Schoology
+.learnosity.com # schoology
+s3.amazonaws.com/assets.learnosity.com # schoology
+s3.amazonaws.com/learnositymediaprocessed # schoology
+shared.learnosity.com # schoology
+.schoology.com # school
+
+# PearsonVue
+.pearson.com # PearsonVue
+.pearsonvue.com # PearsonVue
+.pndsn.com # PearsonVue
+.proctorcam.com # PearsonVue
+.programworkshop.com # PearsonVue
+.pubnub.com # PearsonVue
+.pubnubapi.com # PearsonVue
+.pvue2.com # PearsonVue
+.starttest.com # PearsonVue
+.starttest2.com # PearsonVue
+.twilio.com # PearsonVue
+.wowza.com # PearsonVue# Facebook_Products_Whitelist.txt
+# Facebook Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Facebook
+api.facebook.com # Facebook
+b-api.facebook.com # Facebook
+b-graph.facebook.com # facebook
+cdn.fbsbx.com # Facebook
+connect.facebook.com # Facebook
+connect.facebook.net # Facebook
+cf-st.sc-cdn.net # SnapChat
+creative.ak.fbcdn.net # Facebook
+edge-mqtt.facebook.com # Facebook
+external-arn2-1.xx.fbcdn.net # Facebook
+external-cph2-1.xx.fbcdn.net # Facebook
+external-lhr0-1.xx.fbcdn.net # Facebook
+external-lhr1-1.xx.fbcdn.net # Facebook
+external-lhr10-1.xx.fbcdn.net # Facebook
+external-lhr2-1.xx.fbcdn.net # Facebook
+external-lhr3-1.xx.fbcdn.net # Facebook
+external-lhr4-1.xx.fbcdn.net # Facebook
+external-lhr5-1.xx.fbcdn.net # Facebook
+external-lhr6-1.xx.fbcdn.net # Facebook
+external-lhr7-1.xx.fbcdn.net # Facebook
+external-lhr8-1.xx.fbcdn.net # Facebook
+external-lhr9-1.xx.fbcdn.net # Facebook
+external.xx.fbcdn.net # Facebook
+facebook.com # facebook
+fb.me bigzipfiles.facebook.com # Facebook
+fbcdn-creative-a.akamaihd.net # Facebook
+l.facebook.com # Facebook
+limited-prod.giphy.map.fastly.net # Facebook
+m.facebook.com # Facebook
+media.tenor.co # Facebook
+media0.giphy.com # Facebook
+media1.giphy.com # Facebook
+media2.giphy.com # Facebook
+media3.giphy.com # Facebook
+mqtt-mini.facebook.com # Facebook
+mqtt.c10r.facebook.com # Facebook
+scontent-cph2-1.xx.fbcdn.net # Facebook
+scontent-lhr3-1.xx.fbcdn.net # Facebook
+scontent.fgdl5-1.fna.fbcdn.net # Facebook
+scontent.xx.fbcdn.net # Facebook
+star-mini.c10r.facebook.com # Facebook
+star.c10r.facebook.com # Facebook
+star.facebook.com # Facebook
+upload.facebook.com # Facebook
+upload.messenger.com # Facebook
+web.facebook.com # Facebook
+www.facebook.com # Facebook
+www.messenger.com # Facebook
+graph.facebook.com # Facebook
+portal.fb.com # Facebook
+rupload.facebook.com # Facebook
+res.cloudinary.com # Facebook image upload
+video-cph2-1.xx.fbcdn.net # Facebook
+scontent-arn2-1.xx.fbcdn.net # Facebook
+
+# Facebook Messenger
+edge-chat.facebook.com # Facebook
+edge-chat.messenger.com # facebook Messenger
+scontent-atl3-1.xx.fbcdn.net # facebook Messenger
+messenger.com # Facebook Messenger
+static.xx.fbcdn.net # facebook Messenger
+video.xx.fbcdn.net # facebook Messenger
+
+# Snapchat
+sc-analytics.appspot.com # SnapChat
+app-analytics.snapchat.com # SnapChat
+
+
+
+# Financial_Products_Whitelist.txt
+# Financial Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Armed Forces Bank
+.afbank.com # Armed Forces Bank
+.secure.afbank.com # Armed Forces Bank
+afbank.com # Armed Forces Bank
+secure.afbank.com # Armed Forces Bank
+
+# Bank Of America
+www.bankofamerica.com # Bank Of America
+
+# MarketWatch
+widget-cdn.rpxnow.com # Market Watch Images
+
+# Paypal
+www.paypal.com # Paypal# Google_Products_Whitelist.txt
+# Google Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Google Docs
+.docs.google.com # GDocs
+www.docs.google.com # google docs
+
+# Google Drive
+.drive.google.com # GDrive
+
+# Google Forms 
+.forms.gle # Google Forms
+forms.gle # Google Forms
+
+# Google
+0.client-channel.google.com # Google
+accounts.google.com # Google
+appsbackup-pa.clients6.google.com # Google
+appsbackup-pa.googleapis.com # Google
+appspot-preview.l.google.com # Google
+clients1.google.com # Google
+clients2.google.com # Google
+clients3.google.com # Google
+clients4.google.com # Google
+clients5.google.com # Google
+clients6.google.com # Google
+cse.google.com # Google
+docs.google.com # google docs
+goo.gl # URL Shortners
+google.com # Just Google
+googleads.g.doubleclick.net # Google Search Results
+googleadservices.com # Google Search Results
+googleapis.com # Google
+googleapis.l.google.com # Google
+gstatic.com # Google Static Content
+reminders-pa.googleapis.com
+www.google.com # Google
+www.googleapis.com # Google
+firestore.googleapis.com
+fonts.gstatic.com
+ad.atdmt.com # Google Search Results
+dl.google.com # chrome update
+
+# Youtube
+manifest.googlevideo.com # Youtube
+oauthaccountmanager.googleapis.com # required for youtubeapp
+pings.conviva.com # Youtube Watch History
+video-stats.l.google.com # Youtube
+device-provisioning.googleapis.com # required for youtubeapp
+youtu.be # youtube
+youtube-nocookie.com # youtube
+youtube-ui.l.google.com # CNAME for (youtube.com)
+youtube.com # Youtube
+youtubei.googleapis.com # required for youtubeapp
+yt3.ggpht.com # youtube
+zee.cws.conviva.com # Youtube Watch History
+www.youtube-nocookie.com # Youtube
+www.youtube.com # Youtube
+i.ytimg.com # Youtube
+i1.ytimg.com # Youtube
+redirector.googlevideo.com # Youtube
+s2.youtube.com # youtube
+s.youtube.com # Youtube
+s.ytimg.com # Youtube
+cws.conviva.com # Youtube Watch History
+
+# Android
+connectivitycheck.android.com
+connectivitycheck.gstatic.com
+android.clients.google.com # Androids
+android.googleapis.com # androids
+2.android.pool.ntp.org # android timing
+redirector.gvt1.com # android TV# Linux_Products_Whitelist.txt
+# Linux Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Ubuntu
+.canonical.com # Ubuntu_Updates
+api.snapcraft.io # Ubuntu_Updates
+banjo.canonical.com # Ubuntu# Media_Products_Whitelist.txt
+# Media Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Plex
+www.plex.tv # Plex
+cpms.spop10.ams.plex.bz # plex
+cpms35.spop10.ams.plex.bz # Plex
+fanart.tv # Plex fanart
+meta-db-worker02.pop.ric.plex.bz # Plex
+meta.plex.bz # Plex
+meta.plex.tv # Plex
+metrics.plex.tv # Plex
+my.plexapp.com # Plex
+o1.email.plex.tv # Plex
+o2.sg0.plex.tv # Plex
+nine.plugins.plexapp.com # Plex
+node.plexapp.com # Plex
+pubsub.plex.bz # plex
+pubsub.plex.tv # plex
+proxy.plex.bz # plex
+proxy.plex.tv # plex
+proxy02.pop.ord.plex.bz # plex
+staging.plex.tv # Plex
+status.plex.tv # Plex
+plex.tv # Plex
+traffic.libsyn.com # Plex Podcasts
+traffic.megaphone.fm # Plex Podcasts
+tvdb2.plex.tv # Plex
+tvthemes.plexapp.com # Plex
+tvthemes.plexapp.com.cdn.cloudflare.net # Plex
+ws.audioscrobbler.com # Plex Last.fm
+www.traffic.megaphone.fm # Required for Plex Podcasts
+dashboard.plex.tv # Plex
+app.plex.tv # Plex
+
+# ESPN
+www.espn.com # espn
+a.espncdn.com # ESPN
+a1.espncdn.com # ESPN
+a2.espncdn.com # ESPN
+cdn1.espn.net # ESPN CDN
+media.video-cdn.espn.com # ESPN
+
+# Hulu
+cws-hulu.conviva.com # Hulu
+cws.conviva.com # Hulu
+www.ads-v-darwin.hulustream.com # Hulu
+vortex.hulu.com # Hulu
+assets.huluim.com # Hulu
+
+# Spotify
+dns1.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+dns2.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+dns3.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+dns4.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+ns3.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
+ns4.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
+o.scdn.co # Spotify on TV more images
+ns1.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
+open.scdn.co # Spotify
+open.spotify.com # Spotify Web Player
+r9---sn-n4v7kn76.c.2mdn.net # Spotify's Anti-Adveritsing blocking servers
+redirector.gvt1.com # Spotify
+spclient.spotify.com # Spotify
+spclient.wg.spotify.com # Spotify
+sto3.spotify.com # Spotify
+tv.scdn.co # Spotify on TV
+api-partner.spotify.com # Spotify
+api-spotify.com # Spotify
+api-tv.spotify.com # Spotify
+api-tv.spotify.com # spotify on TV
+audio-fa.spotify.com # Spotify
+audio-sp-fra2.pscdn.co # Spotify's Anti-Adveritsing blocking servers
+audio-sp.spotify.com # Spotify
+apresolve.spotify.com # Spotify
+ash-dealer.spotify.com # Spotify
+ash.weblb-wg.dual-gslb.spotify.com # Spotify
+gcdn.2mdn.net # Spotify's Anti-Adveritsing blocking servers
+geo3.ggpht.com # Spotify
+gew1-accesspoint-b-zzfg.ap.spotify.com # Spotify's Anti-Adveritsing blocking servers
+dealer-ssl.spotify.com # Spotify
+dealer.spotify.com # Spotify
+wg.spotify.com # Spotify
+play.spotify.com # Spotify Web Player
+gslb.spotify.com # Spotify
+i.scdn.co # Spotify on TV album covers
+
+# Netflix
+netflix.com # Netflix
+
+# Tidal
+sp-ad-cf.audio.tidal.com # Required for Tidal
+www.firebaseremoteconfig.googleapis.com # Required for Tidal
+www.sp-ad-cf.audio.tidal.com # Required for Tidal
+firebaseremoteconfig.googleapis.com # Required for Tidal
+
+# Sonarr
+skyhook.sonarr.tv # Sonarr
+apt.sonarr.tv # Sonarr
+forums.sonarr.tv # Sonarr
+download.sonarr.tv # Sonarr
+services.sonarr.tv # Sonarr
+
+# Other Sites
+.themoviedb.org # themoviedatabase
+themoviedb.com # metadata for movies
+themoviedb.org #themoviedatabase
+thetvdb.com # metadata for tv series
+lastfm-img2.akamaized.net # Last.fm
+api.themoviedb.org/ # TheMovieDB# Microsoft_Products_Whitelist.txt
+# Microsoft Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Microsoft
+ars.smartscreen.microsoft.com # Microsoft
+aspnetcdn.com # Microsoft AJAX CDN
+browser.pipe.aria.microsoft.com
+c.s-microsoft.com # Microsoft
+client-s.gateway.messenger.live.com # xbox live messaging
+client.wns.windows.com # Microsoft Store
+continuum.dds.microsoft.com
+definitionupdates.microsoft.com # Microsoft Security Center
+displaycatalog.mp.microsoft.com # Microsoft Store
+dl.delivery.mp.microsoft.com # Microsoft Store
+dmd.metaservices.microsoft.com # Microsoft
+dmd.metaservices.microsoft.com.akadns.net # Microsoft
+dns.msftncsi.com # Microsoft
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net # Microsoft
+forms.office.com # Office
+fs.microsoft.com # Microsoft
+geo-prod.do.dsp.mp.microsoft.com # Microsoft Store
+go.microsoft.com # Microsoft
+i.s-microsoft.com # Microsoft
+ipv6.msftncsi.com # microsoft connectivity tester
+licensing.mp.microsoft.com # Minecraft
+licensing.xboxlive.com # Xbox
+licensingphone.mp.microsoft.com # Microsoft
+login.live.com # Microsoft
+login.microsoftonline.com # Microsoft
+login.microsoftonline.us # Required for Army_Web_Mail
+login.msa.akadns6.net # Microsoft
+live.com # Microsoft
+microsoft.com # Microsoft
+microsoftonline.com # Microsoft
+minecraftprod.rtep.msgamestudios.com # Minecraft
+mobile.pipe.aria.microsoft.com # Microsoft
+msedge.api.cdp.microsoft.com # Microsoft Edge Updates
+msftconnecttest.com # Windows Connection Tester
+msftncsi.com # Microsoft Connectivity tester
+nexus.officeapps.live.com # Microsoft
+nexusrules.officeapps.live.com # Microsoft
+prod.msocdn.com # Microsoft
+settings-win.data.microsoft.com # Microsoft
+settings.data.microsoft.com # Microsoft
+sfdataservice.microsoft.com # Microsoft
+self.events.data.microsoft.com # Microsoft
+sls.update.microsoft.com # Microsoft
+sls.update.microsoft.com.akadns.net # Microsoft
+smartscreen-sn3p.smartscreen.microsoft.com # Microsoft
+storeedgefd.dsx.mp.microsoft.com # Microsoft Store
+support.microsoft.com # Microsoft
+tlu.dl.delivery.mp.microsoft.com # Microsoft Store
+unitedstates.smartscreen-prod.microsoft.com # Microsoft
+v10.vortex-win.data.microsoft.com
+vortex.data.microsoft.com # Microsoft
+wdcp.microsoft.com # Microsoft
+win10.ipv6.microsoft.com # Microsoft_Updates
+www.client.hip.live.com # needed to setup microsoft live account
+www.msftconnecttest.com # Windows Connection Tester
+www.msftncsi.com # Microsoft Connectivity tester
+
+# Microsoft Office
+office.com # Microsoft Office
+office.net # Microsoft Office
+office365.com # Microsoft Office
+officeclient.microsoft.com # Microsoft Office
+products.office.com # Microsoft office
+
+# Microsoft Onedrive
+onedrive.live.com # Microsoft Onedrive
+1drv.com # OneDrive
+
+# Microsoft Outlook
+outlook.live.com # Microsoft Outlook
+outlook.office365.com # Microsoft Outlook
+s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
+
+# Xbox
+v10.events.data.microsoft.com # Xbox Live
+v20.events.data.microsoft.com # xbox
+xbox.ipv6.microsoft.com # Xbox
+xboxab.com # Xbox
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com # Xbox
+xkms.xbolive.com # Xbox
+xsts.auth.xboxlive.com # Xbox
+www.xboxlive.com # Xbox
+.xboxlive.com # Xbox
+activity.windows.com # xbox
+arc.msn.com # xbox
+attestation.xboxlive.com # Xbox
+cert.mgt.xboxlive.com # Xbox
+clientconfig.passport.net # Xbox Live
+def-vef.xboxlive.com # Xbox
+device.auth.xboxlive.com # Xbox
+eds.xboxlive.com # xbox
+help.ui.xboxlive.com # Xbox
+notify.xboxlive.com # Xbox
+skype.com # Skype and xbox chat
+title.auth.xboxlive.com # Xbox
+title.mgt.xboxlive.com # Xbox
+
+# Windows Updates
+ctldl.windowsupdate.com # Windows Updates
+linkedin.com # Linkedin
+m.hotmail.com # Hotmail
+sharepoint.com # Sharepoint
+
+# Bing_Maps
+t0.ssl.ak.dynamic.tiles.virtualearth.net # Bing Maps
+t0.ssl.ak.tiles.virtualearth.net # Bing Maps
+ecn.dev.virtualearth.net # Bing_Maps
+dev.virtualearth.net # Bing_Maps
+
+# Skype
+pricelist.skype.com # Skype
+ui.skype.com # Skype
+apps.skype.com # Skype
+
+# Github
+github.com # Github Opensource_Content
+github.io # Github Opensource_Content
+github.map.fastly.net # CNAME for (raw.githubusercontent.com)
+g.live.com # bitlocker recovery
+github.com # Github Opensource_Content
+github.io # Github Opensource_Content
+github.map.fastly.net # CNAME for (raw.githubusercontent.com)
+raw.githubusercontent.com # github
+.github.com # Github Opensource_Content
+.githubusercontent.com # Github Opensource_Content# Online_Games_Whitelist.txt
+# Online Game Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+.heartbeat.dm.origin.com # Origin_Games
+.nick.com # Kids Games
+.pbskids.org # Kids Games
+.store.steampowered.com # Steam
+cdn.optimizely.com # Game Content Delivery
+cdn2.optimizely.com # Game Content Delivery
+cdn3.optimizely.com # Game Content Delivery
+ea.com # Game Content Delivery
+pkskids.org # pbs kids
+tracking.epicgames.com # Epic Games
+.store.steampowered.com # Steam
+tracking.epicgames.com # Epic Games
+cloudsync-prod.s3.amazonaws.com # origion Saved Games# Online_Games_Whitelist.txt
+# Online Game Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+# Target
+www.target.com # target
+weeklyad.target.com # Target Email Ads
+weeklyad.target.com.edgesuite.net # Target Email Ads
+m.weeklyad.target.com # Target Ads
+m.weeklyad.target.com # Target Ads
+
+# Other Sites
+www.v2.zopim.com # Required for brandymelvilleusa.com
+zulily.com # Zulily Store
+www.ds-aksb-a.akamaihd.net # olivegarden
+www.priceline.com # travel shopping
+www.cdn.shopify.com # dottiecouture
+s.shopify.com # Shopify
+login.aliexpress.com # Aliexpress
+hotels.com # Hotels search
+www.v2.zopim.com # Required for brandymelvilleusa.com
+login.aliexpress.com # Aliexpress
+cdn.shopify.com # Required for dottiecouture
+www.priceline.com # travel shopping
+oldnavy.gap.com # oldnavy
+www.assets.adobedtm.com # OliveGarden_online
+secure-oldnavy.gap.com # oldnavy# Social_Media_Whitelist.txt
+# Social Media Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+twimg.com # Twitter
+twitter.com # Twitter
+www.twitter.com # Twitter
+www.pbs.twimg.com # twitter images
+pbs.twimg.com # twitter images
+reddit.com # reddit
+pinterest.com # Pinterest# Storage_Products_Whitelist.txt
+# Storage Products Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+dl.dropbox.com # Dropbox
+dl.dropboxusercontent.com # Dropbox
+dropbox.com # Dropbox
+ns1.dropbox.com # Dropbox
+ns2.dropbox.com # Dropbox
+www.dropbox-dns.com # CNAME for (dropbox.com)
+www.dropbox.com # Dropbox# URL_Shortners_Whitelist.txt
+# URL Shortner Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+bit.ly # URL Shortners
+j.mp # URL Shortners
+ow.ly # URL Shortners
+tinyurl.com # URL Shortners
+www.bit.ly # URL Shortners
+ow.ly # URL Shortners
+j.mp # URL Shortners
+# Yahoo_Products_Whitelist.txt
+# Yahoo Product Sites you may want to whitelist for full functionality
+# 1/17/2021
+
+yahoo.com # Yahoo
+.mail.yahoo.com # yahoo email
+imap.mail.yahoo.com # yahoo email
+login.yahoo.com # Yahoo
+mail.yahoo.com # yahoo email
+pop.mail.yahoo.com # yahoo email
+smtp.mail.yahoo.com # yahoo email
