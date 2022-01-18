@@ -41,6 +41,9 @@ a1.espncdn.com # ESPN
 a2.espncdn.com # ESPN
 cdn1.espn.net # ESPN CDN
 media.video-cdn.espn.com # ESPN
+fpdownload.adobe.com # WatchESPN
+entitlement.auth.adobe.com # WatchESPN
+livepassdl.conviva.com # WatchESPN
 
 # Hulu
 cws-hulu.conviva.com # Hulu
@@ -101,6 +104,9 @@ apt.sonarr.tv # Sonarr
 forums.sonarr.tv # Sonarr
 download.sonarr.tv # Sonarr
 services.sonarr.tv # Sonarr
+
+# Fox News
+widget-cdn.rpxnow.com
 
 # Other Sites
 .themoviedb.org # themoviedatabase

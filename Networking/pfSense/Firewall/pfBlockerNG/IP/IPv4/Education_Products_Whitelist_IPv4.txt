@@ -1,0 +1,34 @@
+# Education_Products_Whitelist.txt
+# Education Sites you may want to whitelist for full functionality
+# 1/18/2021
+
+# Schoology
+167.89.34.47 # Schoology
+167.89.35.253 # Schoology
+167.89.35.254 # Schoology
+208.115.239.49 # Schoology
+34.210.133.77 # Schoology
+52.1.113.102 # Schoology
+52.200.56.106 # Schoology
+52.204.5.240 # Schoology
+52.21.28.193 # Schoology
+52.36.124.128 # Schoology
+52.37.112.237 # Schoology
+52.4.171.101 # Schoology
+52.41.118.53 # Schoology
+52.41.118.66 # Schoology
+52.42.89.62 # Schoology
+52.5.140.116 # Schoology
+52.72.252.227 # Schoology
+52.73.105.63 # Schoology
+52.73.95.180 # Schoology
+54.243.197.146 # Schoology
+50.112.151.119 # Schoology
+
+# PearsonVue
+159.182.0.0/16 # PearsonVue
+206.188.17.0/24 # PearsonVue
+64.106.193.0/24 # PearsonVue
+64.106.220.0/24 # PearsonVue
+64.27.100.27 # PearsonVue
+64.27.64.232 # PearsonVue

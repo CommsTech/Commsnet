@@ -15,3 +15,8 @@ tracking.epicgames.com # Epic Games
 .store.steampowered.com # Steam
 tracking.epicgames.com # Epic Games
 cloudsync-prod.s3.amazonaws.com # origion Saved Games
+
+# Grand Theft Auto V Online PC
+# Since March blocking Rockstar telemetry seems to crash GTAOnline.
+# Unblocking the domain fixed crashing for people at GTA Forums
+prod.telemetry.ros.rockstargames.com # GTA V Online

@@ -1,0 +1,16 @@
+# Amazon_Products_Whitelist_IPv4.txt
+# Amazon Sites you may want to whitelist for full functionality
+# 1/18/2021
+
+# Alexa
+
+# Amazon
+
+
+# Twitch
+52.114.88.28 # Twitch
+51.136.18.233 # Twitch
+51.140.157.153 # Twitch
+23.97.97.114 # Twitch
+
+# AWS

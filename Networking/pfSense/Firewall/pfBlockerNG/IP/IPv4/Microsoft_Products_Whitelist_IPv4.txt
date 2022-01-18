@@ -1,0 +1,28 @@
+# Microsoft_Products_Whitelist_IPv4.txt
+# Microsoft Sites you may want to whitelist for full functionality
+# 1/18/2021
+
+# Microsoft
+
+# Microsoft Office
+
+# Microsoft Onedrive
+
+# Microsoft Outlook
+
+# Xbox
+51.143.105.194 # Xbox Live Notification
+
+# Windows Updates
+
+# Bing_Maps
+
+# Skype
+
+# Github
+
+# Linkedin
+
+# Hotmail
+
+#Sharepoint

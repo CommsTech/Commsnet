@@ -1,0 +1,14 @@
+# DNS_Providers_Whitelist.txt
+# DNS Providers you may want to whitelist for full functionality
+# 1/18/2021
+
+# Quad9
+9.9.9.9 # Quad9
+9.9.9.11 # Quad9 ECS
+149.112.112.11 # Quad9 ECS
+149.112.112.112 # Quad9
+
+# Cloudflare
+172.64.36.1 # Cloudflare DNS
+172.64.36.2 # Cloudflare DNS
+141.101.98.74 # CLOUDFLARENET

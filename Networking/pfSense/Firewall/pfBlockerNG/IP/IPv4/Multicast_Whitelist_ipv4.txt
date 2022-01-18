@@ -1,0 +1,35 @@
+# Multicast_Whitelist_ipv4.txt
+# Multicast ips you may want to whitelist for full functionality
+# 1/18/2021
+
+# Cisco
+224.0.1.0 # VMTP Managers Group
+224.0.1.2 # SGI-Dogfight
+224.0.1.3 # Rwhod
+224.0.1.6 # NSS-Name Service Server
+224.0.1.8 # SUN NIS+ Information Service
+224.0.1.20 # Any Private Experiment
+224.0.1.21 # DVMRP on MOSPF
+224.0.1.32 # Mtrace
+224.0.1.33 # RSVP-encap-1
+224.0.1.34 # RSVP-encap-2
+224.0.1.39 # Cisco-RP-Announce
+224.0.1.40 # Cisco-RP-Discovery
+224.0.1.52 # Mbone-VCR-Directory
+224.0.1.78 # Tibco Multicast1
+224.0.1.79 # Tibco Multicast2
+
+# Default
+224.0.0.1 # All Hosts
+224.0.0.2 # All Routers
+224.0.0.5 # All OSPF Routers
+224.0.0.6 # All OSPF Designated Routers
+#224.0.0.9 # All RIP2 Routers
+224.0.0.10 # All EIGRP Routers
+224.0.0.12 # DHCP Servers/Relays
+224.0.0.13 # All PIMv2 Routers
+#224.0.0.18 # VRRP Routers
+#224.0.0.19 # All ISIS Routers
+#224.0.0.20 # All ISIS Routers
+#224.0.0.21 # All ISIS Routers
+224.0.0.22 # All IGMPv3 Devices

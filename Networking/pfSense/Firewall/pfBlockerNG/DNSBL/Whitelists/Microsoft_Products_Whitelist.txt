@@ -26,11 +26,11 @@ ipv6.msftncsi.com # microsoft connectivity tester
 licensing.mp.microsoft.com # Minecraft
 licensing.xboxlive.com # Xbox
 licensingphone.mp.microsoft.com # Microsoft
+live.com # Microsoft
 login.live.com # Microsoft
 login.microsoftonline.com # Microsoft
 login.microsoftonline.us # Required for Army_Web_Mail
 login.msa.akadns6.net # Microsoft
-live.com # Microsoft
 microsoft.com # Microsoft
 microsoftonline.com # Microsoft
 minecraftprod.rtep.msgamestudios.com # Minecraft
@@ -41,10 +41,10 @@ msftncsi.com # Microsoft Connectivity tester
 nexus.officeapps.live.com # Microsoft
 nexusrules.officeapps.live.com # Microsoft
 prod.msocdn.com # Microsoft
+self.events.data.microsoft.com # Microsoft
 settings-win.data.microsoft.com # Microsoft
 settings.data.microsoft.com # Microsoft
 sfdataservice.microsoft.com # Microsoft
-self.events.data.microsoft.com # Microsoft
 sls.update.microsoft.com # Microsoft
 sls.update.microsoft.com.akadns.net # Microsoft
 smartscreen-sn3p.smartscreen.microsoft.com # Microsoft
@@ -77,15 +77,6 @@ outlook.office365.com # Microsoft Outlook
 s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
 
 # Xbox
-v10.events.data.microsoft.com # Xbox Live
-v20.events.data.microsoft.com # xbox
-xbox.ipv6.microsoft.com # Xbox
-xboxab.com # Xbox
-xboxexperiencesprod.experimentation.xboxlive.com
-xflight.xboxlive.com # Xbox
-xkms.xbolive.com # Xbox
-xsts.auth.xboxlive.com # Xbox
-www.xboxlive.com # Xbox
 .xboxlive.com # Xbox
 activity.windows.com # xbox
 arc.msn.com # xbox
@@ -100,12 +91,18 @@ notify.xboxlive.com # Xbox
 skype.com # Skype and xbox chat
 title.auth.xboxlive.com # Xbox
 title.mgt.xboxlive.com # Xbox
+v10.events.data.microsoft.com # Xbox Live
+v20.events.data.microsoft.com # xbox
+www.xboxlive.com # Xbox
+xbox.ipv6.microsoft.com # Xbox
+xboxab.com # Xbox
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com # Xbox
+xkms.xbolive.com # Xbox
+xsts.auth.xboxlive.com # Xbox
 
 # Windows Updates
 ctldl.windowsupdate.com # Windows Updates
-linkedin.com # Linkedin
-m.hotmail.com # Hotmail
-sharepoint.com # Sharepoint
 
 # Bing_Maps
 t0.ssl.ak.dynamic.tiles.virtualearth.net # Bing Maps
@@ -119,13 +116,19 @@ ui.skype.com # Skype
 apps.skype.com # Skype
 
 # Github
-github.com # Github Opensource_Content
-github.io # Github Opensource_Content
-github.map.fastly.net # CNAME for (raw.githubusercontent.com)
+.github.com # Github Opensource_Content
+.githubusercontent.com # Github Opensource_Content
 g.live.com # bitlocker recovery
 github.com # Github Opensource_Content
 github.io # Github Opensource_Content
 github.map.fastly.net # CNAME for (raw.githubusercontent.com)
 raw.githubusercontent.com # github
-.github.com # Github Opensource_Content
-.githubusercontent.com # Github Opensource_Content
+
+# Linkedin
+linkedin.com # Linkedin
+
+# Hotmail
+m.hotmail.com # Hotmail
+
+#Sharepoint
+sharepoint.com # Sharepoint

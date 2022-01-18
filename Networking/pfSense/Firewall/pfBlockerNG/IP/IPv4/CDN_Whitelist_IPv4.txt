@@ -1,0 +1,12 @@
+# CDN_Products_Whitelist_IPv4.txt
+# CDN Sites you may want to whitelist for full functionality
+# 1/18/2021
+
+# Akamai
+
+# Cloudflare
+
+# Opensource
+
+# Varnish_CDN
+206.189.119.216 # Varnish_CDN

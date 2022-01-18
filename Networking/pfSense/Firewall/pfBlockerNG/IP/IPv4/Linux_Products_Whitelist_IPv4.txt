@@ -1,0 +1,32 @@
+# Linux_Products_Whitelist_ipV4.txt
+# Linux ips you may want to whitelist for full functionality
+# 1/18/2021
+
+# Ubuntu
+91.189.88.142 # Ubuntu
+91.189.88.152 # Ubuntu
+91.189.88.178 # Ubuntu_Update
+91.189.88.179 # Ubuntu_Update
+91.189.88.180 # Ubuntu_Updates
+91.189.88.181 # Ubuntu_Updates
+91.189.89.198 # Ubuntu_Updates
+91.189.89.199 # Ubuntu_Updates
+91.189.89.223 # Launchpad_Ubuntu
+91.189.91.157 # Ubuntu_Updates
+91.189.91.42 # Ubuntu_Update
+91.189.91.43 # Ubuntu_Update
+91.189.91.44 # Ubuntu_Updates
+91.189.91.45 # Ubuntu_Updates
+91.189.92.17 # Ubuntu_Update
+91.189.92.18 # Ubuntu_Update
+91.189.92.19 # Ubuntu_Update
+91.189.92.20 # Ubuntu_Update
+91.189.92.38 # Ubuntu_Update
+91.189.92.41 # Ubuntu_Update
+91.189.94.10 # Ubuntu_Updates
+91.189.94.24 # Ubuntu_Update
+91.189.94.4 # Ubuntu_Updates
+91.189.95.15 # ubuntu_Upgrade
+
+# Raspbian
+46.235.227.39 # Raspbian Download
