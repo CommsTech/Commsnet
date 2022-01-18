@@ -33,3 +33,4 @@
 #224.0.0.20 # All ISIS Routers
 #224.0.0.21 # All ISIS Routers
 224.0.0.22 # All IGMPv3 Devices
+224.0.0.251 # MDNS
