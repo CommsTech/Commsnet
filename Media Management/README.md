@@ -34,3 +34,6 @@ Heres a few tools that I utilize to make prepare my media collection for streami
 
 	- Here is a good walkthrough for Docker (p2000)
 	https://jakeknows.tech/plex-hardware-transcoding/
+
+	- 2 GPU Docker Linux Setup
+	https://dabbler.dev/posts/2021/05/03/

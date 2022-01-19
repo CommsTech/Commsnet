@@ -1,6 +1,6 @@
 # Microsoft_Products_Whitelist.txt
 # Microsoft Sites you may want to whitelist for full functionality
-# 1/17/2021
+# 1/19/2021
 
 # Microsoft
 ars.smartscreen.microsoft.com # Microsoft
@@ -59,6 +59,7 @@ win10.ipv6.microsoft.com # Microsoft_Updates
 www.client.hip.live.com # needed to setup microsoft live account
 www.msftconnecttest.com # Windows Connection Tester
 www.msftncsi.com # Microsoft Connectivity tester
+dns.msftncsi.com # Connectivity tested
 
 # Microsoft Office
 office.com # Microsoft Office
@@ -100,6 +101,7 @@ xboxexperiencesprod.experimentation.xboxlive.com
 xflight.xboxlive.com # Xbox
 xkms.xbolive.com # Xbox
 xsts.auth.xboxlive.com # Xbox
+v10.vortex-win.data.microsoft.com # Xbox
 
 # Windows Updates
 ctldl.windowsupdate.com # Windows Updates

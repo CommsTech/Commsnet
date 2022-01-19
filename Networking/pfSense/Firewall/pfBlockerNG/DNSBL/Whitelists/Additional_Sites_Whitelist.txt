@@ -72,6 +72,13 @@ www.stackoverflow.com # Stack Overflow
 www.userbenchmark.com # Userbenchmark
 stackoverflow.com # StackOverflow
 
+# NTP
+us.pool.ntp.org # NTP Pool Project
+time.nist.gov # National Institute of Standards and Technology
+0.pfsense.ntp.org # pfSense
+time-a-g.nist.gov # National Institute of Standards and Technology
+0.north-america.pool.ntp.org # NTP Pool Project
+
 # Others
 cl.exct.net # (salesforce) required for some sites' acct recovery emails
 stats.uptimerobot.com # UptimeRobot

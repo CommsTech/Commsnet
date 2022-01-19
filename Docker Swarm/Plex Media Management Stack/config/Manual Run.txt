@@ -1,0 +1,1 @@
+python plex_meta_manager.py -r

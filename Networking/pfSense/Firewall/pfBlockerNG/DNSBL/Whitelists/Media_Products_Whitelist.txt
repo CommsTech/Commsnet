@@ -108,6 +108,16 @@ services.sonarr.tv # Sonarr
 # Fox News
 widget-cdn.rpxnow.com
 
+# Paramount Plus
+cbsinteractive.hb.omtrdc.net
+www.paramountplus.com
+paramountplus.com
+
+# TEDTalks
+app-api.ted.com # TEDTalks
+hls.ted.com # TEDTalks
+tedcdn.com # TEDTalks
+
 # Other Sites
 .themoviedb.org # themoviedatabase
 themoviedb.com # metadata for movies
@@ -115,3 +125,4 @@ themoviedb.org #themoviedatabase
 thetvdb.com # metadata for tv series
 lastfm-img2.akamaized.net # Last.fm
 api.themoviedb.org/ # TheMovieDB
+ws.audioscrobbler.com

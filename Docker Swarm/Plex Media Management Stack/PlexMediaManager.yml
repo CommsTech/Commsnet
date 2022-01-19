@@ -1,0 +1,33 @@
+version: "3.3"
+services:
+  PlexMetaManager:
+    image: meisnate12/plex-meta-manager:latest
+    environment:
+    -  "PMM_TIME=01:00"
+    networks:
+      - swarmpit_net
+    volumes:
+      - /Your/Volume/SwarmS/PlexMetaManager/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+        
+  PlexTraktSync:
+    image: ghcr.io/taxel/plextraktsync
+    volumes:
+      - /Your/Volume/SwarmS/PlexTraktSync/config:/app/config
+      
+  plex-wrapped:
+    ports:
+      - '840:80'
+    container_name: plex-wrapped
+    image: 'aunefyren/plex-wrapped:latest'
+    volumes:
+      - /Your/Volume/SwarmS/PlexWrapped:/var/www/html/config
+    
+networks:
+  swarmpit_net:
+    external: true
