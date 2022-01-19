@@ -1,0 +1,6 @@
+# Crypto_Products_Blocklist.txt
+# Crypto Sites you may want to block
+# 1/18/2021
+
+# Mining
+braiins.com

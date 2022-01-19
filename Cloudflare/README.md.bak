@@ -2,9 +2,6 @@ I use Cloudflare as both my upstream DNS and my WAF for my self hosted sites
 
 Cloudflare Warp on your device:
 	- https://adamtheautomator.com/cloudflare-warp/
-	
-Cloudflare Teams on your device:
-	- https://parkercs.tech/cloudflare-for-teams-wireguard-config/
 
 ![Cloudflare_1](https://user-images.githubusercontent.com/12887622/134787420-36f28a4a-4f43-46f0-a4fe-870e005afffc.JPG)
 ![Cloudflare_2](https://user-images.githubusercontent.com/12887622/134787416-1fd6f4ae-4d47-4a16-8d75-1018641ff3a3.JPG)

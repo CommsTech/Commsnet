@@ -27,3 +27,10 @@ Heres a few tools that I utilize to make prepare my media collection for streami
 - Lidarr
 	- https://lidarr.audio/
 	- Just like Radarr and Sonarr but for songs
+
+- Plex
+	- This is what i used, My server runs on an Ubuntu 20.04 VM
+	https://www.reddit.com/r/PleX/comments/kpfpfz/install_plex_on_ubuntu_connect_to_nas_gpu/
+
+	- Here is a good walkthrough for Docker (p2000)
+	https://jakeknows.tech/plex-hardware-transcoding/

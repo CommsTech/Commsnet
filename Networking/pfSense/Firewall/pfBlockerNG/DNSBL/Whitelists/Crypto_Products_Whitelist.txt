@@ -43,3 +43,4 @@ www.bitpay.com # Bitcoin Payments
 stun.l.google.com # Required for Mysterium VPN
 stun1.l.google.com # Required for Mysterium VPN
 stun2.l.google.com # Required for Mysterium VPN
+QuaLITY.mYstERIUM.netWoRK # Mysterium QA
