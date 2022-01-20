@@ -7,6 +7,7 @@ ars.smartscreen.microsoft.com # Microsoft
 aspnetcdn.com # Microsoft AJAX CDN
 browser.pipe.aria.microsoft.com
 c.s-microsoft.com # Microsoft
+clientconfig.passport.net # Used in Windows Store
 client-s.gateway.messenger.live.com # xbox live messaging
 client.wns.windows.com # Microsoft Store
 continuum.dds.microsoft.com
@@ -70,7 +71,7 @@ products.office.com # Microsoft office
 
 # Microsoft Onedrive
 onedrive.live.com # Microsoft Onedrive
-1drv.com # OneDrive
+1drv.com # short link for OneDrive documents
 
 # Microsoft Outlook
 outlook.live.com # Microsoft Outlook
@@ -82,11 +83,11 @@ s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
 activity.windows.com # xbox
 arc.msn.com # xbox
 attestation.xboxlive.com # Xbox
-cert.mgt.xboxlive.com # Xbox
+cert.mgt.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
 clientconfig.passport.net # Xbox Live
 def-vef.xboxlive.com # Xbox
 device.auth.xboxlive.com # Xbox
-eds.xboxlive.com # xbox
+eds.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
 help.ui.xboxlive.com # Xbox
 notify.xboxlive.com # Xbox
 skype.com # Skype and xbox chat
@@ -115,7 +116,7 @@ dev.virtualearth.net # Bing_Maps
 # Skype
 pricelist.skype.com # Skype
 ui.skype.com # Skype
-apps.skype.com # Skype
+apps.skype.com # Used to make group calls, group chats etc. on Skype
 
 # Github
 .github.com # Github Opensource_Content
