@@ -1,4 +1,4 @@
-# Search_Engines_Blocklist.txt
+# Search_Engines_Blacklist.txt
 # Search Engine Analytics and trackers you may want to block
 # 1/20/2021
 

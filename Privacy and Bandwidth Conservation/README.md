@@ -41,3 +41,6 @@ Chromium addons (good for both chrome and brave.... but use brave!
 - Firewall Leak Test
 	- Not sure what happened to the programmer but Gibson Research has been a great asset to my development. from there spinrite HardDrive recovery software to this.
 	- https://www.grc.com/lt/leaktest.htm
+
+- EFF
+	- Are you secure on the internet find out from the experts https://coveryourtracks.eff.org/

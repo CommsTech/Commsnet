@@ -1,4 +1,4 @@
-# Crypto_Products_Blocklist.txt
+# Crypto_Products_Blacklist.txt
 # Crypto Sites you may want to block
 # 1/20/2021
 

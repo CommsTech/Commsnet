@@ -1,4 +1,4 @@
-# Social_Media_Blocklist.txt
+# Social_Media_Blacklist.txt
 # Social Media Sites you may want to block
 # 1/20/2021
 
