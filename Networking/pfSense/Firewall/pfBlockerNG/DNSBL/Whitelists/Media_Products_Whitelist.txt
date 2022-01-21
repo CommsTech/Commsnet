@@ -1,6 +1,6 @@
 # Media_Products_Whitelist.txt
 # Media Sites you may want to whitelist for full functionality
-# 1/19/2021
+# 1/21/2021
 
 # Plex
 app.plex.tv # Plex
@@ -116,6 +116,15 @@ www.paramountplus.com
 app-api.ted.com # TEDTalks
 hls.ted.com # TEDTalks
 tedcdn.com # TEDTalks
+
+# MSNBC
+snappytvpoc-vh.akamaihd.net # Video Player
+
+# Fox News
+widget-cdn.rpxnow.com
+
+# Weather.com
+v.w-x.co # Videos on weather.com
 
 # Other Sites
 .themoviedb.org # themoviedatabase

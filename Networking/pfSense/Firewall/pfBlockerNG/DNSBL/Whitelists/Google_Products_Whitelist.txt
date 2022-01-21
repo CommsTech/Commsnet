@@ -1,19 +1,11 @@
 # Google_Products_Whitelist.txt
 # Google Sites you may want to whitelist for full functionality
-# 1/19/2021
-
-# Google Docs
-.docs.google.com # GDocs
-www.docs.google.com # google docs
-
-# Google Drive
-.drive.google.com # GDrive
-
-# Google Forms 
-.forms.gle # Google Forms
-forms.gle # Google Forms
+# 1/21/2021
 
 # Google
+.docs.google.com # GDocs
+.drive.google.com # GDrive
+.forms.gle # Google Forms
 0.client-channel.google.com # Google
 accounts.google.com # Google
 ad.atdmt.com # Google Search Results
@@ -27,18 +19,21 @@ clients4.google.com # Google
 clients5.google.com # Google
 clients6.google.com # Google
 cse.google.com # Google
-dl.google.com # chrome update
+dl.google.com # google Chrome update on Linux
 docs.google.com # google docs
 firestore.googleapis.com
 fonts.gstatic.com
+forms.gle # Google Forms
 goo.gl # URL Shortners
 google.com # Just Google
 googleads.g.doubleclick.net # Google Search Results
 googleadservices.com # Google Search Results
 googleapis.com # Google
-googleapis.l.google.com # Google
+googleapis.l.google.com # Gmail
 gstatic.com # Google Static Content
+gstaticadssl.l.google.com # Google Fonts
 reminders-pa.googleapis.com
+www.docs.google.com # google docs
 www.google.com # Google
 www.googleapis.com # Google
 
@@ -67,7 +62,7 @@ zee.cws.conviva.com # Youtube Watch History
 
 # Android
 2.android.pool.ntp.org # android timing
-android.clients.google.com # Androids
+android.clients.google.com # google play store
 android.googleapis.com # androids
 connectivitycheck.android.com
 connectivitycheck.gstatic.com

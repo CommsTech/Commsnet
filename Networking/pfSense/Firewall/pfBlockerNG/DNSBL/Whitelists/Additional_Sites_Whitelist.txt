@@ -1,6 +1,6 @@
 # Additional_Sites_Whitelist.txt
 # Additional Sites you may want to whitelist for full functionality
-# 1/20/2021
+# 1/21/2021
 
 # DNSSTUFF
 .dnsstuff.com # DNSSTUFF NETWORKSTUFF
@@ -16,6 +16,7 @@ riverbed.com # riverbed
 .trace.svc.ui.com # Unifi
 ui.com # Unifi
 unms.com # Unifi Network Management System
+pro.ip-api.com # WifiMan
 
 # GOV Sites
 .usajobs.gov # USAJobs

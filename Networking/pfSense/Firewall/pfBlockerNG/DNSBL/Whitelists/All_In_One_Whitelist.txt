@@ -1,91 +1,123 @@
 # All_In_One_Whitelist.txt
 # All the whitelists in one
-# 1/19/2022
+# 1/21/2022
 
-# Additional_Sites_Whitelist.txt
-# Additional Sites you may want to whitelist for full functionality
-# 1/17/2021
-# DNSSTUFF
-.dnsstuff.com # DNSSTUFF NETWORKSTUFF
-www.dnsstuff.com # DNSSTUFF NETWORKSTUFF
-# Riverbed
-.riverbed.com # riverbed
+.afbank.com # Armed Forces Bank
+.amazon-adsystem.com # amazon app ads
 .api.licensing.riverbed.com # riverbed
-api.licensing.riverbed.com # riverbed
-riverbed.com # riverbed
-# Unifi
+.bitcoin.org # Bitcoin
+.bs.serving-sys.com # amazon app 5
+.canonical.com # Ubuntu_Updates
+.coinbase.com # Coinbase Wallet
+.coinmarketcap.com # Crypto Market tracker
+.content.laureate.net # Walden University
+.control.kochava.com # alexa 2
+.dnsstuff.com # DNSSTUFF NETWORKSTUFF
+.docs.google.com # GDocs
+.drive.google.com # GDrive
+.fls-na.amazon.com # alexa
+.forms.gle # Google Forms
+.github.com # Github Opensource_Content
+.githubusercontent.com # Github Opensource_Content
+.gitlab.com # Gitlab Opensource_Content
+.heartbeat.dm.origin.com # Origin_Games
+.learnosity.com # schoology
+.mail.yahoo.com # yahoo email
+.miningrigrentals.com # MiningRigRentals
+.nick.com # Kids Games
+.pbskids.org # Kids Games
+.pearson.com # PearsonVue
+.pearsonvue.com # PearsonVue
+.pixel.adsafeprotected.com # amazon app 4
+.pndsn.com # PearsonVue
+.proctorcam.com # PearsonVue
+.programworkshop.com # PearsonVue
+.pubnub.com # PearsonVue
+.pubnubapi.com # PearsonVue
+.pvue2.com # PearsonVue
+.px.moatads.com # amazon app 2
+.riverbed.com # riverbed
+.schoology.com # school
+.secure-gl.imrworldwide.com # amazon app 3
+.secure.afbank.com # Armed Forces Bank
+.simplemining.net # Mining_Controller
+.starttest.com # PearsonVue
+.starttest2.com # PearsonVue
+.status.nicehash.com # Nicehash
+.store.steampowered.com # Steam
+.stratum.usa-west.nicehash.com # Nicehash
+.themoviedb.org # themoviedatabase
 .trace.svc.ui.com # Unifi
-ui.com # Unifi
-unms.com # Unifi Network Management System
-# GOV Sites
+.twilio.com # PearsonVue
+.usa.nicehash.com # NiceHash
 .usajobs.gov # USAJobs
 .usastaffing.gov # USAJobs
-cdc.gov # CDC
-# Security Based Sites
 .virustotal.com # Virustotal
-keystone.mwbsys.com # Malware Server
-www.malc0de.com # MalC0de_Blocklists
-someonewhocares.org # Dan Pollocks Homepage
-# Car Sites
-chevrolet.com # Chevrolet
-# Chat
-discord.com # Required for discord access
-www.discord.com # Required for discord access
-# Nvidia
-gfwsl.geforce.com # Geforce Updates
-# Image Hosting Sites
-brightcove.net
-giphy.com # Giphy
-gravatar.com # custom login pictures
-i.imgur.com # Imgur
-placehold.it # Image Placeholder
-unsplash.com # Image Hoster
-# GitLab
-gitlab.com # gitlaB
-.gitlab.com # Gitlab Opensource_Content
-www.gitlab.com # gitlaB
-# WordPress
-s1.wp.com # wordpress
-wordpress.com # Wordpress
-wp.com # Wordpress
-# Video Hosting Sites
-secure.brightcove.com # Brightcove Video Platform
-vimeo.com # Vimeo
-img.vidible.tv # Videos on times.com and nydailynews.com
-vidtech.cbsinteractive.com # CBS
-# Survey Monkey
-secure.surveymonkey.com # Survey Monkey
-surveymonkey.com # Survey Monkey
-# DIY Sites
-www.lifehacker.com # Guides
-www.stackoverflow.com # Stack Overflow	
-www.userbenchmark.com # Userbenchmark
-stackoverflow.com # StackOverflow
-# NTP
-us.pool.ntp.org # NTP Pool Project
-time.nist.gov # National Institute of Standards and Technology
-0.pfsense.ntp.org # pfSense
-time-a-g.nist.gov # National Institute of Standards and Technology
+.waldenu.edu # Walden University
+.whattomine.com # Whattomine
+.wowza.com # PearsonVue
+.xboxlive.com # Xbox
+0.client-channel.google.com # Google
 0.north-america.pool.ntp.org # NTP Pool Project
-# Others
-cl.exct.net # (salesforce) required for some sites' acct recovery emails
-stats.uptimerobot.com # UptimeRobot
-syandus.com # Syandus
-tracking-protection.cdn.mozilla.net # Mozilla
-urldefense.proofpoint.com # Proofpoint
-use-application-dns.net # DoH Prevention
-wikipedia.org # Wikipedia
-# Adobe_Products_Whitelist.txt
-# Adobe Sites you may want to whitelist for full functionality
-entitlement.auth.adobe.com # Adobe
-dpm.demdex.net # Adobe
-fpdownload.adobe.com # Adobe
-sp.auth.adobe.com # Adobe
-sstats.adobe.com # adobe stock# Additional_Sites_Whitelist.txt
-sstats.adobe.com # adobe stock# Amazon_Products_Whitelist.txt
-# Amazon Sites you may want to whitelist for full functionality
-# Alexa
+0.pfsense.ntp.org # pfSense
+1drv.com # short link for OneDrive documents
+2.android.pool.ntp.org # android timing
+QuaLITY.mYstERIUM.netWoRK # Mysterium QA
+a.espncdn.com # ESPN
+a1.espncdn.com # ESPN
+a2.espncdn.com # ESPN
+aax-eu.amazon-adsystem.com  # Alexa App Install
+account-api.protonmail.com
+account-api.protonvpn.com
+account.np.ac.playstation.net # PlayStation
+account.protonmail.com
+account.protonvpn.com
+accounts.google.com # Google
+activity.windows.com # xbox
+ad.atdmt.com # Google Search Results
+afbank.com # Armed Forces Bank
+akamaihd.net # Akamai CDN
+akamaitechnologies.com # Akamai CDN
+akamaized.net # Akamai CDN
+amazon.com # amazon
+amazonadsi-a.akamaihd.net # Alexa App Install
+amazonaws.com # Amazon
+android.clients.google.com # google play store
+android.googleapis.com # androids
+api-partner.spotify.com # Spotify
+api-spotify.com # Spotify
+api-tv.spotify.com # spotify on TV
 api.amazonalexa.com # Alexa
+api.facebook.com # Facebook
+api.licensing.riverbed.com # riverbed
+api.nicehash.com # Nicehash
+api.protonvpn.ch
+api.protonvpn.ch# Online_Games_Whitelist.txt
+api.snapcraft.io # Ubuntu_Updates
+api.themoviedb.org/ # TheMovieDB
+api.twitter.com
+api2.nicehash.com # Nicehash
+app-analytics.snapchat.com # SnapChat
+app-api.ted.com # TEDTalks
+app.plex.tv # Plex
+appleid.apple.com # Apple ID
+apps.skype.com # Used to make group calls, group chats etc. on Skype
+appsbackup-pa.clients6.google.com # Google
+appsbackup-pa.googleapis.com # Google
+appspot-preview.l.google.com # Google
+apresolve.spotify.com # Spotify
+apt.sonarr.tv # Sonarr
+arc.msn.com # xbox
+arcus-uswest.amazon.com # Amazon
+ars.smartscreen.microsoft.com # Microsoft
+ash-dealer.spotify.com # Spotify
+ash.weblb-wg.dual-gslb.spotify.com # Spotify
+aspnetcdn.com # Microsoft AJAX CDN
+assets.huluim.com # Hulu
+attestation.xboxlive.com # Xbox
+audio-fa.spotify.com # Spotify
+audio-sp-fra2.pscdn.co # Spotify's Anti-Adveritsing blocking servers
+audio-sp.spotify.com # Spotify
 avs-alexa-1-na.amazon.com # Required for alexa
 avs-alexa-10-na.amazon.com # Required for alexa
 avs-alexa-11-na.amazon.com # Required for alexa
@@ -105,141 +137,109 @@ avs-alexa-7-na.amazon.com # Required for alexa
 avs-alexa-8-na.amazon.com # Required for alexa
 avs-alexa-9-na.amazon.com # Required for alexa
 avs.eu.amazonalexa.com # Alexa
+ax.phobos.apple.com.edgesuite.net
+b-api.facebook.com # Facebook
+b-graph.facebook.com # facebook
+banjo.canonical.com # Ubuntu
+bit.ly # URL Shortners
+bitpay.com # Bitcoin Payments
+brightcove.net
+browser.pipe.aria.microsoft.com
+c.amazon-adsystem.com # twitch
+c.s-microsoft.com # Microsoft
+captive.apple.com # iOS/Apple
+cbsinteractive.hb.omtrdc.net
+cdc.gov # CDC
+cdn-gl.imrworldwide.com # twitch
+cdn.cloudflare.net # Used to deliver static files over CloudFlare CDN
+cdn.fbsbx.com # Facebook
+cdn.highwinds.cs.steampowered.com # Steam
+cdn.optimizely.com # Game Content Delivery
+cdn.shopify.com # Required for dottiecouture
+cdn1.espn.net # ESPN CDN
+cdn2.optimizely.com # Game Content Delivery
+cdn3.optimizely.com # Game Content Delivery
+cdnjs.cloudflare.com # Used to deliver static files over CloudFlare CDN
+cert.mgt.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
+cf-st.sc-cdn.net # SnapChat
+chevrolet.com # Chevrolet
+cl.exct.net # (salesforce) required for some sites' acct recovery emails
+class.content.laureate.net # Walden University
+client-s.gateway.messenger.live.com # xbox live messaging
+client.wns.windows.com # Microsoft Store
+clientconfig.passport.net # Used in Windows Store
+clientconfig.passport.net # Xbox Live
+clients1.google.com # Google
+clients2.google.com # Google
+clients3.google.com # Google
+clients4.google.com # Google
+clients5.google.com # Google
+clients6.google.com # Google
+cloudsync-prod.s3.amazonaws.com # origion Saved Games
+confidently.chargebee.com
+connect.facebook.com # Facebook
+connect.facebook.net # Facebook
+connect.trezor.io # Shapeshift.com
+connectivitycheck.android.com
+connectivitycheck.gstatic.com
+continuum.dds.microsoft.com
 cortana-gateway.amazon.com # Alexa
-.fls-na.amazon.com # alexa
-.control.kochava.com # alexa 2
-d3p8zr0ffa9t17.cloudfront.net # Alexa
-amazonadsi-a.akamaihd.net # Alexa App Install
-aax-eu.amazon-adsystem.com  # Alexa App Install
-# Amazon
-.amazon-adsystem.com # amazon app ads
-.bs.serving-sys.com # amazon app 5
-.pixel.adsafeprotected.com # amazon app 4
-.px.moatads.com # amazon app 2
-.secure-gl.imrworldwide.com # amazon app 3
-amazon.com # amazon
-amazonaws.com # Amazon
+countess.twitch.tv # twitch
+cpms.spop10.ams.plex.bz # plex
+cpms35.spop10.ams.plex.bz # Plex
+creative.ak.fbcdn.net # Facebook
+cse.google.com # Google
+ctldl.windowsupdate.com # Windows Updates
+cws-hulu.conviva.com # Hulu
+cws.conviva.com # Hulu
+cws.conviva.com # Youtube Watch History
 d1s31zyz7dcc2d.cloudfront.net # Amazon Updates
 d21m0ezw6fosyw.cloudfront.net # Amazon Updates
 d2n99fpfeqbnhk.cloudfront.net # Amazon Updates
 d3a510xmpll7o6.cloudfront.net # Amazon Updates
 d3h5bk8iotgjvw.cloudfront.net # Amazon Updates
+d3p8zr0ffa9t17.cloudfront.net # Alexa
 d3uf8d0lloeluq.cloudfront.net # Amazon Updates
 d63r8xi1zu867.cloudfront.net # Amazon Updates
-device-metrics-us-2.amazon.com # Amazon
-dcape-na.amazon.com # Amazon
-dr49lng3n1n2s.cloudfront.net # AmazonAWS_Management
-msh.amazon.co.uk  # Alexa App Install
-s3-1.amazonaws.com # Amazon
-s3.amazonaws.com # Amazon
-softwareupdates.amazon.com # Amazon Updates
-www.amazon.com # amazon
-arcus-uswest.amazon.com # Amazon
-# Twitch
-s.amazon-adsystem.com # twitch
-c.amazon-adsystem.com # twitch
-cdn-gl.imrworldwide.com # twitch
-countess.twitch.tv # twitch
-pubsub-edge.twitch.tv # twitch
-# AWS
-www.dr49lng3n1n2s.cloudfront.net # AmazonAWS_Management# Apple_Products_Whitelist.txt
-# Apple Sites you may want to whitelist for full functionality
-appleid.apple.com # Apple ID
-ax.phobos.apple.com.edgesuite.net
-captive.apple.com # iOS/Apple
-gsp1.apple.com # Apple Connectivity tester
-ocsp.apple.com # Apple Certificate Validation
-s.mzstatic.com # iTunes
-www.apple.com # iOS/Apple
-www.appleiphonecell.com # iOS/Apple
-www.icloud.com # iCloud
-itunes.apple.com # itunes
-icloud.com # icloud# CDN_Products_Whitelist.txt
-# CDN Sites you may want to whitelist for full functionality
-# Akamai
-akamaihd.net # Akamai CDN
-akamaitechnologies.com # Akamai CDN
-akamaized.net # Akamai CDN
-# Cloudflare
-cdn.cloudflare.net # Cloudflare
-cdnjs.cloudflare.com # Cloudflare
-# Opensource
-jsdelivr.net # Opensource CDN
-# Crypto_Products_Whitelist.txt
-# Crypto Sites you may want to whitelist for full functionality
-# Bitcoin
-.bitcoin.org # Bitcoin
-# Coinbase
-.coinbase.com # Coinbase Wallet
-# Mining
-.coinmarketcap.com # Crypto Market tracker
-.simplemining.net # Mining_Controller
-simplemining.net # Mining_Controller
-.whattomine.com # Whattomine
-.miningrigrentals.com # MiningRigRentals
-# Nicehash
-api.nicehash.com # Nicehash
-api2.nicehash.com # Nicehash
 daggerhashimoto.usa.nicehash.com # DaggerHash Nicehash
-nhmws.nicehash.com # NiceHash
-www.api2.nicehash.com # Nicehash
-www.nhmws.nicehash.com # NiceHash
-www.nicehash.com # Nicehash Main site
-www.static.nicehash.com # NiceHash
-.status.nicehash.com # Nicehash
-.stratum.usa-west.nicehash.com # Nicehash
-.usa.nicehash.com # NiceHash
-static.nicehash.com # NiceHash
-# Shapeshift
-www.shapeshift.io # Shapeshift Wallet
-shapeshift.io # Shapeshift Wallet
-www.connect.trezor.io # Shapeshift.com
-connect.trezor.io # Shapeshift.com
-# Bitpay
-bitpay.com # Bitcoin Payments
-www.bitpay.com # Bitcoin Payments
-# Mysterium
-stun.l.google.com # Required for Mysterium VPN
-stun1.l.google.com # Required for Mysterium VPN
-stun2.l.google.com # Required for Mysterium VPN# Education_Products_Whitelist.txt
-# Education Sites you may want to whitelist for full functionality
-# Walden University
-.content.laureate.net # Walden University
-.waldenu.edu # Walden University
-class.content.laureate.net # Walden University
-waldenu.edu # Walden University
-# WGU
-secure-lti.wguassessment.com # Required for WGU
-# Schoology
-.learnosity.com # schoology
-s3.amazonaws.com/assets.learnosity.com # schoology
-s3.amazonaws.com/learnositymediaprocessed # schoology
-shared.learnosity.com # schoology
-.schoology.com # school
-# PearsonVue
-.pearson.com # PearsonVue
-.pearsonvue.com # PearsonVue
-.pndsn.com # PearsonVue
-.proctorcam.com # PearsonVue
-.programworkshop.com # PearsonVue
-.pubnub.com # PearsonVue
-.pubnubapi.com # PearsonVue
-.pvue2.com # PearsonVue
-.starttest.com # PearsonVue
-.starttest2.com # PearsonVue
-.twilio.com # PearsonVue
-.wowza.com # PearsonVue# Facebook_Products_Whitelist.txt
-# Facebook Sites you may want to whitelist for full functionality
-# Facebook
-api.facebook.com # Facebook
-b-api.facebook.com # Facebook
-b-graph.facebook.com # facebook
-cdn.fbsbx.com # Facebook
-connect.facebook.com # Facebook
-connect.facebook.net # Facebook
-cf-st.sc-cdn.net # SnapChat
-creative.ak.fbcdn.net # Facebook
+dashboard.plex.tv # Plex
+dcape-na.amazon.com # Amazon
+dealer-ssl.spotify.com # Spotify
+dealer.spotify.com # Spotify
+def-vef.xboxlive.com # Xbox
+definitionupdates.microsoft.com # Microsoft Security Center
+dev.virtualearth.net # Bing_Maps
+device-metrics-us-2.amazon.com # Amazon
+device-provisioning.googleapis.com # required for youtubeapp
+device.auth.xboxlive.com # Xbox
+discord.com # Required for discord access
+displaycatalog.mp.microsoft.com # Microsoft Store
+dl.delivery.mp.microsoft.com # Microsoft Store
+dl.dropbox.com # Dropbox
+dl.dropboxusercontent.com # Dropbox
+dl.google.com # google Chrome update on Linux
+dmd.metaservices.microsoft.com # Microsoft
+dmd.metaservices.microsoft.com.akadns.net # Microsoft
+dns.msftncsi.com # Connectivity tested
+dns.msftncsi.com # Microsoft
+dns1.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+dns2.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+dns3.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+dns4.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
+docs.google.com # google docs
+download.dm.origin.com # Origin_Games
+download.sonarr.tv # Sonarr
+dpm.demdex.net # Adobe
+dr49lng3n1n2s.cloudfront.net # AmazonAWS_Management
+dropbox.com # Dropbox
+ea.com # Game Content Delivery
+ecn.dev.virtualearth.net # Bing_Maps
+edge-chat.facebook.com # Facebook
+edge-chat.messenger.com # facebook Messenger
 edge-mqtt.facebook.com # Facebook
+eds.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
+entitlement.auth.adobe.com # Adobe
+entitlement.auth.adobe.com # WatchESPN
 external-arn2-1.xx.fbcdn.net # Facebook
 external-cph2-1.xx.fbcdn.net # Facebook
 external-lhr0-1.xx.fbcdn.net # Facebook
@@ -255,102 +255,369 @@ external-lhr8-1.xx.fbcdn.net # Facebook
 external-lhr9-1.xx.fbcdn.net # Facebook
 external.xx.fbcdn.net # Facebook
 facebook.com # facebook
+fanart.tv # Plex fanart
 fb.me bigzipfiles.facebook.com # Facebook
 fbcdn-creative-a.akamaihd.net # Facebook
-l.facebook.com # Facebook
-limited-prod.giphy.map.fastly.net # Facebook
-m.facebook.com # Facebook
-media.tenor.co # Facebook
-media0.giphy.com # Facebook
-media1.giphy.com # Facebook
-media2.giphy.com # Facebook
-media3.giphy.com # Facebook
-mqtt-mini.facebook.com # Facebook
-mqtt.c10r.facebook.com # Facebook
-scontent-cph2-1.xx.fbcdn.net # Facebook
-scontent-lhr3-1.xx.fbcdn.net # Facebook
-scontent.fgdl5-1.fna.fbcdn.net # Facebook
-scontent.xx.fbcdn.net # Facebook
-star-mini.c10r.facebook.com # Facebook
-star.c10r.facebook.com # Facebook
-star.facebook.com # Facebook
-upload.facebook.com # Facebook
-upload.messenger.com # Facebook
-web.facebook.com # Facebook
-www.facebook.com # Facebook
-www.messenger.com # Facebook
-graph.facebook.com # Facebook
-portal.fb.com # Facebook
-rupload.facebook.com # Facebook
-res.cloudinary.com # Facebook image upload
-video-cph2-1.xx.fbcdn.net # Facebook
-scontent-arn2-1.xx.fbcdn.net # Facebook
-# Facebook Messenger
-edge-chat.facebook.com # Facebook
-edge-chat.messenger.com # facebook Messenger
-scontent-atl3-1.xx.fbcdn.net # facebook Messenger
-messenger.com # Facebook Messenger
-static.xx.fbcdn.net # facebook Messenger
-video.xx.fbcdn.net # facebook Messenger
-# Snapchat
-sc-analytics.appspot.com # SnapChat
-app-analytics.snapchat.com # SnapChat
-# Financial_Products_Whitelist.txt
-# Financial Sites you may want to whitelist for full functionality
-# Armed Forces Bank
-.afbank.com # Armed Forces Bank
-.secure.afbank.com # Armed Forces Bank
-afbank.com # Armed Forces Bank
-secure.afbank.com # Armed Forces Bank
-# Bank Of America
-www.bankofamerica.com # Bank Of America
-# MarketWatch
-widget-cdn.rpxnow.com # Market Watch Images
-# Paypal
-www.paypal.com # Paypal# Google_Products_Whitelist.txt
-# Google Sites you may want to whitelist for full functionality
-# Google Docs
-.docs.google.com # GDocs
-www.docs.google.com # google docs
-# Google Drive
-.drive.google.com # GDrive
-# Google Forms 
-.forms.gle # Google Forms
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net # Microsoft
+firebaseremoteconfig.googleapis.com # Required for Tidal
+firestore.googleapis.com
+fonts.gstatic.com
 forms.gle # Google Forms
-# Google
-0.client-channel.google.com # Google
-accounts.google.com # Google
-appsbackup-pa.clients6.google.com # Google
-appsbackup-pa.googleapis.com # Google
-appspot-preview.l.google.com # Google
-clients1.google.com # Google
-clients2.google.com # Google
-clients3.google.com # Google
-clients4.google.com # Google
-clients5.google.com # Google
-clients6.google.com # Google
-cse.google.com # Google
-docs.google.com # google docs
+forms.office.com # Office
+forums.sonarr.tv # Sonarr
+fpdownload.adobe.com # Adobe
+fpdownload.adobe.com # WatchESPN
+fs.microsoft.com # Microsoft
+g.live.com # bitlocker recovery
+gcdn.2mdn.net # Spotify's Anti-Adveritsing blocking servers
+geo-prod.do.dsp.mp.microsoft.com # Microsoft Store
+geo3.ggpht.com # Spotify
+gew1-accesspoint-b-zzfg.ap.spotify.com # Spotify's Anti-Adveritsing blocking servers
+gfwsl.geforce.com # Geforce Updates
+giphy.com # Giphy
+github.com # Github Opensource_Content
+github.io # Github Opensource_Content
+github.map.fastly.net # CNAME for (raw.githubusercontent.com)
+gitlab.com # gitlaB
+go.microsoft.com # Microsoft
 goo.gl # URL Shortners
 google.com # Just Google
 googleads.g.doubleclick.net # Google Search Results
 googleadservices.com # Google Search Results
 googleapis.com # Google
-googleapis.l.google.com # Google
+googleapis.l.google.com # Gmail
+graph.facebook.com # Facebook
+gravatar.com # custom login pictures
+gslb.spotify.com # Spotify
+gsp-ssl.ls-apple.com.akadns.net # Apple Weather
+gsp-ssl.ls.apple.com # Apple Weather
+gsp1.apple.com # Apple Connectivity tester
 gstatic.com # Google Static Content
+gstaticadssl.l.google.com # Google Fonts
+help.ui.xboxlive.com # Xbox
+hls.ted.com # TEDTalks
+hotels.com # Hotels search
+i.imgur.com # Imgur
+i.s-microsoft.com # Microsoft
+i.scdn.co # Spotify on TV album covers
+i.ytimg.com # Youtube
+i1.ytimg.com # Youtube
+icloud.com # icloud
+id.sonyentertainmentnetwork.com # PlayStation
+imap.mail.yahoo.com # yahoo email
+img.vidible.tv # Videos on times.com and nydailynews.com
+ipv6.msftncsi.com # microsoft connectivity tester
+itunes.apple.com # itunes
+j.mp # URL Shortners
+jsdelivr.net # Opensource CDN
+keystone.mwbsys.com # Malware Server
+l.facebook.com # Facebook
+lastfm-img2.akamaized.net # Last.fm
+licensing.mp.microsoft.com # Minecraft
+licensing.xboxlive.com # Xbox
+licensingphone.mp.microsoft.com # Microsoft
+limited-prod.giphy.map.fastly.net # Facebook
+linkedin.com # Linkedin
+live.com # Microsoft
+livepassdl.conviva.com # WatchESPN
+login.aliexpress.com # Aliexpress
+login.live.com # Microsoft
+login.microsoftonline.com # Microsoft
+login.microsoftonline.us # Required for Army_Web_Mail
+login.msa.akadns6.net # Microsoft
+login.yahoo.com # Yahoo
+m.facebook.com # Facebook
+m.hotmail.com # Hotmail
+m.weeklyad.target.com # Target Ads
+mail.protonmail.com
+mail.yahoo.com # yahoo email
+manifest.googlevideo.com # Youtube
+media.steampowered.com # Steam
+media.tenor.co # Facebook
+media.video-cdn.espn.com # ESPN
+media0.giphy.com # Facebook
+media1.giphy.com # Facebook
+media2.giphy.com # Facebook
+media3.giphy.com # Facebook
+messenger.com # Facebook Messenger
+meta-db-worker02.pop.ric.plex.bz # Plex
+meta.plex.bz # Plex
+meta.plex.tv # Plex
+metrics.plex.tv # Plex
+microsoft.com # Microsoft
+microsoftonline.com # Microsoft
+minecraftprod.rtep.msgamestudios.com # Minecraft
+mobile.pipe.aria.microsoft.com # Microsoft
+mobile.twitter.com # Twitter app
+mqtt-mini.facebook.com # Facebook
+mqtt.c10r.facebook.com # Facebook
+msedge.api.cdp.microsoft.com # Microsoft Edge Updates
+msftconnecttest.com # Windows Connection Tester
+msftncsi.com # Microsoft Connectivity tester
+msh.amazon.co.uk  # Alexa App Install
+my.plexapp.com # Plex
+netflix.com # Netflix
+nexus.officeapps.live.com # Microsoft
+nexusrules.officeapps.live.com # Microsoft
+nhmws.nicehash.com # NiceHash
+nine.plugins.plexapp.com # Plex
+node.plexapp.com # Plex
+notify.xboxlive.com # Xbox
+ns1.dropbox.com # Dropbox
+ns1.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
+ns2.dropbox.com # Dropbox
+ns3.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
+ns4.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
+o.scdn.co # Spotify on TV more images
+o1.email.plex.tv # Plex
+o2.sg0.plex.tv # Plex
+oauthaccountmanager.googleapis.com # required for youtubeapp
+ocsp.apple.com # Apple Certificate Validation
+office.com # Microsoft Office
+office.net # Microsoft Office
+office365.com # Microsoft Office
+officeclient.microsoft.com # Microsoft Office
+oldnavy.gap.com # oldnavy
+onedrive.live.com # Microsoft Onedrive
+open.scdn.co # Spotify
+open.spotify.com # Spotify Web Player
+outlook.live.com # Microsoft Outlook
+outlook.office365.com # Microsoft Outlook
+ow.ly # URL Shortners
+paramountplus.com
+pbs.twimg.com # twitter images
+pin-river.data.ea.com # EA
+pings.conviva.com # Youtube Watch History
+pinterest.com # Pinterest
+pkskids.org # pbs kids
+placehold.it # Image Placeholder
+play.spotify.com # Spotify Web Player
+plex.tv # Plex
+pop.mail.yahoo.com # yahoo email
+portal.fb.com # Facebook
+post.net.playstation.net # PlayStation
+pricelist.skype.com # Skype
+prod.msocdn.com # Microsoft
+prod.telemetry.ros.rockstargames.com # GTA V Online
+products.office.com # Microsoft office
+protonmail.com
+protonvpn.com
+proxy.plex.bz # plex
+proxy.plex.tv # plex
+proxy02.pop.ord.plex.bz # plex
+ps4-system.sec.np.dl.playstation.net # PlayStation
+ps4updptl.uk.np.community.playstation.net # PlayStation
+pubsub-edge.twitch.tv # twitch
+pubsub.plex.bz # plex
+pubsub.plex.tv # plex
+r9---sn-n4v7kn76.c.2mdn.net # Spotify's Anti-Adveritsing blocking servers
+raw.githubusercontent.com # github
+reddit.com # reddit
+redirector.googlevideo.com # Youtube
+redirector.gvt1.com # Spotify
+redirector.gvt1.com # android TV
 reminders-pa.googleapis.com
+res.cloudinary.com # Facebook image upload
+river.data.ea.com # EA
+riverbed.com # riverbed
+rupload.facebook.com # Facebook
+s.amazon-adsystem.com # twitch
+s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
+s.mzstatic.com # iTunes
+s.shopify.com # Shopify
+s.youtube.com # Youtube
+s.ytimg.com # Youtube
+s1.wp.com # wordpress
+s2.youtube.com # youtube
+s3-1.amazonaws.com # Amazon
+s3.amazonaws.com # Amazon
+s3.amazonaws.com/assets.learnosity.com # schoology
+s3.amazonaws.com/learnositymediaprocessed # schoology
+sc-analytics.appspot.com # SnapChat
+scontent-arn2-1.xx.fbcdn.net # Facebook
+scontent-atl3-1.xx.fbcdn.net # facebook Messenger
+scontent-cph2-1.xx.fbcdn.net # Facebook
+scontent-lhr3-1.xx.fbcdn.net # Facebook
+scontent.fgdl5-1.fna.fbcdn.net # Facebook
+scontent.xx.fbcdn.net # Facebook
+secure-lti.wguassessment.com # Required for WGU
+secure-oldnavy.gap.com # oldnavy
+secure.afbank.com # Armed Forces Bank
+secure.brightcove.com # Brightcove Video Platform
+secure.download.dm.origin.com # Origin_Games
+secure.surveymonkey.com # Survey Monkey
+self.events.data.microsoft.com # Microsoft
+services.sonarr.tv # Sonarr
+settings-win.data.microsoft.com # Microsoft
+settings.data.microsoft.com # Microsoft
+sfdataservice.microsoft.com # Microsoft
+shapeshift.io # Shapeshift Wallet
+shared.learnosity.com # schoology
+sharepoint.com # Sharepoint
+simplemining.net # Mining_Controller
+skyhook.sonarr.tv # Sonarr
+skype.com # Skype and xbox chat
+sls.update.microsoft.com # Microsoft
+sls.update.microsoft.com.akadns.net # Microsoft
+smartscreen-sn3p.smartscreen.microsoft.com # Microsoft
+smtp.mail.yahoo.com # yahoo email
+snappytvpoc-vh.akamaihd.net # Video Player
+softwareupdates.amazon.com # Amazon Updates
+someonewhocares.org # Dan Pollocks Homepage
+sonyentertainmentnetwork.com # PlayStation
+sp-ad-cf.audio.tidal.com # Required for Tidal
+sp.auth.adobe.com # Adobe
+spclient.spotify.com # Spotify
+spclient.wg.spotify.com # Spotify
+sstats.adobe.com # adobe stock
+stackoverflow.com # StackOverflow
+staging.plex.tv # Plex
+star-mini.c10r.facebook.com # Facebook
+star.c10r.facebook.com # Facebook
+star.facebook.com # Facebook
+static.nicehash.com # NiceHash
+static.xx.fbcdn.net # facebook Messenger
+stats.uptimerobot.com # UptimeRobot
+status.plex.tv # Plex
+steam.com # Steam
+sto3.spotify.com # Spotify
+storeedgefd.dsx.mp.microsoft.com # Microsoft Store
+stun.l.google.com # Required for Mysterium VPN
+stun1.l.google.com # Required for Mysterium VPN
+stun2.l.google.com # Required for Mysterium VPN
+support.microsoft.com # Microsoft
+surveymonkey.com # Survey Monkey
+syandus.com # Syandus
+t0.ssl.ak.dynamic.tiles.virtualearth.net # Bing Maps
+t0.ssl.ak.tiles.virtualearth.net # Bing Maps
+tedcdn.com # TEDTalks
+themoviedb.com # metadata for movies
+themoviedb.org #themoviedatabase
+thetvdb.com # metadata for tv series
+time-a-g.nist.gov # National Institute of Standards and Technology
+time.nist.gov # National Institute of Standards and Technology
+tinyurl.com # URL Shortners
+title.auth.xboxlive.com # Xbox
+title.mgt.xboxlive.com # Xbox
+tlu.dl.delivery.mp.microsoft.com # Microsoft Store
+tracking-protection.cdn.mozilla.net # Mozilla
+tracking.epicgames.com # Epic Games
+traffic.libsyn.com # Plex Podcasts
+traffic.megaphone.fm # Plex Podcasts
+tv.scdn.co # Spotify on TV
+tvdb2.plex.tv # Plex
+tvthemes.plexapp.com # Plex
+tvthemes.plexapp.com.cdn.cloudflare.net # Plex
+twimg.com # Twitter
+twitter.com # Twitter
+ui.com # Unifi
+ui.skype.com # Skype
+unitedstates.smartscreen-prod.microsoft.com # Microsoft
+unms.com # Unifi Network Management System
+unsplash.com # Image Hoster
+upload.facebook.com # Facebook
+upload.messenger.com # Facebook
+upload.twitter.com # Twitter posts
+urldefense.proofpoint.com # Proofpoint
+us.pool.ntp.org # NTP Pool Project
+use-application-dns.net # DoH Prevention
+v.w-x.co # Videos on weather.com
+v10.events.data.microsoft.com # Xbox Live
+v10.vortex-win.data.microsoft.com
+v10.vortex-win.data.microsoft.com # Xbox
+v20.events.data.microsoft.com # xbox
+valve555.steamcontent.com # Steam
+valve564.steamcontent.com # Steam
+video-cph2-1.xx.fbcdn.net # Facebook
+video-stats.l.google.com # Youtube
+video.xx.fbcdn.net # facebook Messenger
+vidtech.cbsinteractive.com # CBS
+vimeo.com # Vimeo
+vortex.data.microsoft.com # Microsoft
+vortex.hulu.com # Hulu
+waldenu.edu # Walden University
+wdcp.microsoft.com # Microsoft
+web.facebook.com # Facebook
+weeklyad.target.com # Target Email Ads
+weeklyad.target.com.edgesuite.net # Target Email Ads
+wg.spotify.com # Spotify
+wgu.examity.com # WGU Testing
+widget-cdn.rpxnow.com
+widget-cdn.rpxnow.com # Market Watch Images
+widget-cdn.rpxnow.com # Used as a sign in method in various apps and sites
+wikipedia.org # Wikipedia
+win10.ipv6.microsoft.com # Microsoft_Updates
+wordpress.com # Wordpress
+wp.com # Wordpress
+ws.audioscrobbler.com # Plex Last.fm
+ws.audioscrobbler.com# Microsoft_Products_Whitelist.txt
+www.account.np.ac.playstation.net # PlayStation
+www.ads-v-darwin.hulustream.com # Hulu
+www.amazon.com # amazon
+www.api2.nicehash.com # Nicehash
+www.apple.com # iOS/Apple
+www.appleiphonecell.com # iOS/Apple
+www.assets.adobedtm.com # OliveGarden_online
+www.bankofamerica.com # Bank Of America
+www.bit.ly # URL Shortners# Yahoo_Products_Whitelist.txt
+www.bitpay.com # Bitcoin Payments
+www.cdn.shopify.com # dottiecouture
+www.client.hip.live.com # needed to setup microsoft live account
+www.connect.trezor.io # Shapeshift.com
+www.discord.com # Required for discord access
+www.dnsstuff.com # DNSSTUFF NETWORKSTUFF
+www.docs.google.com # google docs
+www.dr49lng3n1n2s.cloudfront.net # AmazonAWS_Management
+www.dropbox-dns.com # CNAME for (dropbox.com)
+www.dropbox.com # Dropbox
+www.ds-aksb-a.akamaihd.net # olivegarden
+www.espn.com # espn
+www.facebook.com # Facebook
+www.firebaseremoteconfig.googleapis.com # Required for Tidal
+www.gitlab.com # gitlaB
 www.google.com # Google
 www.googleapis.com # Google
-firestore.googleapis.com
-fonts.gstatic.com
-ad.atdmt.com # Google Search Results
-dl.google.com # chrome update
-# Youtube
-manifest.googlevideo.com # Youtube
-oauthaccountmanager.googleapis.com # required for youtubeapp
-pings.conviva.com # Youtube Watch History
-video-stats.l.google.com # Youtube
-device-provisioning.googleapis.com # required for youtubeapp
+www.icloud.com # iCloud# CDN_Products_Whitelist.txt
+www.id.sonyentertainmentnetwork.com # PlayStation
+www.level3.cdn.steampipe.steamcontent.com # Steam
+www.lifehacker.com # Guides
+www.malc0de.com # MalC0de_Blocklists
+www.media.steampowered.com # Steam
+www.messenger.com # Facebook
+www.msftconnecttest.com # Windows Connection Tester
+www.msftncsi.com # Microsoft Connectivity tester
+www.nhmws.nicehash.com # NiceHash
+www.nicehash.com # Nicehash Main site
+www.paramountplus.com
+www.paypal.com # Paypal# Google_Products_Whitelist.txt
+www.pbs.twimg.com # twitter images
+www.plex.tv # Plex
+www.post.net.playstation.net # PlayStation
+www.priceline.com # travel shopping
+www.ps4-system.sec.np.dl.playstation.net # PlayStation
+www.ps4updptl.uk.np.community.playstation.net # PlayStation
+www.shapeshift.io # Shapeshift Wallet
+www.sonyentertainmentnetwork.com # PlayStation
+www.sp-ad-cf.audio.tidal.com # Required for Tidal
+www.stackoverflow.com # Stack Overflow	
+www.static.nicehash.com # NiceHash
+www.target.com # target
+www.traffic.megaphone.fm # Required for Plex Podcasts
+www.twitter.com # Twitter
+www.userbenchmark.com # Userbenchmark
+www.v2.zopim.com # Required for brandymelvilleusa.com
+www.valve555.steamcontent.com # Steam
+www.valve564.steamcontent.com # Steam
+www.xboxlive.com # Xbox
+www.youtube-nocookie.com # Youtube
+www.youtube.com # Youtube
+xbox.ipv6.microsoft.com # Xbox
+xboxab.com # Xbox
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com # Xbox
+xkms.xbolive.com # Xbox
+xsts.auth.xboxlive.com # Xbox
+yahoo.com # Yahoo
 youtu.be # youtube
 youtube-nocookie.com # youtube
 youtube-ui.l.google.com # CNAME for (youtube.com)
@@ -358,384 +625,4 @@ youtube.com # Youtube
 youtubei.googleapis.com # required for youtubeapp
 yt3.ggpht.com # youtube
 zee.cws.conviva.com # Youtube Watch History
-www.youtube-nocookie.com # Youtube
-www.youtube.com # Youtube
-i.ytimg.com # Youtube
-i1.ytimg.com # Youtube
-redirector.googlevideo.com # Youtube
-s2.youtube.com # youtube
-s.youtube.com # Youtube
-s.ytimg.com # Youtube
-cws.conviva.com # Youtube Watch History
-# Android
-connectivitycheck.android.com
-connectivitycheck.gstatic.com
-android.clients.google.com # Androids
-android.googleapis.com # androids
-2.android.pool.ntp.org # android timing
-redirector.gvt1.com # android TV# Linux_Products_Whitelist.txt
-# Linux Sites you may want to whitelist for full functionality
-# Ubuntu
-.canonical.com # Ubuntu_Updates
-api.snapcraft.io # Ubuntu_Updates
-banjo.canonical.com # Ubuntu# Media_Products_Whitelist.txt
-# Media Sites you may want to whitelist for full functionality
-# Plex
-www.plex.tv # Plex
-cpms.spop10.ams.plex.bz # plex
-cpms35.spop10.ams.plex.bz # Plex
-fanart.tv # Plex fanart
-meta-db-worker02.pop.ric.plex.bz # Plex
-meta.plex.bz # Plex
-meta.plex.tv # Plex
-metrics.plex.tv # Plex
-my.plexapp.com # Plex
-o1.email.plex.tv # Plex
-o2.sg0.plex.tv # Plex
-nine.plugins.plexapp.com # Plex
-node.plexapp.com # Plex
-pubsub.plex.bz # plex
-pubsub.plex.tv # plex
-proxy.plex.bz # plex
-proxy.plex.tv # plex
-proxy02.pop.ord.plex.bz # plex
-staging.plex.tv # Plex
-status.plex.tv # Plex
-plex.tv # Plex
-traffic.libsyn.com # Plex Podcasts
-traffic.megaphone.fm # Plex Podcasts
-tvdb2.plex.tv # Plex
-tvthemes.plexapp.com # Plex
-tvthemes.plexapp.com.cdn.cloudflare.net # Plex
-ws.audioscrobbler.com # Plex Last.fm
-www.traffic.megaphone.fm # Required for Plex Podcasts
-dashboard.plex.tv # Plex
-app.plex.tv # Plex
-# ESPN
-www.espn.com # espn
-a.espncdn.com # ESPN
-a1.espncdn.com # ESPN
-a2.espncdn.com # ESPN
-cdn1.espn.net # ESPN CDN
-media.video-cdn.espn.com # ESPN
-# Hulu
-cws-hulu.conviva.com # Hulu
-cws.conviva.com # Hulu
-www.ads-v-darwin.hulustream.com # Hulu
-vortex.hulu.com # Hulu
-assets.huluim.com # Hulu
-# Spotify
-dns1.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
-dns2.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
-dns3.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
-dns4.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
-ns3.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
-ns4.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
-o.scdn.co # Spotify on TV more images
-ns1.p23.dynect.net # Spotify's Anti-Adveritsing blocking servers
-open.scdn.co # Spotify
-open.spotify.com # Spotify Web Player
-r9---sn-n4v7kn76.c.2mdn.net # Spotify's Anti-Adveritsing blocking servers
-redirector.gvt1.com # Spotify
-spclient.spotify.com # Spotify
-spclient.wg.spotify.com # Spotify
-sto3.spotify.com # Spotify
-tv.scdn.co # Spotify on TV
-api-partner.spotify.com # Spotify
-api-spotify.com # Spotify
-api-tv.spotify.com # Spotify
-api-tv.spotify.com # spotify on TV
-audio-fa.spotify.com # Spotify
-audio-sp-fra2.pscdn.co # Spotify's Anti-Adveritsing blocking servers
-audio-sp.spotify.com # Spotify
-apresolve.spotify.com # Spotify
-ash-dealer.spotify.com # Spotify
-ash.weblb-wg.dual-gslb.spotify.com # Spotify
-gcdn.2mdn.net # Spotify's Anti-Adveritsing blocking servers
-geo3.ggpht.com # Spotify
-gew1-accesspoint-b-zzfg.ap.spotify.com # Spotify's Anti-Adveritsing blocking servers
-dealer-ssl.spotify.com # Spotify
-dealer.spotify.com # Spotify
-wg.spotify.com # Spotify
-play.spotify.com # Spotify Web Player
-gslb.spotify.com # Spotify
-i.scdn.co # Spotify on TV album covers
-# Netflix
-netflix.com # Netflix
-# Tidal
-sp-ad-cf.audio.tidal.com # Required for Tidal
-www.firebaseremoteconfig.googleapis.com # Required for Tidal
-www.sp-ad-cf.audio.tidal.com # Required for Tidal
-firebaseremoteconfig.googleapis.com # Required for Tidal
-# Sonarr
-skyhook.sonarr.tv # Sonarr
-apt.sonarr.tv # Sonarr
-forums.sonarr.tv # Sonarr
-download.sonarr.tv # Sonarr
-services.sonarr.tv # Sonarr
-# Other Sites
-.themoviedb.org # themoviedatabase
-themoviedb.com # metadata for movies
-themoviedb.org #themoviedatabase
-thetvdb.com # metadata for tv series
-lastfm-img2.akamaized.net # Last.fm
-api.themoviedb.org/ # TheMovieDB# Microsoft_Products_Whitelist.txt
-# Microsoft Sites you may want to whitelist for full functionality
-# Microsoft
-ars.smartscreen.microsoft.com # Microsoft
-aspnetcdn.com # Microsoft AJAX CDN
-browser.pipe.aria.microsoft.com
-c.s-microsoft.com # Microsoft
-client-s.gateway.messenger.live.com # xbox live messaging
-client.wns.windows.com # Microsoft Store
-continuum.dds.microsoft.com
-definitionupdates.microsoft.com # Microsoft Security Center
-displaycatalog.mp.microsoft.com # Microsoft Store
-dl.delivery.mp.microsoft.com # Microsoft Store
-dmd.metaservices.microsoft.com # Microsoft
-dmd.metaservices.microsoft.com.akadns.net # Microsoft
-dns.msftncsi.com # Microsoft
-fe3.delivery.dsp.mp.microsoft.com.nsatc.net # Microsoft
-forms.office.com # Office
-fs.microsoft.com # Microsoft
-geo-prod.do.dsp.mp.microsoft.com # Microsoft Store
-go.microsoft.com # Microsoft
-i.s-microsoft.com # Microsoft
-ipv6.msftncsi.com # microsoft connectivity tester
-licensing.mp.microsoft.com # Minecraft
-licensing.xboxlive.com # Xbox
-licensingphone.mp.microsoft.com # Microsoft
-login.live.com # Microsoft
-login.microsoftonline.com # Microsoft
-login.microsoftonline.us # Required for Army_Web_Mail
-login.msa.akadns6.net # Microsoft
-live.com # Microsoft
-microsoft.com # Microsoft
-microsoftonline.com # Microsoft
-minecraftprod.rtep.msgamestudios.com # Minecraft
-mobile.pipe.aria.microsoft.com # Microsoft
-msedge.api.cdp.microsoft.com # Microsoft Edge Updates
-msftconnecttest.com # Windows Connection Tester
-msftncsi.com # Microsoft Connectivity tester
-nexus.officeapps.live.com # Microsoft
-nexusrules.officeapps.live.com # Microsoft
-prod.msocdn.com # Microsoft
-settings-win.data.microsoft.com # Microsoft
-settings.data.microsoft.com # Microsoft
-sfdataservice.microsoft.com # Microsoft
-self.events.data.microsoft.com # Microsoft
-sls.update.microsoft.com # Microsoft
-sls.update.microsoft.com.akadns.net # Microsoft
-smartscreen-sn3p.smartscreen.microsoft.com # Microsoft
-storeedgefd.dsx.mp.microsoft.com # Microsoft Store
-support.microsoft.com # Microsoft
-tlu.dl.delivery.mp.microsoft.com # Microsoft Store
-unitedstates.smartscreen-prod.microsoft.com # Microsoft
-v10.vortex-win.data.microsoft.com
-vortex.data.microsoft.com # Microsoft
-wdcp.microsoft.com # Microsoft
-win10.ipv6.microsoft.com # Microsoft_Updates
-www.client.hip.live.com # needed to setup microsoft live account
-www.msftconnecttest.com # Windows Connection Tester
-www.msftncsi.com # Microsoft Connectivity tester
-# Microsoft Office
-office.com # Microsoft Office
-office.net # Microsoft Office
-office365.com # Microsoft Office
-officeclient.microsoft.com # Microsoft Office
-products.office.com # Microsoft office
-# Microsoft Onedrive
-onedrive.live.com # Microsoft Onedrive
-1drv.com # OneDrive
-# Microsoft Outlook
-outlook.live.com # Microsoft Outlook
-outlook.office365.com # Microsoft Outlook
-s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
-# Xbox
-v10.events.data.microsoft.com # Xbox Live
-v20.events.data.microsoft.com # xbox
-xbox.ipv6.microsoft.com # Xbox
-xboxab.com # Xbox
-xboxexperiencesprod.experimentation.xboxlive.com
-xflight.xboxlive.com # Xbox
-xkms.xbolive.com # Xbox
-xsts.auth.xboxlive.com # Xbox
-www.xboxlive.com # Xbox
-.xboxlive.com # Xbox
-activity.windows.com # xbox
-arc.msn.com # xbox
-attestation.xboxlive.com # Xbox
-cert.mgt.xboxlive.com # Xbox
-clientconfig.passport.net # Xbox Live
-def-vef.xboxlive.com # Xbox
-device.auth.xboxlive.com # Xbox
-eds.xboxlive.com # xbox
-help.ui.xboxlive.com # Xbox
-notify.xboxlive.com # Xbox
-skype.com # Skype and xbox chat
-title.auth.xboxlive.com # Xbox
-title.mgt.xboxlive.com # Xbox
-# Windows Updates
-ctldl.windowsupdate.com # Windows Updates
-linkedin.com # Linkedin
-m.hotmail.com # Hotmail
-sharepoint.com # Sharepoint
-# Bing_Maps
-t0.ssl.ak.dynamic.tiles.virtualearth.net # Bing Maps
-t0.ssl.ak.tiles.virtualearth.net # Bing Maps
-ecn.dev.virtualearth.net # Bing_Maps
-dev.virtualearth.net # Bing_Maps
-# Skype
-pricelist.skype.com # Skype
-ui.skype.com # Skype
-apps.skype.com # Skype
-# Github
-github.com # Github Opensource_Content
-github.io # Github Opensource_Content
-github.map.fastly.net # CNAME for (raw.githubusercontent.com)
-g.live.com # bitlocker recovery
-raw.githubusercontent.com # github
-.github.com # Github Opensource_Content
-.githubusercontent.com # Github Opensource_Content# Online_Games_Whitelist.txt
-# Online Game Sites you may want to whitelist for full functionality
-.heartbeat.dm.origin.com # Origin_Games
-.nick.com # Kids Games
-.pbskids.org # Kids Games
-.store.steampowered.com # Steam
-cdn.optimizely.com # Game Content Delivery
-cdn2.optimizely.com # Game Content Delivery
-cdn3.optimizely.com # Game Content Delivery
-ea.com # Game Content Delivery
-pkskids.org # pbs kids
-tracking.epicgames.com # Epic Games
-cloudsync-prod.s3.amazonaws.com # origion Saved Games# Online_Games_Whitelist.txt
-# Target
-www.target.com # target
-weeklyad.target.com # Target Email Ads
-weeklyad.target.com.edgesuite.net # Target Email Ads
-m.weeklyad.target.com # Target Ads
-www.v2.zopim.com # Required for brandymelvilleusa.com
 zulily.com # Zulily Store
-www.ds-aksb-a.akamaihd.net # olivegarden
-www.priceline.com # travel shopping
-www.cdn.shopify.com # dottiecouture
-s.shopify.com # Shopify
-login.aliexpress.com # Aliexpress
-hotels.com # Hotels search
-cdn.shopify.com # Required for dottiecouture
-oldnavy.gap.com # oldnavy
-www.assets.adobedtm.com # OliveGarden_online
-secure-oldnavy.gap.com # oldnavy# Social_Media_Whitelist.txt
-# Social Media Sites you may want to whitelist for full functionality
-twimg.com # Twitter
-twitter.com # Twitter
-www.twitter.com # Twitter
-www.pbs.twimg.com # twitter images
-pbs.twimg.com # twitter images
-reddit.com # reddit
-pinterest.com # Pinterest# Storage_Products_Whitelist.txt
-# Storage Products Sites you may want to whitelist for full functionality
-dl.dropbox.com # Dropbox
-dl.dropboxusercontent.com # Dropbox
-dropbox.com # Dropbox
-ns1.dropbox.com # Dropbox
-ns2.dropbox.com # Dropbox
-www.dropbox-dns.com # CNAME for (dropbox.com)
-www.dropbox.com # Dropbox# URL_Shortners_Whitelist.txt
-# URL Shortner Sites you may want to whitelist for full functionality
-bit.ly # URL Shortners
-j.mp # URL Shortners
-ow.ly # URL Shortners
-tinyurl.com # URL Shortners
-www.bit.ly # URL Shortners
-# Yahoo_Products_Whitelist.txt
-# Yahoo Product Sites you may want to whitelist for full functionality
-yahoo.com # Yahoo
-.mail.yahoo.com # yahoo email
-imap.mail.yahoo.com # yahoo email
-login.yahoo.com # Yahoo
-mail.yahoo.com # yahoo email
-pop.mail.yahoo.com # yahoo email
-smtp.mail.yahoo.com # yahoo email# Amazon_Products_Whitelist.txt
-icloud.com # icloud
-www.icloud.com # iCloud# CDN_Products_Whitelist.txt
-# 1/19/2021
-widget-cdn.rpxnow.com # Used as a sign in method in various apps and sites
-cdn.cloudflare.net # Used to deliver static files over CloudFlare CDN
-cdnjs.cloudflare.com # Used to deliver static files over CloudFlare CDN
-jsdelivr.net # Opensource CDN# Crypto_Products_Whitelist.txt
-stun2.l.google.com # Required for Mysterium VPN
-QuaLITY.mYstERIUM.netWoRK # Mysterium QA# Education_Products_Whitelist.txt
-entitlement.auth.adobe.com # WatchESPN
-fpdownload.adobe.com # WatchESPN
-livepassdl.conviva.com # WatchESPN
-# Fox News
-widget-cdn.rpxnow.com
-# Paramount Plus
-cbsinteractive.hb.omtrdc.net
-paramountplus.com
-www.paramountplus.com
-# TEDTalks
-app-api.ted.com # TEDTalks
-hls.ted.com # TEDTalks
-tedcdn.com # TEDTalks
-api.themoviedb.org/ # TheMovieDB
-ws.audioscrobbler.com# Microsoft_Products_Whitelist.txt
-clientconfig.passport.net # Used in Windows Store
-dns.msftncsi.com # Connectivity tested
-1drv.com # short link for OneDrive documents
-cert.mgt.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
-eds.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
-v10.vortex-win.data.microsoft.com # Xbox
-apps.skype.com # Used to make group calls, group chats etc. on Skype
-.githubusercontent.com # Github Opensource_Content
-# Linkedin
-# Hotmail
-#Sharepoint
-sharepoint.com # Sharepoint# Online_Games_Whitelist.txt
-# Steam
-cdn.highwinds.cs.steampowered.com # Steam
-media.steampowered.com # Steam
-steam.com # Steam
-valve555.steamcontent.com # Steam
-valve564.steamcontent.com # Steam
-www.level3.cdn.steampipe.steamcontent.com # Steam
-www.media.steampowered.com # Steam
-www.valve555.steamcontent.com # Steam
-www.valve564.steamcontent.com # Steam
-# Origin_Games
-cloudsync-prod.s3.amazonaws.com # origion Saved Games
-download.dm.origin.com # Origin_Games
-secure.download.dm.origin.com # Origin_Games
-# EA
-pin-river.data.ea.com # EA
-river.data.ea.com # EA
-# Grand Theft Auto V Online PC
-# Since March blocking Rockstar telemetry seems to crash GTAOnline.
-# Unblocking the domain fixed crashing for people at GTA Forums
-prod.telemetry.ros.rockstargames.com # GTA V Online# Online_Games_Whitelist.txt
-secure-oldnavy.gap.com # oldnavy
-zulily.com # Zulily Store# Social_Media_Whitelist.txt
-# Twitter
-# Pinterest
-pinterest.com # Pinterest
-# Reddit
-reddit.com # reddit# Sony_Products_Whitelist.txt
-# Sony Product Sites you may want to whitelist for full functionality
-# PlayStation
-account.np.ac.playstation.net # PlayStation
-id.sonyentertainmentnetwork.com # PlayStation
-post.net.playstation.net # PlayStation
-ps4-system.sec.np.dl.playstation.net # PlayStation
-ps4updptl.uk.np.community.playstation.net # PlayStation
-sonyentertainmentnetwork.com # PlayStation
-www.account.np.ac.playstation.net # PlayStation
-www.id.sonyentertainmentnetwork.com # PlayStation
-www.post.net.playstation.net # PlayStation
-www.ps4-system.sec.np.dl.playstation.net # PlayStation
-www.ps4updptl.uk.np.community.playstation.net # PlayStation
-www.sonyentertainmentnetwork.com # PlayStation# Storage_Products_Whitelist.txt
-www.bit.ly # URL Shortners# Yahoo_Products_Whitelist.txt
-# Yahoo
-# Yahoo Email
-smtp.mail.yahoo.com # yahoo email
