@@ -1,6 +1,6 @@
 # Crypto_Products_Whitelist.txt
 # Crypto Sites you may want to whitelist for full functionality
-# 1/17/2021
+# 1/19/2021
 
 # Bitcoin
 .bitcoin.org # Bitcoin
@@ -10,24 +10,24 @@
 
 # Mining
 .coinmarketcap.com # Crypto Market tracker
-.simplemining.net # Mining_Controller
-simplemining.net # Mining_Controller
-.whattomine.com # Whattomine
 .miningrigrentals.com # MiningRigRentals
+.simplemining.net # Mining_Controller
+.whattomine.com # Whattomine
+simplemining.net # Mining_Controller
 
 # Nicehash
+.status.nicehash.com # Nicehash
+.stratum.usa-west.nicehash.com # Nicehash
+.usa.nicehash.com # NiceHash
 api.nicehash.com # Nicehash
 api2.nicehash.com # Nicehash
 daggerhashimoto.usa.nicehash.com # DaggerHash Nicehash
 nhmws.nicehash.com # NiceHash
+static.nicehash.com # NiceHash
 www.api2.nicehash.com # Nicehash
 www.nhmws.nicehash.com # NiceHash
 www.nicehash.com # Nicehash Main site
 www.static.nicehash.com # NiceHash
-.status.nicehash.com # Nicehash
-.stratum.usa-west.nicehash.com # Nicehash
-.usa.nicehash.com # NiceHash
-static.nicehash.com # NiceHash
 
 # Shapeshift
 www.shapeshift.io # Shapeshift Wallet

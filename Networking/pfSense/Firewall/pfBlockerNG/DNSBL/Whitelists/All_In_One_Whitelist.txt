@@ -1,43 +1,38 @@
+# All_In_One_Whitelist.txt
+# All the whitelists in one
+# 1/19/2022
+
 # Additional_Sites_Whitelist.txt
 # Additional Sites you may want to whitelist for full functionality
 # 1/17/2021
-
 # DNSSTUFF
 .dnsstuff.com # DNSSTUFF NETWORKSTUFF
 www.dnsstuff.com # DNSSTUFF NETWORKSTUFF
-
 # Riverbed
 .riverbed.com # riverbed
 .api.licensing.riverbed.com # riverbed
 api.licensing.riverbed.com # riverbed
 riverbed.com # riverbed
-
 # Unifi
 .trace.svc.ui.com # Unifi
 ui.com # Unifi
 unms.com # Unifi Network Management System
-
 # GOV Sites
 .usajobs.gov # USAJobs
 .usastaffing.gov # USAJobs
 cdc.gov # CDC
-
 # Security Based Sites
 .virustotal.com # Virustotal
 keystone.mwbsys.com # Malware Server
 www.malc0de.com # MalC0de_Blocklists
 someonewhocares.org # Dan Pollocks Homepage
-
 # Car Sites
 chevrolet.com # Chevrolet
-
 # Chat
 discord.com # Required for discord access
 www.discord.com # Required for discord access
-
 # Nvidia
 gfwsl.geforce.com # Geforce Updates
-
 # Image Hosting Sites
 brightcove.net
 giphy.com # Giphy
@@ -45,33 +40,33 @@ gravatar.com # custom login pictures
 i.imgur.com # Imgur
 placehold.it # Image Placeholder
 unsplash.com # Image Hoster
-
 # GitLab
 gitlab.com # gitlaB
 .gitlab.com # Gitlab Opensource_Content
 www.gitlab.com # gitlaB
-
 # WordPress
 s1.wp.com # wordpress
 wordpress.com # Wordpress
 wp.com # Wordpress
-
 # Video Hosting Sites
 secure.brightcove.com # Brightcove Video Platform
 vimeo.com # Vimeo
 img.vidible.tv # Videos on times.com and nydailynews.com
 vidtech.cbsinteractive.com # CBS
-
 # Survey Monkey
 secure.surveymonkey.com # Survey Monkey
 surveymonkey.com # Survey Monkey
-
 # DIY Sites
 www.lifehacker.com # Guides
 www.stackoverflow.com # Stack Overflow	
 www.userbenchmark.com # Userbenchmark
 stackoverflow.com # StackOverflow
-
+# NTP
+us.pool.ntp.org # NTP Pool Project
+time.nist.gov # National Institute of Standards and Technology
+0.pfsense.ntp.org # pfSense
+time-a-g.nist.gov # National Institute of Standards and Technology
+0.north-america.pool.ntp.org # NTP Pool Project
 # Others
 cl.exct.net # (salesforce) required for some sites' acct recovery emails
 stats.uptimerobot.com # UptimeRobot
@@ -80,21 +75,15 @@ tracking-protection.cdn.mozilla.net # Mozilla
 urldefense.proofpoint.com # Proofpoint
 use-application-dns.net # DoH Prevention
 wikipedia.org # Wikipedia
-
-
-
 # Adobe_Products_Whitelist.txt
 # Adobe Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 entitlement.auth.adobe.com # Adobe
 dpm.demdex.net # Adobe
 fpdownload.adobe.com # Adobe
 sp.auth.adobe.com # Adobe
+sstats.adobe.com # adobe stock# Additional_Sites_Whitelist.txt
 sstats.adobe.com # adobe stock# Amazon_Products_Whitelist.txt
 # Amazon Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Alexa
 api.amazonalexa.com # Alexa
 avs-alexa-1-na.amazon.com # Required for alexa
@@ -122,7 +111,6 @@ cortana-gateway.amazon.com # Alexa
 d3p8zr0ffa9t17.cloudfront.net # Alexa
 amazonadsi-a.akamaihd.net # Alexa App Install
 aax-eu.amazon-adsystem.com  # Alexa App Install
-
 # Amazon
 .amazon-adsystem.com # amazon app ads
 .bs.serving-sys.com # amazon app 5
@@ -147,19 +135,15 @@ s3.amazonaws.com # Amazon
 softwareupdates.amazon.com # Amazon Updates
 www.amazon.com # amazon
 arcus-uswest.amazon.com # Amazon
-
 # Twitch
 s.amazon-adsystem.com # twitch
 c.amazon-adsystem.com # twitch
 cdn-gl.imrworldwide.com # twitch
 countess.twitch.tv # twitch
 pubsub-edge.twitch.tv # twitch
-
 # AWS
 www.dr49lng3n1n2s.cloudfront.net # AmazonAWS_Management# Apple_Products_Whitelist.txt
 # Apple Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 appleid.apple.com # Apple ID
 ax.phobos.apple.com.edgesuite.net
 captive.apple.com # iOS/Apple
@@ -172,36 +156,27 @@ www.icloud.com # iCloud
 itunes.apple.com # itunes
 icloud.com # icloud# CDN_Products_Whitelist.txt
 # CDN Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Akamai
 akamaihd.net # Akamai CDN
 akamaitechnologies.com # Akamai CDN
 akamaized.net # Akamai CDN
-
 # Cloudflare
 cdn.cloudflare.net # Cloudflare
 cdnjs.cloudflare.com # Cloudflare
-
 # Opensource
 jsdelivr.net # Opensource CDN
 # Crypto_Products_Whitelist.txt
 # Crypto Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Bitcoin
 .bitcoin.org # Bitcoin
-
 # Coinbase
 .coinbase.com # Coinbase Wallet
-
 # Mining
 .coinmarketcap.com # Crypto Market tracker
 .simplemining.net # Mining_Controller
 simplemining.net # Mining_Controller
 .whattomine.com # Whattomine
 .miningrigrentals.com # MiningRigRentals
-
 # Nicehash
 api.nicehash.com # Nicehash
 api2.nicehash.com # Nicehash
@@ -215,40 +190,32 @@ www.static.nicehash.com # NiceHash
 .stratum.usa-west.nicehash.com # Nicehash
 .usa.nicehash.com # NiceHash
 static.nicehash.com # NiceHash
-
 # Shapeshift
 www.shapeshift.io # Shapeshift Wallet
 shapeshift.io # Shapeshift Wallet
 www.connect.trezor.io # Shapeshift.com
 connect.trezor.io # Shapeshift.com
-
 # Bitpay
 bitpay.com # Bitcoin Payments
 www.bitpay.com # Bitcoin Payments
-
 # Mysterium
 stun.l.google.com # Required for Mysterium VPN
 stun1.l.google.com # Required for Mysterium VPN
 stun2.l.google.com # Required for Mysterium VPN# Education_Products_Whitelist.txt
 # Education Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Walden University
 .content.laureate.net # Walden University
 .waldenu.edu # Walden University
 class.content.laureate.net # Walden University
 waldenu.edu # Walden University
-
 # WGU
 secure-lti.wguassessment.com # Required for WGU
-
 # Schoology
 .learnosity.com # schoology
 s3.amazonaws.com/assets.learnosity.com # schoology
 s3.amazonaws.com/learnositymediaprocessed # schoology
 shared.learnosity.com # schoology
 .schoology.com # school
-
 # PearsonVue
 .pearson.com # PearsonVue
 .pearsonvue.com # PearsonVue
@@ -263,8 +230,6 @@ shared.learnosity.com # schoology
 .twilio.com # PearsonVue
 .wowza.com # PearsonVue# Facebook_Products_Whitelist.txt
 # Facebook Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Facebook
 api.facebook.com # Facebook
 b-api.facebook.com # Facebook
@@ -320,7 +285,6 @@ rupload.facebook.com # Facebook
 res.cloudinary.com # Facebook image upload
 video-cph2-1.xx.fbcdn.net # Facebook
 scontent-arn2-1.xx.fbcdn.net # Facebook
-
 # Facebook Messenger
 edge-chat.facebook.com # Facebook
 edge-chat.messenger.com # facebook Messenger
@@ -328,45 +292,31 @@ scontent-atl3-1.xx.fbcdn.net # facebook Messenger
 messenger.com # Facebook Messenger
 static.xx.fbcdn.net # facebook Messenger
 video.xx.fbcdn.net # facebook Messenger
-
 # Snapchat
 sc-analytics.appspot.com # SnapChat
 app-analytics.snapchat.com # SnapChat
-
-
-
 # Financial_Products_Whitelist.txt
 # Financial Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Armed Forces Bank
 .afbank.com # Armed Forces Bank
 .secure.afbank.com # Armed Forces Bank
 afbank.com # Armed Forces Bank
 secure.afbank.com # Armed Forces Bank
-
 # Bank Of America
 www.bankofamerica.com # Bank Of America
-
 # MarketWatch
 widget-cdn.rpxnow.com # Market Watch Images
-
 # Paypal
 www.paypal.com # Paypal# Google_Products_Whitelist.txt
 # Google Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Google Docs
 .docs.google.com # GDocs
 www.docs.google.com # google docs
-
 # Google Drive
 .drive.google.com # GDrive
-
 # Google Forms 
 .forms.gle # Google Forms
 forms.gle # Google Forms
-
 # Google
 0.client-channel.google.com # Google
 accounts.google.com # Google
@@ -395,7 +345,6 @@ firestore.googleapis.com
 fonts.gstatic.com
 ad.atdmt.com # Google Search Results
 dl.google.com # chrome update
-
 # Youtube
 manifest.googlevideo.com # Youtube
 oauthaccountmanager.googleapis.com # required for youtubeapp
@@ -418,7 +367,6 @@ s2.youtube.com # youtube
 s.youtube.com # Youtube
 s.ytimg.com # Youtube
 cws.conviva.com # Youtube Watch History
-
 # Android
 connectivitycheck.android.com
 connectivitycheck.gstatic.com
@@ -427,15 +375,11 @@ android.googleapis.com # androids
 2.android.pool.ntp.org # android timing
 redirector.gvt1.com # android TV# Linux_Products_Whitelist.txt
 # Linux Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Ubuntu
 .canonical.com # Ubuntu_Updates
 api.snapcraft.io # Ubuntu_Updates
 banjo.canonical.com # Ubuntu# Media_Products_Whitelist.txt
 # Media Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Plex
 www.plex.tv # Plex
 cpms.spop10.ams.plex.bz # plex
@@ -467,7 +411,6 @@ ws.audioscrobbler.com # Plex Last.fm
 www.traffic.megaphone.fm # Required for Plex Podcasts
 dashboard.plex.tv # Plex
 app.plex.tv # Plex
-
 # ESPN
 www.espn.com # espn
 a.espncdn.com # ESPN
@@ -475,14 +418,12 @@ a1.espncdn.com # ESPN
 a2.espncdn.com # ESPN
 cdn1.espn.net # ESPN CDN
 media.video-cdn.espn.com # ESPN
-
 # Hulu
 cws-hulu.conviva.com # Hulu
 cws.conviva.com # Hulu
 www.ads-v-darwin.hulustream.com # Hulu
 vortex.hulu.com # Hulu
 assets.huluim.com # Hulu
-
 # Spotify
 dns1.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
 dns2.p07.nsone.net # Spotify's Anti-Adveritsing blocking servers
@@ -519,23 +460,19 @@ wg.spotify.com # Spotify
 play.spotify.com # Spotify Web Player
 gslb.spotify.com # Spotify
 i.scdn.co # Spotify on TV album covers
-
 # Netflix
 netflix.com # Netflix
-
 # Tidal
 sp-ad-cf.audio.tidal.com # Required for Tidal
 www.firebaseremoteconfig.googleapis.com # Required for Tidal
 www.sp-ad-cf.audio.tidal.com # Required for Tidal
 firebaseremoteconfig.googleapis.com # Required for Tidal
-
 # Sonarr
 skyhook.sonarr.tv # Sonarr
 apt.sonarr.tv # Sonarr
 forums.sonarr.tv # Sonarr
 download.sonarr.tv # Sonarr
 services.sonarr.tv # Sonarr
-
 # Other Sites
 .themoviedb.org # themoviedatabase
 themoviedb.com # metadata for movies
@@ -544,8 +481,6 @@ thetvdb.com # metadata for tv series
 lastfm-img2.akamaized.net # Last.fm
 api.themoviedb.org/ # TheMovieDB# Microsoft_Products_Whitelist.txt
 # Microsoft Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Microsoft
 ars.smartscreen.microsoft.com # Microsoft
 aspnetcdn.com # Microsoft AJAX CDN
@@ -603,23 +538,19 @@ win10.ipv6.microsoft.com # Microsoft_Updates
 www.client.hip.live.com # needed to setup microsoft live account
 www.msftconnecttest.com # Windows Connection Tester
 www.msftncsi.com # Microsoft Connectivity tester
-
 # Microsoft Office
 office.com # Microsoft Office
 office.net # Microsoft Office
 office365.com # Microsoft Office
 officeclient.microsoft.com # Microsoft Office
 products.office.com # Microsoft office
-
 # Microsoft Onedrive
 onedrive.live.com # Microsoft Onedrive
 1drv.com # OneDrive
-
 # Microsoft Outlook
 outlook.live.com # Microsoft Outlook
 outlook.office365.com # Microsoft Outlook
 s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
-
 # Xbox
 v10.events.data.microsoft.com # Xbox Live
 v20.events.data.microsoft.com # xbox
@@ -644,38 +575,29 @@ notify.xboxlive.com # Xbox
 skype.com # Skype and xbox chat
 title.auth.xboxlive.com # Xbox
 title.mgt.xboxlive.com # Xbox
-
 # Windows Updates
 ctldl.windowsupdate.com # Windows Updates
 linkedin.com # Linkedin
 m.hotmail.com # Hotmail
 sharepoint.com # Sharepoint
-
 # Bing_Maps
 t0.ssl.ak.dynamic.tiles.virtualearth.net # Bing Maps
 t0.ssl.ak.tiles.virtualearth.net # Bing Maps
 ecn.dev.virtualearth.net # Bing_Maps
 dev.virtualearth.net # Bing_Maps
-
 # Skype
 pricelist.skype.com # Skype
 ui.skype.com # Skype
 apps.skype.com # Skype
-
 # Github
 github.com # Github Opensource_Content
 github.io # Github Opensource_Content
 github.map.fastly.net # CNAME for (raw.githubusercontent.com)
 g.live.com # bitlocker recovery
-github.com # Github Opensource_Content
-github.io # Github Opensource_Content
-github.map.fastly.net # CNAME for (raw.githubusercontent.com)
 raw.githubusercontent.com # github
 .github.com # Github Opensource_Content
 .githubusercontent.com # Github Opensource_Content# Online_Games_Whitelist.txt
 # Online Game Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 .heartbeat.dm.origin.com # Origin_Games
 .nick.com # Kids Games
 .pbskids.org # Kids Games
@@ -686,20 +608,12 @@ cdn3.optimizely.com # Game Content Delivery
 ea.com # Game Content Delivery
 pkskids.org # pbs kids
 tracking.epicgames.com # Epic Games
-.store.steampowered.com # Steam
-tracking.epicgames.com # Epic Games
 cloudsync-prod.s3.amazonaws.com # origion Saved Games# Online_Games_Whitelist.txt
-# Online Game Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 # Target
 www.target.com # target
 weeklyad.target.com # Target Email Ads
 weeklyad.target.com.edgesuite.net # Target Email Ads
 m.weeklyad.target.com # Target Ads
-m.weeklyad.target.com # Target Ads
-
-# Other Sites
 www.v2.zopim.com # Required for brandymelvilleusa.com
 zulily.com # Zulily Store
 www.ds-aksb-a.akamaihd.net # olivegarden
@@ -708,16 +622,11 @@ www.cdn.shopify.com # dottiecouture
 s.shopify.com # Shopify
 login.aliexpress.com # Aliexpress
 hotels.com # Hotels search
-www.v2.zopim.com # Required for brandymelvilleusa.com
-login.aliexpress.com # Aliexpress
 cdn.shopify.com # Required for dottiecouture
-www.priceline.com # travel shopping
 oldnavy.gap.com # oldnavy
 www.assets.adobedtm.com # OliveGarden_online
 secure-oldnavy.gap.com # oldnavy# Social_Media_Whitelist.txt
 # Social Media Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 twimg.com # Twitter
 twitter.com # Twitter
 www.twitter.com # Twitter
@@ -726,8 +635,6 @@ pbs.twimg.com # twitter images
 reddit.com # reddit
 pinterest.com # Pinterest# Storage_Products_Whitelist.txt
 # Storage Products Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 dl.dropbox.com # Dropbox
 dl.dropboxusercontent.com # Dropbox
 dropbox.com # Dropbox
@@ -736,23 +643,99 @@ ns2.dropbox.com # Dropbox
 www.dropbox-dns.com # CNAME for (dropbox.com)
 www.dropbox.com # Dropbox# URL_Shortners_Whitelist.txt
 # URL Shortner Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 bit.ly # URL Shortners
 j.mp # URL Shortners
 ow.ly # URL Shortners
 tinyurl.com # URL Shortners
 www.bit.ly # URL Shortners
-ow.ly # URL Shortners
-j.mp # URL Shortners
 # Yahoo_Products_Whitelist.txt
 # Yahoo Product Sites you may want to whitelist for full functionality
-# 1/17/2021
-
 yahoo.com # Yahoo
 .mail.yahoo.com # yahoo email
 imap.mail.yahoo.com # yahoo email
 login.yahoo.com # Yahoo
 mail.yahoo.com # yahoo email
 pop.mail.yahoo.com # yahoo email
+smtp.mail.yahoo.com # yahoo email# Amazon_Products_Whitelist.txt
+icloud.com # icloud
+www.icloud.com # iCloud# CDN_Products_Whitelist.txt
+# 1/19/2021
+widget-cdn.rpxnow.com # Used as a sign in method in various apps and sites
+cdn.cloudflare.net # Used to deliver static files over CloudFlare CDN
+cdnjs.cloudflare.com # Used to deliver static files over CloudFlare CDN
+jsdelivr.net # Opensource CDN# Crypto_Products_Whitelist.txt
+stun2.l.google.com # Required for Mysterium VPN
+QuaLITY.mYstERIUM.netWoRK # Mysterium QA# Education_Products_Whitelist.txt
+entitlement.auth.adobe.com # WatchESPN
+fpdownload.adobe.com # WatchESPN
+livepassdl.conviva.com # WatchESPN
+# Fox News
+widget-cdn.rpxnow.com
+# Paramount Plus
+cbsinteractive.hb.omtrdc.net
+paramountplus.com
+www.paramountplus.com
+# TEDTalks
+app-api.ted.com # TEDTalks
+hls.ted.com # TEDTalks
+tedcdn.com # TEDTalks
+api.themoviedb.org/ # TheMovieDB
+ws.audioscrobbler.com# Microsoft_Products_Whitelist.txt
+clientconfig.passport.net # Used in Windows Store
+dns.msftncsi.com # Connectivity tested
+1drv.com # short link for OneDrive documents
+cert.mgt.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
+eds.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
+v10.vortex-win.data.microsoft.com # Xbox
+apps.skype.com # Used to make group calls, group chats etc. on Skype
+.githubusercontent.com # Github Opensource_Content
+# Linkedin
+# Hotmail
+#Sharepoint
+sharepoint.com # Sharepoint# Online_Games_Whitelist.txt
+# Steam
+cdn.highwinds.cs.steampowered.com # Steam
+media.steampowered.com # Steam
+steam.com # Steam
+valve555.steamcontent.com # Steam
+valve564.steamcontent.com # Steam
+www.level3.cdn.steampipe.steamcontent.com # Steam
+www.media.steampowered.com # Steam
+www.valve555.steamcontent.com # Steam
+www.valve564.steamcontent.com # Steam
+# Origin_Games
+cloudsync-prod.s3.amazonaws.com # origion Saved Games
+download.dm.origin.com # Origin_Games
+secure.download.dm.origin.com # Origin_Games
+# EA
+pin-river.data.ea.com # EA
+river.data.ea.com # EA
+# Grand Theft Auto V Online PC
+# Since March blocking Rockstar telemetry seems to crash GTAOnline.
+# Unblocking the domain fixed crashing for people at GTA Forums
+prod.telemetry.ros.rockstargames.com # GTA V Online# Online_Games_Whitelist.txt
+secure-oldnavy.gap.com # oldnavy
+zulily.com # Zulily Store# Social_Media_Whitelist.txt
+# Twitter
+# Pinterest
+pinterest.com # Pinterest
+# Reddit
+reddit.com # reddit# Sony_Products_Whitelist.txt
+# Sony Product Sites you may want to whitelist for full functionality
+# PlayStation
+account.np.ac.playstation.net # PlayStation
+id.sonyentertainmentnetwork.com # PlayStation
+post.net.playstation.net # PlayStation
+ps4-system.sec.np.dl.playstation.net # PlayStation
+ps4updptl.uk.np.community.playstation.net # PlayStation
+sonyentertainmentnetwork.com # PlayStation
+www.account.np.ac.playstation.net # PlayStation
+www.id.sonyentertainmentnetwork.com # PlayStation
+www.post.net.playstation.net # PlayStation
+www.ps4-system.sec.np.dl.playstation.net # PlayStation
+www.ps4updptl.uk.np.community.playstation.net # PlayStation
+www.sonyentertainmentnetwork.com # PlayStation# Storage_Products_Whitelist.txt
+www.bit.ly # URL Shortners# Yahoo_Products_Whitelist.txt
+# Yahoo
+# Yahoo Email
 smtp.mail.yahoo.com # yahoo email

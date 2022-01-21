@@ -1,0 +1,18 @@
+# Proton_Products_Whitelist.txt
+# Proton Products you may want to whitelist for full functionality
+# 1/20/2021
+
+# Proton Mail
+account.protonmail.com
+mail.protonmail.com
+protonmail.com
+account-api.protonmail.com
+account.protonmail.com
+
+# Proton VPN
+account.protonvpn.com
+api.protonvpn.ch
+protonvpn.com
+account-api.protonvpn.com
+account.protonvpn.com
+api.protonvpn.ch

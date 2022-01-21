@@ -4,23 +4,23 @@
 
 # Steam
 .store.steampowered.com # Steam
-steam.com # Steam
-www.media.steampowered.com # Steam
-media.steampowered.com # Steam
-www.valve564.steamcontent.com # Steam
-www.valve564.steamcontent.com # Steam
-www.valve555.steamcontent.com # Steam
-valve564.steamcontent.com # Steam
-valve564.steamcontent.com # Steam
-valve555.steamcontent.com # Steam
-www.level3.cdn.steampipe.steamcontent.com # Steam
 cdn.highwinds.cs.steampowered.com # Steam
+media.steampowered.com # Steam
+steam.com # Steam
+valve555.steamcontent.com # Steam
+valve564.steamcontent.com # Steam
+valve564.steamcontent.com # Steam
+www.level3.cdn.steampipe.steamcontent.com # Steam
+www.media.steampowered.com # Steam
+www.valve555.steamcontent.com # Steam
+www.valve564.steamcontent.com # Steam
+www.valve564.steamcontent.com # Steam
 
 # Origin_Games
 .heartbeat.dm.origin.com # Origin_Games
-secure.download.dm.origin.com # Origin_Games
-download.dm.origin.com # Origin_Games
 cloudsync-prod.s3.amazonaws.com # origion Saved Games
+download.dm.origin.com # Origin_Games
+secure.download.dm.origin.com # Origin_Games
 
 # EA
 pin-river.data.ea.com # EA

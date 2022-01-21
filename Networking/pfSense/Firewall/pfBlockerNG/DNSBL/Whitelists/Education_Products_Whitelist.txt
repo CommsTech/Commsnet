@@ -1,6 +1,6 @@
 # Education_Products_Whitelist.txt
 # Education Sites you may want to whitelist for full functionality
-# 1/17/2021
+# 1/20/2021
 
 # Walden University
 .content.laureate.net # Walden University
@@ -10,13 +10,14 @@ waldenu.edu # Walden University
 
 # WGU
 secure-lti.wguassessment.com # Required for WGU
+wgu.examity.com # WGU Testing
 
 # Schoology
 .learnosity.com # schoology
+.schoology.com # school
 s3.amazonaws.com/assets.learnosity.com # schoology
 s3.amazonaws.com/learnositymediaprocessed # schoology
 shared.learnosity.com # schoology
-.schoology.com # school
 
 # PearsonVue
 .pearson.com # PearsonVue

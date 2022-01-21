@@ -1,6 +1,6 @@
 # Additional_Sites_Whitelist.txt
 # Additional Sites you may want to whitelist for full functionality
-# 1/17/2021
+# 1/20/2021
 
 # DNSSTUFF
 .dnsstuff.com # DNSSTUFF NETWORKSTUFF
@@ -78,6 +78,9 @@ time.nist.gov # National Institute of Standards and Technology
 0.pfsense.ntp.org # pfSense
 time-a-g.nist.gov # National Institute of Standards and Technology
 0.north-america.pool.ntp.org # NTP Pool Project
+
+# confidently
+confidently.chargebee.com
 
 # Others
 cl.exct.net # (salesforce) required for some sites' acct recovery emails

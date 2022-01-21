@@ -1,6 +1,6 @@
 # Google_Products_Whitelist.txt
 # Google Sites you may want to whitelist for full functionality
-# 1/17/2021
+# 1/19/2021
 
 # Google Docs
 .docs.google.com # GDocs
@@ -16,6 +16,7 @@ forms.gle # Google Forms
 # Google
 0.client-channel.google.com # Google
 accounts.google.com # Google
+ad.atdmt.com # Google Search Results
 appsbackup-pa.clients6.google.com # Google
 appsbackup-pa.googleapis.com # Google
 appspot-preview.l.google.com # Google
@@ -26,7 +27,10 @@ clients4.google.com # Google
 clients5.google.com # Google
 clients6.google.com # Google
 cse.google.com # Google
+dl.google.com # chrome update
 docs.google.com # google docs
+firestore.googleapis.com
+fonts.gstatic.com
 goo.gl # URL Shortners
 google.com # Just Google
 googleads.g.doubleclick.net # Google Search Results
@@ -37,17 +41,22 @@ gstatic.com # Google Static Content
 reminders-pa.googleapis.com
 www.google.com # Google
 www.googleapis.com # Google
-firestore.googleapis.com
-fonts.gstatic.com
-ad.atdmt.com # Google Search Results
-dl.google.com # chrome update
 
 # Youtube
+cws.conviva.com # Youtube Watch History
+device-provisioning.googleapis.com # required for youtubeapp
+i.ytimg.com # Youtube
+i1.ytimg.com # Youtube
 manifest.googlevideo.com # Youtube
 oauthaccountmanager.googleapis.com # required for youtubeapp
 pings.conviva.com # Youtube Watch History
+redirector.googlevideo.com # Youtube
+s.youtube.com # Youtube
+s.ytimg.com # Youtube
+s2.youtube.com # youtube
 video-stats.l.google.com # Youtube
-device-provisioning.googleapis.com # required for youtubeapp
+www.youtube-nocookie.com # Youtube
+www.youtube.com # Youtube
 youtu.be # youtube
 youtube-nocookie.com # youtube
 youtube-ui.l.google.com # CNAME for (youtube.com)
@@ -55,20 +64,11 @@ youtube.com # Youtube
 youtubei.googleapis.com # required for youtubeapp
 yt3.ggpht.com # youtube
 zee.cws.conviva.com # Youtube Watch History
-www.youtube-nocookie.com # Youtube
-www.youtube.com # Youtube
-i.ytimg.com # Youtube
-i1.ytimg.com # Youtube
-redirector.googlevideo.com # Youtube
-s2.youtube.com # youtube
-s.youtube.com # Youtube
-s.ytimg.com # Youtube
-cws.conviva.com # Youtube Watch History
 
 # Android
-connectivitycheck.android.com
-connectivitycheck.gstatic.com
+2.android.pool.ntp.org # android timing
 android.clients.google.com # Androids
 android.googleapis.com # androids
-2.android.pool.ntp.org # android timing
+connectivitycheck.android.com
+connectivitycheck.gstatic.com
 redirector.gvt1.com # android TV

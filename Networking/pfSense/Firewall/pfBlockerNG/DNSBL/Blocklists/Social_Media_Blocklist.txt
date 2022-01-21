@@ -1,6 +1,6 @@
 # Social_Media_Blocklist.txt
 # Social Media Sites you may want to block
-# 1/19/2021
+# 1/20/2021
 
 # Tiktok Tracking and Fingerprinting Hosts
 a15-tb.isnssdk.com
@@ -187,3 +187,11 @@ xlog.tiktokv.com
 xlog.tiktokv.com.edgesuite.net
 zong-khi-v1.l.byteoversea.net
 zong-lhe-v1.l.byteoversea.net
+
+# facebook
+# I have not curated a good facebook list yet but check out https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
+
+# reddit
+
+# instagram
+graph.instagram.com # Instagram Telemetry
