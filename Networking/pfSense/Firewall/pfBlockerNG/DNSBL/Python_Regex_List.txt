@@ -1,6 +1,6 @@
 # Python_Regex_list.txt
 # Python Regex blocking list
-# 1/20/2021
+# 1/21/2021
 
 ######### ADS and Trackers ###########
 (.*\.|^)((think)?with)?google($|((adservices|static|syndication|tagmanager|tagservices|-analytics)($|\..+)))
@@ -45,8 +45,7 @@
 ^mads\.
 ^pixels?[-.]
 ^stat(s|istics)?[0-9]*[_.-]
-^track(ers?|ing)?[0-9]*[-.]
-^track(ing)?[0-9]*[_.-]
+^track(ers?|ing)?[0-9]*([-.]|[_.-])
 ^traff(ic)?[-.]
 double-{0,}clic(k|k[.]*by-{0,}google)\.[a-z]{2,7}$
 google-{0,}(analytics{0,}|(ad|tag)manager)\.[a-z]{2,7}$
