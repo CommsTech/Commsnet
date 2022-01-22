@@ -11,24 +11,19 @@
 ([A-Za-z0-9.-]*\.)?clicks\.beap/
 ([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2 ,4})/
 ([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
-([A-Za-z0-9.-]*)(.fls.||.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})
-([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
-([A-Za-z0-9.-]*\.)?evidon\.com/
-([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
-([A-Za-z0-9.-]*\.)?flashtalking\.com/
+([A-Za-z0-9.-]*)(.fls.||.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4}|\.com)/
+([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4}|\.com)/
 ([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
 ([A-Za-z0-9.-]*\.)?match\.com/
-([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
-([A-Za-z0-9.-]*\.)?mathtag\.com/
+([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4}|\.com)/
 ([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
 ([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/
-([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
-([A-Za-z0-9.-]*\.)?scorecardresearch\.com/
+([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4}|\.com)/
 ([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
 ([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
 ([A-Za-z0-9.-]*\.)?surveylink/
-([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4})/
-([A-Za-z0-9.-]*\.)?turn\.com/
+([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4}|\.com)/
 ([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})/
 ([A-Za-z0-9.-]*\.)?yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/
 (ads|captive|logs)\.roku\.com$	
@@ -63,9 +58,6 @@ google-{0,}(analytic|syndication|(ad[a-z0-9]*|tag)-{0,}service)[s]\.[a-z]{2,7}$
 (^|\.)lgsmartad\.com
 (^|\.)smartshare\.lgtvsdp\.com
 (^|\.)rdx2\.lgtvsdp\.com
-^[a-z]{11,15}$
-ngfts.lge.com
-lgtvonline.lge.com
 
 # Samsung
 (^|\.)giraffic\.com$
