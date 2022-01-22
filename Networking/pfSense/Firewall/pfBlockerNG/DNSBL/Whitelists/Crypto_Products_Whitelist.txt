@@ -1,6 +1,6 @@
 # Crypto_Products_Whitelist.txt
 # Crypto Sites you may want to whitelist for full functionality
-# 1/19/2021
+# 1/22/2021
 
 # Bitcoin
 .bitcoin.org # Bitcoin
@@ -18,10 +18,13 @@ simplemining.net # Mining_Controller
 # Nicehash
 .status.nicehash.com # Nicehash
 .stratum.usa-west.nicehash.com # Nicehash
-.usa.nicehash.com # NiceHash
+.stratum.usa-east.nicehash.com # Nicehash
+.stratum.usa.nicehash.com # Nicehash
 api.nicehash.com # Nicehash
 api2.nicehash.com # Nicehash
-daggerhashimoto.usa.nicehash.com # DaggerHash Nicehash
+.usa-west.nicehash.com # Nicehash us-west
+.usa-east.nicehash.com # Nicehash us-west
+.usa.nicehash.com # Nicehash us
 nhmws.nicehash.com # NiceHash
 static.nicehash.com # NiceHash
 www.api2.nicehash.com # Nicehash
