@@ -11,7 +11,7 @@
 ([A-Za-z0-9.-]*\.)?clicks\.beap/
 ([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2 ,4})/
 ([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
-([A-Za-z0-9.-]*\.)(.fls.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})
+([A-Za-z0-9.-]*)(.fls.||.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})
 ([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
 ([A-Za-z0-9.-]*\.)?evidon\.com/
 ([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
