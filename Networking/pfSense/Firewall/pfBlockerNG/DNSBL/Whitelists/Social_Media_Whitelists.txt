@@ -1,6 +1,6 @@
 # Social_Media_Whitelist.txt
 # Social Media Sites you may want to whitelist for full functionality
-# 1/21/2021
+# 1/22/2021
 
 # Twitter
 pbs.twimg.com # twitter images
@@ -16,4 +16,9 @@ www.twitter.com # Twitter
 pinterest.com # Pinterest
 
 # Reddit
-reddit.com # reddit
+reddit-uploaded-media.s3-accelerate.amazonaws.com
+reddit.com
+reddit.map.fastly.net
+styles.redditmedia.com
+www.redditmedia.com
+www.redditstatic.com

@@ -1,6 +1,6 @@
 # Media_Products_Whitelist.txt
 # Media Sites you may want to whitelist for full functionality
-# 1/21/2021
+# 1/22/2021
 
 # Plex
 app.plex.tv # Plex
@@ -44,6 +44,19 @@ fpdownload.adobe.com # WatchESPN
 livepassdl.conviva.com # WatchESPN
 media.video-cdn.espn.com # ESPN
 www.espn.com # espn
+
+# Adult Swim Videos on Amazon Firestick
+pmd.cdn.turner.com
+i.cdn.turner.com
+s.cdn.turner.com
+z.cdn.turner.com
+amd.cdn.turner.com
+
+# DirectTV Now
+js.maxmind.com
+directvnow.com
+directvapplications.hb.omtrdc.net
+s.zkcdn.net
 
 # Hulu
 assets.huluim.com # Hulu
@@ -89,7 +102,18 @@ tv.scdn.co # Spotify on TV
 wg.spotify.com # Spotify
 
 # Netflix
-netflix.com # Netflix
+api-global.netflix.com
+appboot.netflix.com
+secure.netflix.com
+
+# Pluto.tv
+images.pluto.tv
+stitcher.pluto.tv
+siloh.pluto.tv
+silo.pluto.tv
+cdn-mobile.api.pluto.tv
+api.pluto.tv
+players.pluto.tv
 
 # Tidal
 firebaseremoteconfig.googleapis.com # Required for Tidal

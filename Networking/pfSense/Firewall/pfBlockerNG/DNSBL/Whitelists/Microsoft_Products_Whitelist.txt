@@ -1,6 +1,6 @@
 # Microsoft_Products_Whitelist.txt
 # Microsoft Sites you may want to whitelist for full functionality
-# 1/19/2021
+# 1/22/2021
 
 # Microsoft
 ars.smartscreen.microsoft.com # Microsoft
@@ -8,7 +8,7 @@ aspnetcdn.com # Microsoft AJAX CDN
 browser.pipe.aria.microsoft.com
 c.s-microsoft.com # Microsoft
 clientconfig.passport.net # Used in Windows Store
-client-s.gateway.messenger.live.com # xbox live messaging
+client-s.gateway.messenger.live.com # live messaging
 client.wns.windows.com # Microsoft Store
 continuum.dds.microsoft.com
 definitionupdates.microsoft.com # Microsoft Security Center
@@ -18,7 +18,6 @@ dmd.metaservices.microsoft.com # Microsoft
 dmd.metaservices.microsoft.com.akadns.net # Microsoft
 dns.msftncsi.com # Microsoft
 fe3.delivery.dsp.mp.microsoft.com.nsatc.net # Microsoft
-forms.office.com # Office
 fs.microsoft.com # Microsoft
 geo-prod.do.dsp.mp.microsoft.com # Microsoft Store
 go.microsoft.com # Microsoft
@@ -68,6 +67,7 @@ office.net # Microsoft Office
 office365.com # Microsoft Office
 officeclient.microsoft.com # Microsoft Office
 products.office.com # Microsoft office
+forms.office.com # Office
 
 # Microsoft Onedrive
 onedrive.live.com # Microsoft Onedrive
@@ -79,30 +79,34 @@ outlook.office365.com # Microsoft Outlook
 s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
 
 # Xbox
-.xboxlive.com # Xbox
 activity.windows.com # xbox
 arc.msn.com # xbox
 attestation.xboxlive.com # Xbox
 cert.mgt.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
 clientconfig.passport.net # Xbox Live
+ctldl.windowsupdate.com
 def-vef.xboxlive.com # Xbox
 device.auth.xboxlive.com # Xbox
 eds.xboxlive.com # Xbox updates, game downloads, acheivements unlocking etc
 help.ui.xboxlive.com # Xbox
+licensing.xboxlive.com
 notify.xboxlive.com # Xbox
+settings-win.data.microsoft.com
 skype.com # Skype and xbox chat
 title.auth.xboxlive.com # Xbox
 title.mgt.xboxlive.com # Xbox
 v10.events.data.microsoft.com # Xbox Live
+v10.vortex-win.data.microsoft.com # Xbox
 v20.events.data.microsoft.com # xbox
+www.msftncsi.com
 www.xboxlive.com # Xbox
 xbox.ipv6.microsoft.com # Xbox
 xboxab.com # Xbox
 xboxexperiencesprod.experimentation.xboxlive.com
 xflight.xboxlive.com # Xbox
 xkms.xbolive.com # Xbox
+xkms.xboxlive.com
 xsts.auth.xboxlive.com # Xbox
-v10.vortex-win.data.microsoft.com # Xbox
 
 # Windows Updates
 ctldl.windowsupdate.com # Windows Updates
@@ -119,8 +123,6 @@ ui.skype.com # Skype
 apps.skype.com # Used to make group calls, group chats etc. on Skype
 
 # Github
-.github.com # Github Opensource_Content
-.githubusercontent.com # Github Opensource_Content
 g.live.com # bitlocker recovery
 github.com # Github Opensource_Content
 github.io # Github Opensource_Content

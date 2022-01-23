@@ -1,0 +1,20 @@
+# Messenger_Sites_Whitelist.txt
+# Messenger Sites you may want to whitelist for full functionality
+# 1/22/2021
+
+# Signal Messenger
+api.directory.signal.org #Signal Messenger
+cdn.signal.org #Signal Messenger
+cms.souqcdn.com #Signal Messenger
+contentproxy.signal.org #Signal Messenger
+d83eunklitikj.cloudfront.net #Signal Messenger
+giphy-proxy-production.whispersystems.org #Signal Messenger
+signal.org #Signal Messenger
+souqcdn.com #Signal Messenger
+textsecure-service-whispersystems.org #Signal Messenger
+turn1.whispersystems.org #Signal Messenger
+updates2.signal.org #Signal Messenger
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com #Signal Messenger
+www.signal.org #Signal Messenger
+
+# i will never whitelist Whatsapp....

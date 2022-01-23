@@ -1,6 +1,6 @@
 # All_In_One_Whitelist.txt
 # All the whitelists in one
-# 1/21/2022
+# 1/22/2022
 
 .afbank.com # Armed Forces Bank
 .amazon-adsystem.com # amazon app ads
@@ -17,8 +17,6 @@
 .drive.google.com # GDrive
 .fls-na.amazon.com # alexa
 .forms.gle # Google Forms
-.github.com # Github Opensource_Content
-.githubusercontent.com # Github Opensource_Content
 .gitlab.com # Gitlab Opensource_Content
 .heartbeat.dm.origin.com # Origin_Games
 .learnosity.com # schoology
@@ -45,18 +43,21 @@
 .starttest2.com # PearsonVue
 .status.nicehash.com # Nicehash
 .store.steampowered.com # Steam
+.stratum.usa-east.nicehash.com # Nicehash
 .stratum.usa-west.nicehash.com # Nicehash
+.stratum.usa.nicehash.com # Nicehash
 .themoviedb.org # themoviedatabase
 .trace.svc.ui.com # Unifi
 .twilio.com # PearsonVue
-.usa.nicehash.com # NiceHash
+.usa-east.nicehash.com # Nicehash us-west
+.usa-west.nicehash.com # Nicehash us-west
+.usa.nicehash.com # Nicehash us
 .usajobs.gov # USAJobs
 .usastaffing.gov # USAJobs
 .virustotal.com # Virustotal
 .waldenu.edu # Walden University
 .whattomine.com # Whattomine
 .wowza.com # PearsonVue
-.xboxlive.com # Xbox
 0.client-channel.google.com # Google
 0.north-america.pool.ntp.org # NTP Pool Project
 0.pfsense.ntp.org # pfSense
@@ -82,8 +83,12 @@ akamaized.net # Akamai CDN
 amazon.com # amazon
 amazonadsi-a.akamaihd.net # Alexa App Install
 amazonaws.com # Amazon
+amd.cdn.turner.com
+amzn.com #amazon URL shortner
+amzn.to #amazon URL shortner
 android.clients.google.com # google play store
 android.googleapis.com # androids
+api-global.netflix.com
 api-partner.spotify.com # Spotify
 api-spotify.com # Spotify
 api-tv.spotify.com # spotify on TV
@@ -91,8 +96,8 @@ api.amazonalexa.com # Alexa
 api.facebook.com # Facebook
 api.licensing.riverbed.com # riverbed
 api.nicehash.com # Nicehash
+api.pluto.tv
 api.protonvpn.ch
-api.protonvpn.ch# Online_Games_Whitelist.txt
 api.snapcraft.io # Ubuntu_Updates
 api.themoviedb.org/ # TheMovieDB
 api.twitter.com
@@ -100,6 +105,7 @@ api2.nicehash.com # Nicehash
 app-analytics.snapchat.com # SnapChat
 app-api.ted.com # TEDTalks
 app.plex.tv # Plex
+appboot.netflix.com
 appleid.apple.com # Apple ID
 apps.skype.com # Used to make group calls, group chats etc. on Skype
 appsbackup-pa.clients6.google.com # Google
@@ -151,6 +157,7 @@ captive.apple.com # iOS/Apple
 cbsinteractive.hb.omtrdc.net
 cdc.gov # CDC
 cdn-gl.imrworldwide.com # twitch
+cdn-mobile.api.pluto.tv
 cdn.cloudflare.net # Used to deliver static files over CloudFlare CDN
 cdn.fbsbx.com # Facebook
 cdn.highwinds.cs.steampowered.com # Steam
@@ -165,7 +172,7 @@ cf-st.sc-cdn.net # SnapChat
 chevrolet.com # Chevrolet
 cl.exct.net # (salesforce) required for some sites' acct recovery emails
 class.content.laureate.net # Walden University
-client-s.gateway.messenger.live.com # xbox live messaging
+client-s.gateway.messenger.live.com # live messaging
 client.wns.windows.com # Microsoft Store
 clientconfig.passport.net # Used in Windows Store
 clientconfig.passport.net # Xbox Live
@@ -189,6 +196,7 @@ cpms.spop10.ams.plex.bz # plex
 cpms35.spop10.ams.plex.bz # Plex
 creative.ak.fbcdn.net # Facebook
 cse.google.com # Google
+ctldl.windowsupdate.com
 ctldl.windowsupdate.com # Windows Updates
 cws-hulu.conviva.com # Hulu
 cws.conviva.com # Hulu
@@ -201,7 +209,6 @@ d3h5bk8iotgjvw.cloudfront.net # Amazon Updates
 d3p8zr0ffa9t17.cloudfront.net # Alexa
 d3uf8d0lloeluq.cloudfront.net # Amazon Updates
 d63r8xi1zu867.cloudfront.net # Amazon Updates
-daggerhashimoto.usa.nicehash.com # DaggerHash Nicehash
 dashboard.plex.tv # Plex
 dcape-na.amazon.com # Amazon
 dealer-ssl.spotify.com # Spotify
@@ -212,6 +219,8 @@ dev.virtualearth.net # Bing_Maps
 device-metrics-us-2.amazon.com # Amazon
 device-provisioning.googleapis.com # required for youtubeapp
 device.auth.xboxlive.com # Xbox
+directvapplications.hb.omtrdc.net
+directvnow.com
 discord.com # Required for discord access
 displaycatalog.mp.microsoft.com # Microsoft Store
 dl.delivery.mp.microsoft.com # Microsoft Store
@@ -287,6 +296,7 @@ googleadservices.com # Google Search Results
 googleapis.com # Google
 googleapis.l.google.com # Gmail
 graph.facebook.com # Facebook
+graphql.epicgames.com # epicgames
 gravatar.com # custom login pictures
 gslb.spotify.com # Spotify
 gsp-ssl.ls-apple.com.akadns.net # Apple Weather
@@ -297,6 +307,7 @@ gstaticadssl.l.google.com # Google Fonts
 help.ui.xboxlive.com # Xbox
 hls.ted.com # TEDTalks
 hotels.com # Hotels search
+i.cdn.turner.com
 i.imgur.com # Imgur
 i.s-microsoft.com # Microsoft
 i.scdn.co # Spotify on TV album covers
@@ -304,16 +315,19 @@ i.ytimg.com # Youtube
 i1.ytimg.com # Youtube
 icloud.com # icloud
 id.sonyentertainmentnetwork.com # PlayStation
+images.pluto.tv
 imap.mail.yahoo.com # yahoo email
 img.vidible.tv # Videos on times.com and nydailynews.com
 ipv6.msftncsi.com # microsoft connectivity tester
 itunes.apple.com # itunes
 j.mp # URL Shortners
+js.maxmind.com
 jsdelivr.net # Opensource CDN
 keystone.mwbsys.com # Malware Server
 l.facebook.com # Facebook
 lastfm-img2.akamaized.net # Last.fm
 licensing.mp.microsoft.com # Minecraft
+licensing.xboxlive.com
 licensing.xboxlive.com # Xbox
 licensingphone.mp.microsoft.com # Microsoft
 limited-prod.giphy.map.fastly.net # Facebook
@@ -356,7 +370,6 @@ msftconnecttest.com # Windows Connection Tester
 msftncsi.com # Microsoft Connectivity tester
 msh.amazon.co.uk  # Alexa App Install
 my.plexapp.com # Plex
-netflix.com # Netflix
 nexus.officeapps.live.com # Microsoft
 nexusrules.officeapps.live.com # Microsoft
 nhmws.nicehash.com # NiceHash
@@ -392,11 +405,14 @@ pinterest.com # Pinterest
 pkskids.org # pbs kids
 placehold.it # Image Placeholder
 play.spotify.com # Spotify Web Player
+players.pluto.tv
 plex.tv # Plex
+pmd.cdn.turner.com
 pop.mail.yahoo.com # yahoo email
 portal.fb.com # Facebook
 post.net.playstation.net # PlayStation
 pricelist.skype.com # Skype
+pro.ip-api.com # WifiMan
 prod.msocdn.com # Microsoft
 prod.telemetry.ros.rockstargames.com # GTA V Online
 products.office.com # Microsoft office
@@ -412,7 +428,9 @@ pubsub.plex.bz # plex
 pubsub.plex.tv # plex
 r9---sn-n4v7kn76.c.2mdn.net # Spotify's Anti-Adveritsing blocking servers
 raw.githubusercontent.com # github
-reddit.com # reddit
+reddit-uploaded-media.s3-accelerate.amazonaws.com
+reddit.com
+reddit.map.fastly.net
 redirector.googlevideo.com # Youtube
 redirector.gvt1.com # Spotify
 redirector.gvt1.com # android TV
@@ -422,11 +440,13 @@ river.data.ea.com # EA
 riverbed.com # riverbed
 rupload.facebook.com # Facebook
 s.amazon-adsystem.com # twitch
+s.cdn.turner.com
 s.gateway.messenger.live.com # Microsoft outlook wont load without this cookie
 s.mzstatic.com # iTunes
 s.shopify.com # Shopify
 s.youtube.com # Youtube
 s.ytimg.com # Youtube
+s.zkcdn.net
 s1.wp.com # wordpress
 s2.youtube.com # youtube
 s3-1.amazonaws.com # Amazon
@@ -445,15 +465,19 @@ secure-oldnavy.gap.com # oldnavy
 secure.afbank.com # Armed Forces Bank
 secure.brightcove.com # Brightcove Video Platform
 secure.download.dm.origin.com # Origin_Games
+secure.netflix.com
 secure.surveymonkey.com # Survey Monkey
 self.events.data.microsoft.com # Microsoft
 services.sonarr.tv # Sonarr
+settings-win.data.microsoft.com
 settings-win.data.microsoft.com # Microsoft
 settings.data.microsoft.com # Microsoft
 sfdataservice.microsoft.com # Microsoft
 shapeshift.io # Shapeshift Wallet
 shared.learnosity.com # schoology
 sharepoint.com # Sharepoint
+silo.pluto.tv
+siloh.pluto.tv
 simplemining.net # Mining_Controller
 skyhook.sonarr.tv # Sonarr
 skype.com # Skype and xbox chat
@@ -480,11 +504,13 @@ static.xx.fbcdn.net # facebook Messenger
 stats.uptimerobot.com # UptimeRobot
 status.plex.tv # Plex
 steam.com # Steam
+stitcher.pluto.tv
 sto3.spotify.com # Spotify
 storeedgefd.dsx.mp.microsoft.com # Microsoft Store
 stun.l.google.com # Required for Mysterium VPN
 stun1.l.google.com # Required for Mysterium VPN
 stun2.l.google.com # Required for Mysterium VPN
+styles.redditmedia.com
 support.microsoft.com # Microsoft
 surveymonkey.com # Survey Monkey
 syandus.com # Syandus
@@ -502,6 +528,7 @@ title.mgt.xboxlive.com # Xbox
 tlu.dl.delivery.mp.microsoft.com # Microsoft Store
 tracking-protection.cdn.mozilla.net # Mozilla
 tracking.epicgames.com # Epic Games
+tracking.epicgames.com # epicgames
 traffic.libsyn.com # Plex Podcasts
 traffic.megaphone.fm # Plex Podcasts
 tv.scdn.co # Spotify on TV
@@ -549,8 +576,8 @@ wikipedia.org # Wikipedia
 win10.ipv6.microsoft.com # Microsoft_Updates
 wordpress.com # Wordpress
 wp.com # Wordpress
+ws.audioscrobbler.com
 ws.audioscrobbler.com # Plex Last.fm
-ws.audioscrobbler.com# Microsoft_Products_Whitelist.txt
 www.account.np.ac.playstation.net # PlayStation
 www.ads-v-darwin.hulustream.com # Hulu
 www.amazon.com # amazon
@@ -559,7 +586,7 @@ www.apple.com # iOS/Apple
 www.appleiphonecell.com # iOS/Apple
 www.assets.adobedtm.com # OliveGarden_online
 www.bankofamerica.com # Bank Of America
-www.bit.ly # URL Shortners# Yahoo_Products_Whitelist.txt
+www.bit.ly # URL Shortners
 www.bitpay.com # Bitcoin Payments
 www.cdn.shopify.com # dottiecouture
 www.client.hip.live.com # needed to setup microsoft live account
@@ -577,7 +604,7 @@ www.firebaseremoteconfig.googleapis.com # Required for Tidal
 www.gitlab.com # gitlaB
 www.google.com # Google
 www.googleapis.com # Google
-www.icloud.com # iCloud# CDN_Products_Whitelist.txt
+www.icloud.com # iCloud
 www.id.sonyentertainmentnetwork.com # PlayStation
 www.level3.cdn.steampipe.steamcontent.com # Steam
 www.lifehacker.com # Guides
@@ -589,13 +616,28 @@ www.msftncsi.com # Microsoft Connectivity tester
 www.nhmws.nicehash.com # NiceHash
 www.nicehash.com # Nicehash Main site
 www.paramountplus.com
-www.paypal.com # Paypal# Google_Products_Whitelist.txt
+www.paypal.com # Paypal
 www.pbs.twimg.com # twitter images
 www.plex.tv # Plex
 www.post.net.playstation.net # PlayStation
 www.priceline.com # travel shopping
 www.ps4-system.sec.np.dl.playstation.net # PlayStation
 www.ps4updptl.uk.np.community.playstation.net # PlayStation
+www.redditmedia.com
+www.redditstatic.com
+api.directory.signal.org #Signal Messenger
+cdn.signal.org #Signal Messenger
+cms.souqcdn.com #Signal Messenger
+contentproxy.signal.org #Signal Messenger
+d83eunklitikj.cloudfront.net #Signal Messenger
+giphy-proxy-production.whispersystems.org #Signal Messenger
+signal.org #Signal Messenger
+souqcdn.com #Signal Messenger
+textsecure-service-whispersystems.org #Signal Messenger
+turn1.whispersystems.org #Signal Messenger
+updates2.signal.org #Signal Messenger
+whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com #Signal Messenger
+www.signal.org #Signal Messenger
 www.shapeshift.io # Shapeshift Wallet
 www.sonyentertainmentnetwork.com # PlayStation
 www.sp-ad-cf.audio.tidal.com # Required for Tidal
@@ -616,6 +658,7 @@ xboxab.com # Xbox
 xboxexperiencesprod.experimentation.xboxlive.com
 xflight.xboxlive.com # Xbox
 xkms.xbolive.com # Xbox
+xkms.xboxlive.com
 xsts.auth.xboxlive.com # Xbox
 yahoo.com # Yahoo
 youtu.be # youtube
@@ -624,5 +667,6 @@ youtube-ui.l.google.com # CNAME for (youtube.com)
 youtube.com # Youtube
 youtubei.googleapis.com # required for youtubeapp
 yt3.ggpht.com # youtube
+z.cdn.turner.com
 zee.cws.conviva.com # Youtube Watch History
 zulily.com # Zulily Store
