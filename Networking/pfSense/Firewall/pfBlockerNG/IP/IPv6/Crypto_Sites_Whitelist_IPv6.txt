@@ -1,0 +1,5 @@
+# Crypto_Sites_Whitelist_IPv6.txt
+# Crypto Sites you may want to whitelist for full functionality
+# 1/23/2021
+
+2606:4700:90:0:b61f:a5b7:e5e2:4342 #Nicehash Stratum

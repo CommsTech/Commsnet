@@ -1,0 +1,5 @@
+# Crypto_Sites_Whitelist_IPv4.txt
+# Crypto Sites you may want to whitelist for full functionality
+# 1/23/2021
+
+172.65.247.93 #Nicehash Stratum

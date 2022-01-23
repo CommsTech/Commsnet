@@ -31,6 +31,7 @@ www.api2.nicehash.com # Nicehash
 www.nhmws.nicehash.com # NiceHash
 www.nicehash.com # Nicehash Main site
 www.static.nicehash.com # NiceHash
+sha256asicboost.usa.nicehash.com # Nicehash
 
 # Shapeshift
 www.shapeshift.io # Shapeshift Wallet
@@ -47,3 +48,12 @@ stun.l.google.com # Required for Mysterium VPN
 stun1.l.google.com # Required for Mysterium VPN
 stun2.l.google.com # Required for Mysterium VPN
 QuaLITY.mYstERIUM.netWoRK # Mysterium QA
+
+# MiningRigRentals
+us-central01.miningrigrentals.com # MiningRigRentals
+us-west01.miningrigrentals.com # MiningRigRentals
+us-east01.miningrigrentals.com # MiningRigRentals
+
+# Slushpool
+#.us-east.stratum.slushpool.com
+#.stratum.slushpool.com
