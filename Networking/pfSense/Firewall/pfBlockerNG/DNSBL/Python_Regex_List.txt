@@ -26,6 +26,7 @@
 ([0-9]{9})\.(keywordblocks)(\.net|\.com)/ #keywordblocks
 (koi-[A-Za-z0-9.-]*)(\.marketingautomation\.services)/
 (avi-[A-Za-z0-9.-]*)(\.pubmatic)(\.com)/ #pubmatic
+(a[0-9]*\.)(actonservice|casalemedia)\.com/
 ([A-Za-z0-9.-]*\.)?match\.com/
 ([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4}|\.com)/
 ([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
