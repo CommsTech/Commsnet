@@ -1,5 +1,6 @@
-# auto fetch rules
-# Auto | ON | https://www.cloudflare.com/ips-v6| Cloudflare_IPs
+# Custom_IPv6_Whitelist.txt
+# Custom Sites you may want to whitelist for full functionality
+# 1/23/2021
 
 # IPv6 Custom_List
 2a06:98c1:54::1:274d # Cloudflare teams
