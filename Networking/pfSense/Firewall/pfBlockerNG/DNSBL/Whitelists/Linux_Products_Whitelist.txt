@@ -3,6 +3,6 @@
 # 1/17/2021
 
 # Ubuntu
-.canonical.com # Ubuntu_Updates
+canonical.com # Ubuntu_Updates
 api.snapcraft.io # Ubuntu_Updates
 banjo.canonical.com # Ubuntu

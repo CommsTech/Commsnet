@@ -67,8 +67,6 @@ static.xx.fbcdn.net # facebook Messenger
 video.xx.fbcdn.net # facebook Messenger
 
 # Snapchat
-sc-analytics.appspot.com # SnapChat
-app-analytics.snapchat.com # SnapChat
 
 
 

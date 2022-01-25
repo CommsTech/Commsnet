@@ -1,8 +1,9 @@
 # Media_Products_Whitelist.txt
 # Media Sites you may want to whitelist for full functionality
-# 1/22/2021
+# 1/24/2021
 
 # Plex
+plex.direct # plex
 app.plex.tv # Plex
 cpms.spop10.ams.plex.bz # plex
 cpms35.spop10.ams.plex.bz # Plex
@@ -151,7 +152,6 @@ widget-cdn.rpxnow.com
 v.w-x.co # Videos on weather.com
 
 # Other Sites
-.themoviedb.org # themoviedatabase
 api.themoviedb.org/ # TheMovieDB
 lastfm-img2.akamaized.net # Last.fm
 themoviedb.com # metadata for movies

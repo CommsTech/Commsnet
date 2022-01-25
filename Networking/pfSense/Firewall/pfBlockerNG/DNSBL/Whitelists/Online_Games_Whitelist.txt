@@ -1,9 +1,9 @@
 # Online_Games_Whitelist.txt
 # Online Game Sites you may want to whitelist for full functionality
-# 1/22/2021
+# 1/24/2021
 
 # Steam
-.store.steampowered.com # Steam
+store.steampowered.com # Steam
 cdn.highwinds.cs.steampowered.com # Steam
 media.steampowered.com # Steam
 steam.com # Steam
@@ -17,7 +17,7 @@ www.valve564.steamcontent.com # Steam
 www.valve564.steamcontent.com # Steam
 
 # Origin_Games
-.heartbeat.dm.origin.com # Origin_Games
+heartbeat.dm.origin.com # Origin_Games
 cloudsync-prod.s3.amazonaws.com # origion Saved Games
 download.dm.origin.com # Origin_Games
 secure.download.dm.origin.com # Origin_Games
@@ -28,8 +28,8 @@ river.data.ea.com # EA
 ea.com # Game Content Delivery
 
 # Others
-.nick.com # Kids Games
-.pbskids.org # Kids Games
+nick.com # Kids Games
+pbskids.org # Kids Games
 cdn.optimizely.com # Game Content Delivery
 cdn2.optimizely.com # Game Content Delivery
 cdn3.optimizely.com # Game Content Delivery

@@ -1,30 +1,27 @@
 # Additional_Sites_Whitelist.txt
 # Additional Sites you may want to whitelist for full functionality
-# 1/21/2021
+# 1/24/2021
 
 # DNSSTUFF
-.dnsstuff.com # DNSSTUFF NETWORKSTUFF
 www.dnsstuff.com # DNSSTUFF NETWORKSTUFF
 
 # Riverbed
-.riverbed.com # riverbed
-.api.licensing.riverbed.com # riverbed
 api.licensing.riverbed.com # riverbed
 riverbed.com # riverbed
 
 # Unifi
-.trace.svc.ui.com # Unifi
+trace.svc.ui.com # Unifi
 ui.com # Unifi
 unms.com # Unifi Network Management System
 pro.ip-api.com # WifiMan
 
 # GOV Sites
-.usajobs.gov # USAJobs
-.usastaffing.gov # USAJobs
+usajobs.gov # USAJobs
+usastaffing.gov # USAJobs
 cdc.gov # CDC
 
 # Security Based Sites
-.virustotal.com # Virustotal
+virustotal.com # Virustotal
 keystone.mwbsys.com # Malware Server
 www.malc0de.com # MalC0de_Blocklists
 someonewhocares.org # Dan Pollocks Homepage
@@ -49,7 +46,6 @@ unsplash.com # Image Hoster
 
 # GitLab
 gitlab.com # gitlaB
-.gitlab.com # Gitlab Opensource_Content
 www.gitlab.com # gitlaB
 
 # WordPress
@@ -82,6 +78,10 @@ time-a-g.nist.gov # National Institute of Standards and Technology
 
 # confidently
 confidently.chargebee.com
+
+# Docker
+registry-1.docker.io #Docker
+auth.docker.io #Docker
 
 # Others
 cl.exct.net # (salesforce) required for some sites' acct recovery emails

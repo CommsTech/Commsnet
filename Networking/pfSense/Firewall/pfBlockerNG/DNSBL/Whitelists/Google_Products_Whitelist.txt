@@ -1,11 +1,8 @@
 # Google_Products_Whitelist.txt
 # Google Sites you may want to whitelist for full functionality
-# 1/21/2021
+# 1/24/2021
 
 # Google
-.docs.google.com # GDocs
-.drive.google.com # GDrive
-.forms.gle # Google Forms
 0.client-channel.google.com # Google
 accounts.google.com # Google
 ad.atdmt.com # Google Search Results

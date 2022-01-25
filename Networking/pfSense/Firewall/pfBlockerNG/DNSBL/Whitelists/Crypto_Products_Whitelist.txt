@@ -11,8 +11,10 @@
 # Mining
 .coinmarketcap.com # Crypto Market tracker
 .miningrigrentals.com # MiningRigRentals
-.simplemining.net # Mining_Controller
 .whattomine.com # Whattomine
+
+# SimpleminingOS
+api.simplemining.net
 simplemining.net # Mining_Controller
 
 # Nicehash

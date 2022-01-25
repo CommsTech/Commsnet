@@ -1,13 +1,12 @@
 # Yahoo_Products_Whitelist.txt
 # Yahoo Product Sites you may want to whitelist for full functionality
-# 1/19/2021
+# 1/24/2021
 
 # Yahoo
 login.yahoo.com # Yahoo
 yahoo.com # Yahoo
 
 # Yahoo Email
-.mail.yahoo.com # yahoo email
 imap.mail.yahoo.com # yahoo email
 mail.yahoo.com # yahoo email
 pop.mail.yahoo.com # yahoo email

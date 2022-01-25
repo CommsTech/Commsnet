@@ -6,3 +6,5 @@ Blacklist.txt
 # https://v.firebog.net/hosts/Easyprivacy.txt
 # WARNING This list requires the Python_Regex_list.txt to get everything 
 
+wyze-device-log.s3.us-west-2.amazonaws.com #Wyze
+stats.gc.apple.com #apple
