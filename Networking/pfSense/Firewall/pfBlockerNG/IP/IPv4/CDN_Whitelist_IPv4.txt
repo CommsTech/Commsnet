@@ -1,10 +1,11 @@
 # CDN_Products_Whitelist_IPv4.txt
 # CDN Sites you may want to whitelist for full functionality
-# 1/18/2021
+# 1/26/2021
 
 # Akamai
 
 # Cloudflare
+#https://www.cloudflare.com/ips-v4/
 
 # Opensource
 

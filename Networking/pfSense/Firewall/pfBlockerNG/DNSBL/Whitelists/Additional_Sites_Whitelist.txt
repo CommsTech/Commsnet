@@ -1,6 +1,6 @@
 # Additional_Sites_Whitelist.txt
 # Additional Sites you may want to whitelist for full functionality
-# 1/24/2021
+# 1/27/2021
 
 # DNSSTUFF
 www.dnsstuff.com # DNSSTUFF NETWORKSTUFF
@@ -91,6 +91,9 @@ tracking-protection.cdn.mozilla.net # Mozilla
 urldefense.proofpoint.com # Proofpoint
 use-application-dns.net # DoH Prevention
 wikipedia.org # Wikipedia
+
+# Brave browser
+go-updater.brave.com #Brave Updates
 
 
 
