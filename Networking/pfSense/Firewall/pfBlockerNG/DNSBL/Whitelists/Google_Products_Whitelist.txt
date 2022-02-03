@@ -1,6 +1,6 @@
 # Google_Products_Whitelist.txt
 # Google Sites you may want to whitelist for full functionality
-# 1/24/2021
+# 1/24/2022
 
 # Google
 0.client-channel.google.com # Google

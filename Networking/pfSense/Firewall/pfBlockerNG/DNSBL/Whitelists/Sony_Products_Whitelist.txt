@@ -1,6 +1,6 @@
 # Sony_Products_Whitelist.txt
 # Sony Product Sites you may want to whitelist for full functionality
-# 1/19/2021
+# 1/19/2022
 
 # PlayStation
 account.np.ac.playstation.net # PlayStation

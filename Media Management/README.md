@@ -15,11 +15,12 @@ Heres a few tools that I utilize to make prepare my media collection for streami
 - Sabnzbd
 	- https://sabnzbd.org/
 	- With the responsive Glitter interface, you can access SABnzbd and manage your downloads from any device: desktop, tablet or phone. Others have made Android/iOS , Android and iOS apps to manage SABnzbd.
-	
+		
 - Radarr
 	- https://radarr.video/
 	- Manage, View, and download you movie Libary
-	
+	- on 31 Jan 2022 after an upgrade to version 4.0.4.5922 I had a corrupted database. I fixed it with the following command  './sqlite3 radarrold.db ".recover" | ./sqlite3 radarr.db' I found the file in /programdata folder and I changed the .db file name from radarr.db to radarrold.db before running the command. Then it booted just fine!
+
 - Sonarr
 	- https://sonarr.tv/
 	- just like Radarr but for TV shows

@@ -1,6 +1,6 @@
 # Facebook_Products_Whitelist.txt
 # Facebook Sites you may want to whitelist for full functionality
-# 1/17/2021
+# 1/17/2022
 
 # Facebook
 api.facebook.com # Facebook

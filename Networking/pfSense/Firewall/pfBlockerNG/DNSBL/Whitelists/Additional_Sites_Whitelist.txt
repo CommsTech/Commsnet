@@ -1,6 +1,6 @@
 # Additional_Sites_Whitelist.txt
 # Additional Sites you may want to whitelist for full functionality
-# 1/27/2021
+# 1/27/2022
 
 # DNSSTUFF
 www.dnsstuff.com # DNSSTUFF NETWORKSTUFF

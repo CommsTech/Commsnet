@@ -1,6 +1,6 @@
 # Storage_Products_Whitelist.txt
 # Storage Products Sites you may want to whitelist for full functionality
-# 1/17/2021
+# 1/17/2022
 
 dl.dropbox.com # Dropbox
 dl.dropboxusercontent.com # Dropbox

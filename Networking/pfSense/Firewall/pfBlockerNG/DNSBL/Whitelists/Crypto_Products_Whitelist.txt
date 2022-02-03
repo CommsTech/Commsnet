@@ -1,6 +1,6 @@
 # Crypto_Products_Whitelist.txt
 # Crypto Sites you may want to whitelist for full functionality
-# 1/22/2021
+# 1/22/2022
 
 # Bitcoin
 bitcoin.org # Bitcoin

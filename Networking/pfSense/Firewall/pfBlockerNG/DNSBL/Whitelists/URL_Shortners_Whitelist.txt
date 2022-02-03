@@ -1,6 +1,6 @@
 # URL_Shortners_Whitelist.txt
 # URL Shortner Sites you may want to whitelist for full functionality
-# 1/22/2021
+# 1/22/2022
 
 
 bit.ly # URL Shortners

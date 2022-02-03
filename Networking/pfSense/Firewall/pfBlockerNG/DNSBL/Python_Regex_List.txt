@@ -1,6 +1,6 @@
 # Python_Regex_list.txt
 # Python Regex blocking list
-# 1/23/2021
+# 1/23/2022
 
 ######### ADS and Trackers ###########
 (.*\.|^)((think)?with)?google($|((adservices|static|syndication|tagmanager|tagservices|-analytics)($|\..+)))

@@ -1,6 +1,6 @@
 Blacklist.txt
 # Tracking and Telemetry sites you may want to Block for Privacy and Security
-# 1/27/2021
+# 1/27/2022
 # This list is compiled with data found across the internet and almost all the false positive have been removed
 # Special thanks to 
 # https://v.firebog.net/hosts/Easyprivacy.txt

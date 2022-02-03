@@ -1,6 +1,6 @@
 # Amazon_Products_Whitelist.txt
 # Amazon Sites you may want to whitelist for full functionality
-# 1/24/2021
+# 1/24/2022
 
 # Alexa
 .control.kochava.com # alexa 2

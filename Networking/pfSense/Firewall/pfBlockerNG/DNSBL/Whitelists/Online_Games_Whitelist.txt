@@ -1,6 +1,6 @@
 # Online_Games_Whitelist.txt
 # Online Game Sites you may want to whitelist for full functionality
-# 1/24/2021
+# 1/24/2022
 
 # Steam
 store.steampowered.com # Steam

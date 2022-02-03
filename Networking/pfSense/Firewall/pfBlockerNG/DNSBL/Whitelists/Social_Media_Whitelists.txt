@@ -1,6 +1,6 @@
 # Social_Media_Whitelist.txt
 # Social Media Sites you may want to whitelist for full functionality
-# 1/22/2021
+# 1/22/2022
 
 # Twitter
 pbs.twimg.com # twitter images

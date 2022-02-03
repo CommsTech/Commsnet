@@ -1,6 +1,6 @@
 # Custom_IPv6_Whitelist.txt
 # Custom Sites you may want to whitelist for full functionality
-# 1/23/2021
+# 1/23/2022
 
 # IPv6 Custom_List
 2a06:98c1:54::1:274d # Cloudflare teams

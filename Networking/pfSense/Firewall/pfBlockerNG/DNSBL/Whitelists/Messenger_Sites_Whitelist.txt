@@ -1,6 +1,6 @@
 # Messenger_Sites_Whitelist.txt
 # Messenger Sites you may want to whitelist for full functionality
-# 1/23/2021
+# 1/23/2022
 
 # Discord
 cdn.discordapp.com

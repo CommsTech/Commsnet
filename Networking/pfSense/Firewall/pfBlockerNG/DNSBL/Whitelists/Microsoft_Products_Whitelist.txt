@@ -1,6 +1,6 @@
 # Microsoft_Products_Whitelist.txt
 # Microsoft Sites you may want to whitelist for full functionality
-# 1/22/2021
+# 1/22/2022
 
 # Microsoft
 ars.smartscreen.microsoft.com # Microsoft

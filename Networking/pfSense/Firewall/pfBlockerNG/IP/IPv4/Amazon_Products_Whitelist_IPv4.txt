@@ -1,6 +1,6 @@
 # Amazon_Products_Whitelist_IPv4.txt
 # Amazon Sites you may want to whitelist for full functionality
-# 1/18/2021
+# 1/18/2022
 
 # Alexa
 

@@ -1,6 +1,6 @@
 # DNS_Providers_Whitelist.txt
 # DNS Providers you may want to whitelist for full functionality
-# 1/18/2021
+# 1/18/2022
 
 # Quad9
 9.9.9.9 # Quad9

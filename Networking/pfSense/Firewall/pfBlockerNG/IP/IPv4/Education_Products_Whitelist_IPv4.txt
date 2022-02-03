@@ -1,6 +1,6 @@
 # Education_Products_Whitelist.txt
 # Education Sites you may want to whitelist for full functionality
-# 1/18/2021
+# 1/18/2022
 
 # Schoology
 167.89.34.47 # Schoology

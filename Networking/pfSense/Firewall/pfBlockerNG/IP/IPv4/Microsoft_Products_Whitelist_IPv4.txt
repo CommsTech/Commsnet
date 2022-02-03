@@ -1,6 +1,6 @@
 # Microsoft_Products_Whitelist_IPv4.txt
 # Microsoft Sites you may want to whitelist for full functionality
-# 1/18/2021
+# 1/18/2022
 
 # Microsoft
 

@@ -1,6 +1,6 @@
 # Ads_Blacklist.txt
 # Ads you may want to block
-# 1/20/2021
+# 1/20/2022
 # Special thanks to 
 # https://adaway.org/hosts.txt
 # https://v.firebog.net/hosts/AdguardDNS.txt

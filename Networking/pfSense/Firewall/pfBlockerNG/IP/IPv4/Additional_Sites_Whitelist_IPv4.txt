@@ -1,6 +1,6 @@
 # Additional_Sites_Whitelist_IPv4.txt
 # Additional Sites you may want to whitelist for full functionality
-# 1/18/2021
+# 1/18/2022
 
 139.59.198.96 # linuxserver.io
 192.124.249.106 # TopGolf

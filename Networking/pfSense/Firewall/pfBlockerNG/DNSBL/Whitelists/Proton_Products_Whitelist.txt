@@ -1,6 +1,6 @@
 # Proton_Products_Whitelist.txt
 # Proton Products you may want to whitelist for full functionality
-# 1/24/2021
+# 1/24/2022
 
 # Proton Mail
 account.protonmail.com # Proton Mail

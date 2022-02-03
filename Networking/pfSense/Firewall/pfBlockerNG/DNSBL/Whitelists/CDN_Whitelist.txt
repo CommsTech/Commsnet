@@ -1,6 +1,6 @@
 # CDN_Products_Whitelist.txt
 # CDN Sites you may want to whitelist for full functionality
-# 1/19/2021
+# 1/19/2022
 
 # Akamai
 akamaihd.net # Akamai CDN

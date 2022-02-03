@@ -1,6 +1,6 @@
 # Education_Products_Whitelist.txt
 # Education Sites you may want to whitelist for full functionality
-# 1/24/2021
+# 1/24/2022
 
 # Walden University
 content.laureate.net # Walden University

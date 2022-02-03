@@ -1,6 +1,6 @@
 # Linux_Products_Whitelist_ipV4.txt
 # Linux ips you may want to whitelist for full functionality
-# 1/18/2021
+# 1/22/2022
 
 # Ubuntu
 91.189.88.142 # Ubuntu

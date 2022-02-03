@@ -1,6 +1,6 @@
 # CDN_Products_Whitelist_IPv4.txt
 # CDN Sites you may want to whitelist for full functionality
-# 1/26/2021
+# 1/26/2022
 
 # Akamai
 

@@ -1,6 +1,6 @@
 # Apple_Products_Whitelist.txt
 # Apple Sites you may want to whitelist for full functionality
-# 1/21/2021
+# 1/21/2022
 
 appleid.apple.com # Apple ID
 ax.phobos.apple.com.edgesuite.net

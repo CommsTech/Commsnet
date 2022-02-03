@@ -1,6 +1,6 @@
 # Social_Media_Blacklist.txt
 # Social Media Sites you may want to block
-# 1/20/2021
+# 1/20/2022
 
 # Tiktok Tracking and Fingerprinting Hosts
 a15-tb.isnssdk.com
