@@ -1,0 +1,5 @@
+# Amazon_Products_Blacklist.txt
+# Amazon trackers and analytics you may want to block
+# 2/6/2022
+
+unagi.amazon.com

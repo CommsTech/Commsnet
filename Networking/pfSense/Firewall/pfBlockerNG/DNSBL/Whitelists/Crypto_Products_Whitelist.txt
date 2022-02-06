@@ -1,6 +1,6 @@
 # Crypto_Products_Whitelist.txt
 # Crypto Sites you may want to whitelist for full functionality
-# 1/22/2022
+# 2/5/2022
 
 # Bitcoin
 bitcoin.org # Bitcoin
@@ -16,6 +16,7 @@ whattomine.com # Whattomine
 # SimpleminingOS
 api.simplemining.net
 simplemining.net # Mining_Controller
+download.simplemining.net # miner updates
 
 # Nicehash
 status.nicehash.com # Nicehash stats
@@ -24,6 +25,7 @@ api2.nicehash.com # Nicehash
 kawpow.usa-west.nicehash.com # Nicehash us-west kawpow
 kawpow.usa-east.nicehash.com # Nicehash us-east kawpow
 kawpow.usa.nicehash.com # Nicehash us kawpow
+stratum.usa-west.nicehash.com
 sha256asicboost.usa-west.nicehash.com # Nicehash us-west sha256asicboost
 sha256asicboost.usa-east.nicehash.com # Nicehash us-east sha256asicboost
 sha256asicboost.usa.nicehash.com # Nicehash us sha256asicboost

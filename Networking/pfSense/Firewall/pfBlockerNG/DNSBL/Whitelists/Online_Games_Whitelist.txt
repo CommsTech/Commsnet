@@ -36,6 +36,8 @@ cdn3.optimizely.com # Game Content Delivery
 pkskids.org # pbs kids
 tracking.epicgames.com # Epic Games
 tracking.epicgames.com # Epic Games
+analytics.ninjakiwi.com # Bloons TD App
+nkstatic.com # Bloons TD App
 
 # Grand Theft Auto V Online PC
 # Since March blocking Rockstar telemetry seems to crash GTAOnline.
