@@ -1,0 +1,9 @@
+# Bogon_Whitelist_IPv4.txt
+# Bogon /  RFC 1918 you may want to whitelist for full functionality
+# 2/8/2022
+
+10.0.0.0/8 #Class A Private
+172.16.0.0/12 #Class B Private
+192.168.0.0/16 #Class C Private
+169.254.0.0/16 #APIPA
+127.0.0.0/8 #Loopbacks

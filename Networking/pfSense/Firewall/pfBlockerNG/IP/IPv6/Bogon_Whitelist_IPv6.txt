@@ -1,0 +1,6 @@
+# Bogon_Whitelist_IPv6.txt
+# Bogon / RFC 1918 you may want to whitelist for full functionality
+# 2/8/2022
+
+fe80::/10 #IPv6 Link Local
+fc00::/7 #IPv6 Unique Local
