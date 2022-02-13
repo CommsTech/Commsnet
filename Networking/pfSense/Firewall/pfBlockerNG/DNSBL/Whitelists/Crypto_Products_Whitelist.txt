@@ -1,6 +1,6 @@
 # Crypto_Products_Whitelist.txt
 # Crypto Sites you may want to whitelist for full functionality
-# 2/5/2022
+# 2/12/2022
 
 # Bitcoin
 bitcoin.org # Bitcoin
@@ -12,6 +12,12 @@ coinbase.com # Coinbase Wallet
 coinmarketcap.com # Crypto Market tracker
 miningrigrentals.com # MiningRigRentals
 whattomine.com # Whattomine
+us-west01.miningrigrentals.com # MiningRigRentals San Francisco, CA
+us-nw01.miningrigrentals.com # MiningRigRentals Seattle, WA 
+us-east01.miningrigrentals.com # MiningRigRentals New York, NY
+us-south01.miningrigrentals.com # MiningRigRentals Atlanta, GA
+us-central01.miningrigrentals # MiningRigRentals Chicago, IL
+
 
 # SimpleminingOS
 api.simplemining.net

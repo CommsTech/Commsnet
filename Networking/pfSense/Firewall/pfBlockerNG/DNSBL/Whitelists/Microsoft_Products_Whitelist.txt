@@ -1,6 +1,6 @@
 # Microsoft_Products_Whitelist.txt
 # Microsoft Sites you may want to whitelist for full functionality
-# 1/22/2022
+# 2/12/2022
 
 # Microsoft
 ars.smartscreen.microsoft.com # Microsoft
@@ -129,6 +129,7 @@ github.io # Github Opensource_Content
 github.map.fastly.net # CNAME for (raw.githubusercontent.com)
 raw.githubusercontent.com # github
 codeload.github.com # github
+git.io # Github URLShortner
 
 # Linkedin
 linkedin.com # Linkedin
