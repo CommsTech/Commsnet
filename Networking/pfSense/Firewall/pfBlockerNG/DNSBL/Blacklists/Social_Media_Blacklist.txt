@@ -1,6 +1,6 @@
 # Social_Media_Blacklist.txt
 # Social Media Sites you may want to block
-# 1/20/2022
+# 4/8/2022
 
 # Tiktok Tracking and Fingerprinting Hosts
 a15-tb.isnssdk.com
@@ -195,3 +195,31 @@ zong-lhe-v1.l.byteoversea.net
 
 # instagram
 graph.instagram.com # Instagram Telemetry
+
+# tumblr
+tumblr.com
+www.tumblr.com
+66.media.tumblr.com
+media.tumblr.com
+action.tumblr.com
+68.media.tumblr.com
+
+#WeChat
+wechat.com
+www.wechat.com
+weixin.qq.com
+
+#Periscope
+pscp.tv
+www.pscp.tv
+
+#whisper
+whisper.sh
+www.whisper.sh
+
+#omegle
+www.omegle.com
+front30.omegle.com
+front5.omegle.com
+front14.omegle.com
+omegle.com
