@@ -1,5 +1,5 @@
 # **COMMSNET**
-## This repo has been replaced with [my wiki](https://wiki.commsnet.org
+## This repo has been replaced with [my wiki](https://wiki.commsnet.org)
 ===============
 
 My journey to the fastest Internet. I am constantly learning new tactics and attempting to implement them into my Home Lab network. This project is a collection of my lessons learned as well as thing that can be done successfully to speed up your network. Enjoy
