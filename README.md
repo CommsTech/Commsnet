@@ -1,5 +1,7 @@
- **COMMSNET**
+# **COMMSNET**
+## This repo has been replaced with [my wiki](https://wiki.commsnet.org
 ===============
+
 My journey to the fastest Internet. I am constantly learning new tactics and attempting to implement them into my Home Lab network. This project is a collection of my lessons learned as well as thing that can be done successfully to speed up your network. Enjoy
 
 Problem set. Most home internet providers have async upload and download speeds. but for you to unlock the true potential of the internet you need synchronous download and upload speeds. This will allow you to both stream a movie on Netflix while uploading that latest video to your fav social media site. The problem is that you cannot accomplish this on the 20 Mbps upload that your ISP offers without buffering. the way TCP works is not a one-way lane. It requires both requests and offers from both ends of the connection. I currently have 1Gbps download and 20 Mbps upload. I want to proxy, secure, and deduplicate anything I send out of my network to reduce my utilization of my uplink. 
