@@ -1,0 +1,139 @@
+
+--boundary_.oOo._KIxXUMOJc7Rh2VKlmBFuaHHbm2+DpXIc
+Content-Length: 30
+Content-Type: application/octet-stream
+X-File-MD5: 98b16e0b650190870f1b40bc8f4aec4e
+X-File-Mtime: 1689327455
+X-File-Path: /Documents/GitHub/Commsnet/.git/refs/remotes/origin/HEAD
+
+ref: refs/remotes/origin/main
+
+--boundary_.oOo._KIxXUMOJc7Rh2VKlmBFuaHHbm2+DpXIc
+Content-Length: 41
+Content-Type: application/octet-stream
+X-File-MD5: 412ffdac8e35ff2e189389c9f2938297
+X-File-Mtime: 1689029445
+X-File-Path: /Documents/GitHub/Commsnet/.git/refs/remotes/origin/main
+
+002f46b458571ad06f3de7126f2f6331c8d5bcf6
+
+--boundary_.oOo._KIxXUMOJc7Rh2VKlmBFuaHHbm2+DpXIc
+Content-Length: 771
+Content-Type: application/octet-stream
+X-File-MD5: 1b38a07b1beab37830f8cb153b9116f6
+X-File-Mtime: 1689026792
+X-File-Path: /Documents/GitHub/Commsnet/Docker Swarm/MeshCentral.yml
+
+version: '3.3'
+services:
+  meshcentral:
+    image: typhonragewind/meshcentral:latest
+    environment:
+      ALLOW_NEW_ACCOUNTS: 'false'
+      HOSTNAME: your meshcentral hostname
+      IFRAME: 'false'
+      REVERSE_PROXY: your reverse proxy hostname or ip
+      REVERSE_PROXY_TLS_PORT: '443'
+      WEBRTC: 'true'
+    ports:
+     - 4430:443
+     - 4433:4433
+     - 800:80
+    volumes:
+     - /Your/Volume/SwarmS/MeshCentral/data:/opt/meshcentral/meshcentral-data
+     - /Your/Volume/SwarmS/MeshCentral/user_files:/opt/meshcentral/meshcentral-files
+    networks:
+     - default
+    logging:
+      driver: json-file
+    deploy:
+      placement:
+        constraints:
+         - node.hostname == clustermgr
+networks:
+  default:
+    driver: overlay
+
+--boundary_.oOo._KIxXUMOJc7Rh2VKlmBFuaHHbm2+DpXIc
+Content-Length: 3878
+Content-Type: application/octet-stream
+X-File-MD5: ad281f2cf009a7201e1f522d0da56152
+X-File-Mtime: 1689026792
+X-File-Path: /Documents/GitHub/Commsnet/Commsnet.drawio
+
+<mxfile host="app.diagrams.net" modified="2021-10-09T13:23:17.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="CDEXE-Fkw0RjkISp5H0E" version="15.5.0" type="device"><diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Page-1">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</diagram></mxfile>
+--boundary_.oOo._KIxXUMOJc7Rh2VKlmBFuaHHbm2+DpXIc
+Content-Length: 836
+Content-Type: application/octet-stream
+X-File-MD5: 20377db7a81c3209c0f58f9c73a5945b
+X-File-Mtime: 1689026793
+X-File-Path: /Documents/GitHub/Commsnet/Docker Swarm/Plex Media Management Stack/PlexMediaManager.yml
+
+version: "3.3"
+services:
+  PlexMetaManager:
+    image: meisnate12/plex-meta-manager:latest
+    environment:
+    -  "PMM_TIME=01:00"
+    networks:
+      - swarmpit_net
+    volumes:
+      - /Your/Volume/SwarmS/PlexMetaManager/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    deploy:
+      labels:
+        swarmpit.service.deployment.autoredeploy: 'true'
+      restart_policy:
+        condition: on-failure
+        
+  PlexTraktSync:
+    image: ghcr.io/taxel/plextraktsync
+    volumes:
+      - /Your/Volume/SwarmS/PlexTraktSync/config:/app/config
+      
+  plex-wrapped:
+    ports:
+      - '840:80'
+    container_name: plex-wrapped
+    image: 'aunefyren/plex-wrapped:latest'
+    volumes:
+      - /Your/Volume/SwarmS/PlexWrapped:/var/www/html/config
+    
+networks:
+  swarmpit_net:
+    external: true
+--boundary_.oOo._KIxXUMOJc7Rh2VKlmBFuaHHbm2+DpXIc
+Content-Length: 30
+Content-Type: application/octet-stream
+X-File-MD5: 6e4d5e8573b9d5e4b0c2d6b6a1585a09
+X-File-Mtime: 1689026793
+X-File-Path: /Documents/GitHub/Commsnet/Docker Swarm/Plex Media Management Stack/config/Manual Run.txt
+
+python plex_meta_manager.py -r
+--boundary_.oOo._KIxXUMOJc7Rh2VKlmBFuaHHbm2+DpXIc
+Content-Length: 5330
+Content-Type: application/octet-stream
+X-File-MD5: 88b7e7b53eb8e1efcb0a2c823a1b2119
+X-File-Mtime: 1689026792
+X-File-Path: /Documents/GitHub/Commsnet/CODE_OF_CONDUCT.md
+
+# Contributor Covenant Code of Conduct
+
+## Our Pledge
+
+We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity
+and orientation.
+
+We pledge to act and interact in ways that contribute to an open, welcoming,
+diverse, inclusive, and healthy community.
+
+## Our Standards
+
+Examples of behavior that contributes to a positive environment for our
+community include:
+
+* Demonstrating empathy and kindness toward other p
